@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.1),
-    on February 18, 2025, at 21:31
+    on February 18, 2025, at 23:15
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -359,19 +359,19 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # Start Code - component code to be run after the window creation
     
     # --- Initialize components for Routine "tutorial" ---
+    # Run 'Begin Experiment' code from text_align
+    # Code components should usually appear at the top
+    # of the routine. This one has to appear after the
+    # text component it refers to.
+    text_norm.alignText= 'center'
     text_norm = visual.TextStim(win=win, name='text_norm',
         text='Pilot mode\n\nIn this experiment, an image will be shown for a certain period of time followed by 2 words at the left and right of the screen in which subject will choose whether the left or right word are an acutal word\n\npress spacebar when ready to start',
         font='Noto Sans',
         units='norm', pos=(0, 0), height=0.08, wrapWidth=1.8, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
-        depth=0.0);
+        depth=-1.0);
     key_instruct = keyboard.Keyboard(deviceName='key_instruct')
-    # Run 'Begin Experiment' code from text_align
-    # Code components should usually appear at the top
-    # of the routine. This one has to appear after the
-    # text component it refers to.
-    text_norm.alignText= 'center'
     
     # --- Initialize components for Routine "blank1sec" ---
     
@@ -819,16 +819,17 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # --- Prepare to start Routine "worddemo" ---
         continueRoutine = True
         # update component parameters for each repeat
+        thisExp.addData('worddemo.started', globalClock.getTime(format='float'))
         # Run 'Begin Routine' code from code
+        import random
         MCQ = [correct_dir, wrong_dir, pseudo_dir]
         leftword = random.choice(MCQ)
         if leftword == correct_dir:
             rightword = random.choice([wrong_dir, pseudo_dir])
         else:
             rightword = correct_dir
-        thisExp.addData('worddemo.started', globalClock.getTime(format='float'))
-        image_left.setImage(correct_dir)
-        image_right.setImage(wrong_dir)
+        image_left.setImage(leftword)
+        image_right.setImage(rightword)
         # setup some python lists for storing info about the click_event
         click_event.x = []
         click_event.y = []

@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.1),
-    on February 18, 2025, at 21:32
+    on February 18, 2025, at 23:16
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -366,12 +366,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
-    key_instruct = keyboard.Keyboard(deviceName='key_instruct')
     # Run 'Begin Experiment' code from text_align
     # Code components should usually appear at the top
     # of the routine. This one has to appear after the
     # text component it refers to.
     text_norm.alignText= 'center'
+    key_instruct = keyboard.Keyboard(deviceName='key_instruct')
     
     # --- Initialize components for Routine "blank1sec" ---
     
