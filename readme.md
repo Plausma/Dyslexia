@@ -9,7 +9,7 @@ According to McClelland and Rumelhart's model of letter-to-word recognition  a p
 
 _The aformentioned model, consisting of layer for letter feature, letter, and word recognition_
 
-The task objective is to see whether the patient can differentiate a real word from a mispell word, measured in accuracy (n(correct)) and time reaction (s)
+The task objective is to see whether the patient can differentiate a real word from a mispell word, measured in accuracy $n(correct)$ and time reaction $t(s)$
 
 ```mermaid
 flowchart LR
