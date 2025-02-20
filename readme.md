@@ -2,8 +2,8 @@
 A small dyslexia case-based experiment made with psychopy
 
 ## Repository explanation
-- `calculation\` - include the file used for processing and calculating data after the experiment, currently has two demo result files (`Accuracy.csv` and `reactiontime.csv`)
-- `demo\` - include demo image and 2 word image file for tutorial part, <span style="color:red">not implemented yet</span>
+- `calculation\` - include files used for processing and calculating data after the experiment, currently has two demo result files (`Accuracy.csv` and `reactiontime.csv`) and python file used for plot and calculate the data (`calc.ipynb`)
+- `demo\` - include demo image and 2 word image file for a tutorial part, <span style="color:red">not implemented yet</span>
 - `image\` - include images that will be used in an actual experiment, <span style="color:orange">currently working</span>
 -  `text\` - include images with text that will be used in an actual experiment, <span style="color:orange">currently working</span>
 -  `MainFlow.*` - psychopy-related file, used for running an experiment
