@@ -45,7 +45,7 @@ The word lengths will range from 3 to 7 letters, with 20 words for each length, 
 |...|...|...|...|...|...|
 |100 | 7 | Hamster | Hαmstεr | Tmshrea |Hamotor|
 
-tTheexpected outcomes are formatted in two `.csv` files (accuracy ratio and reaction time)
+The expected outcomes are formatted in two `.csv` files (accuracy ratio and reaction time)
 
 `Accuracy.csv` _will look like this_
 | id | len  | greek | scramble | pseudo |
@@ -54,3 +54,9 @@ tTheexpected outcomes are formatted in two `.csv` files (accuracy ratio and reac
 |2| 3 |  1 | 1 | 1 |
 |...|...|...|...|...|
 |100 | 7 | 0 | 0 |0|
+
+The mathematical method/plot that might be used are
+- bar blot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
+- ANOVA test for mean difference by word pairs and word length
+- Tukey's range test for each paired difference by word pair
+- etc. still working lol
