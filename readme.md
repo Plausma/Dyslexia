@@ -83,7 +83,7 @@ The expected outcomes are formatted in two `.csv` files (accuracy ratio and reac
 |100 | 7 | 0 | 0 |0|
 
 The mathematical method/plot that might be used are
-- bar blot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
+- bar plot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
 - ANOVA test for mean difference by word pairs and word length
 - Tukey's range test for each paired difference by word pair
 - etc. still working lol
