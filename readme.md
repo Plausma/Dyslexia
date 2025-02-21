@@ -11,9 +11,9 @@ A small dyslexia case-based experiment made with psychopy
 - `readme.md` - explain [this](https://github.com/Plausma/Dyslexia) document
 
 ## Naming system and specification
-An image will be named as `[id].png` e.g. `02.png`
+An image will be named as `img[id].png` e.g. `img002.png`
 
-An image with text will be named by `[id][word type].png` e.g. `024.png` is a pseudo word that represent image `02.png` 
+An image with text will be named by `word[id][word type].png` e.g. `word0024.png` is a pseudo word that represent image `img002.png` 
 - ID is used from the image
 - word types are categorized as follows:
   -   1 = correct word
@@ -83,7 +83,7 @@ The expected outcomes are formatted in two `.csv` files (accuracy ratio and reac
 |100 | 7 | 0 | 0 |0|
 
 The mathematical method/plot that might be used are
-- bar blot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
+- bar plot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
 - ANOVA test for mean difference by word pairs and word length
 - Tukey's range test for each paired difference by word pair
 - etc. still working lol
