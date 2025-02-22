@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on February 22, 2025, at 16:57
+    on February 23, 2025, at 00:48
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -59,8 +59,8 @@ or run the experiment with `--pilot` as an argument. To change what pilot
 # work out from system args whether we are running in pilot mode
 PILOTING = core.setPilotModeFromArgs()
 # start off with values from experiment settings
-_fullScr = True
-_winSize = [1920, 1080]
+_fullScr = False
+_winSize = [1600, 900]
 # if in pilot mode, apply overrides according to preferences
 if PILOTING:
     # force windowed mode
@@ -187,14 +187,11 @@ def setupWindow(expInfo=None, win=None):
     psychopy.visual.Window
         Window in which to run this experiment.
     """
-    if PILOTING:
-        logging.debug('Fullscreen settings ignored as running in pilot mode.')
-    
     if win is None:
         # if not given a window to setup, make one
         win = visual.Window(
             size=_winSize, fullscr=_fullScr, screen=0,
-            winType='pyglet', allowGUI=False, allowStencil=False,
+            winType='pyglet', allowGUI=True, allowStencil=False,
             monitor='testMonitor', color=[0,0,0], colorSpace='rgb',
             backgroundImage='', backgroundFit='none',
             blendMode='avg', useFBO=True,
@@ -259,6 +256,18 @@ def setupDevices(expInfo, thisExp, win):
     if deviceManager.getDevice('defaultKeyboard') is None:
         deviceManager.addDevice(
             deviceClass='keyboard', deviceName='defaultKeyboard', backend='iohub'
+        )
+    if deviceManager.getDevice('langchoice') is None:
+        # initialise langchoice
+        langchoice = deviceManager.addDevice(
+            deviceClass='keyboard',
+            deviceName='langchoice',
+        )
+    if deviceManager.getDevice('key_continue') is None:
+        # initialise key_continue
+        key_continue = deviceManager.addDevice(
+            deviceClass='keyboard',
+            deviceName='key_continue',
         )
     if deviceManager.getDevice('key_instruct') is None:
         # initialise key_instruct
@@ -379,18 +388,37 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     
     # Start Code - component code to be run after the window creation
     
+    # --- Initialize components for Routine "langselect" ---
+    langchoice = keyboard.Keyboard(deviceName='langchoice')
+    # Run 'Begin Experiment' code from code_3
+    langmessage = ""
+    
+    text_5 = visual.TextStim(win=win, name='text_5',
+        text='Setting up language\n\npress 1 for English trials, press 2 for Thai trials',
+        font='Noto Sans',
+        units='norm', pos=(0, 0), draggable=False, height=0.08, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-2.0);
+    text_6 = visual.TextStim(win=win, name='text_6',
+        text='',
+        font='Noto Sans',
+        pos=(0, 0), draggable=False, height=0.07, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-3.0);
+    key_continue = keyboard.Keyboard(deviceName='key_continue')
+    
     # --- Initialize components for Routine "tutorial" ---
     text_norm = visual.TextStim(win=win, name='text_norm',
-        text='In this experiment, an image will be shown for a certain period of time followed by 2 words at the left and right of the screen in which subject will choose whether the left or right word are an acutal word\n\npress spacebar to start a trial',
+        text='In this experiment, an image will be shown followed by 2 words at the left and right of the screen in which subject will choose whether the left or right word are an acutal word \n\npress \'z\' if it\'s a left word, press \'x\' if it\'s a right one\n\npress spacebar to start a trial"\n',
         font='Noto Sans',
         units='norm', pos=(0, 0), draggable=False, height=0.08, wrapWidth=1.8, ori=0.0, 
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=0.0);
     # Run 'Begin Experiment' code from text_align
-    # Code components should usually appear at the top
-    # of the routine. This one has to appear after the
-    # text component it refers to.
+    
     text_norm.alignText= 'center'
     key_instruct = keyboard.Keyboard(deviceName='key_instruct')
     
@@ -471,6 +499,220 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     expInfo['expStart'] = data.getDateStr(
         format='%Y-%m-%d %Hh%M.%S.%f %z', fractionalSecondDigits=6
     )
+    
+    # --- Prepare to start Routine "langselect" ---
+    # create an object to store info about Routine langselect
+    langselect = data.Routine(
+        name='langselect',
+        components=[langchoice, text_5, text_6, key_continue],
+    )
+    langselect.status = NOT_STARTED
+    continueRoutine = True
+    # update component parameters for each repeat
+    # create starting attributes for langchoice
+    langchoice.keys = []
+    langchoice.rt = []
+    _langchoice_allKeys = []
+    # create starting attributes for key_continue
+    key_continue.keys = []
+    key_continue.rt = []
+    _key_continue_allKeys = []
+    # store start times for langselect
+    langselect.tStartRefresh = win.getFutureFlipTime(clock=globalClock)
+    langselect.tStart = globalClock.getTime(format='float')
+    langselect.status = STARTED
+    thisExp.addData('langselect.started', langselect.tStart)
+    langselect.maxDuration = None
+    # keep track of which components have finished
+    langselectComponents = langselect.components
+    for thisComponent in langselect.components:
+        thisComponent.tStart = None
+        thisComponent.tStop = None
+        thisComponent.tStartRefresh = None
+        thisComponent.tStopRefresh = None
+        if hasattr(thisComponent, 'status'):
+            thisComponent.status = NOT_STARTED
+    # reset timers
+    t = 0
+    _timeToFirstFrame = win.getFutureFlipTime(clock="now")
+    frameN = -1
+    
+    # --- Run Routine "langselect" ---
+    langselect.forceEnded = routineForceEnded = not continueRoutine
+    while continueRoutine:
+        # get current time
+        t = routineTimer.getTime()
+        tThisFlip = win.getFutureFlipTime(clock=routineTimer)
+        tThisFlipGlobal = win.getFutureFlipTime(clock=None)
+        frameN = frameN + 1  # number of completed frames (so 0 is the first frame)
+        # update/draw components on each frame
+        
+        # *langchoice* updates
+        
+        # if langchoice is starting this frame...
+        if langchoice.status == NOT_STARTED and t >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            langchoice.frameNStart = frameN  # exact frame index
+            langchoice.tStart = t  # local t and not account for scr refresh
+            langchoice.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(langchoice, 'tStartRefresh')  # time at next scr refresh
+            # update status
+            langchoice.status = STARTED
+            # keyboard checking is just starting
+            langchoice.clock.reset()  # now t=0
+            langchoice.clearEvents(eventType='keyboard')
+        if langchoice.status == STARTED:
+            theseKeys = langchoice.getKeys(keyList=['1', '2'], ignoreKeys=["escape"], waitRelease=False)
+            _langchoice_allKeys.extend(theseKeys)
+            if len(_langchoice_allKeys):
+                langchoice.keys = _langchoice_allKeys[-1].name  # just the last key pressed
+                langchoice.rt = _langchoice_allKeys[-1].rt
+                langchoice.duration = _langchoice_allKeys[-1].duration
+        # Run 'Each Frame' code from code_3
+        
+        if langchoice.keys == '1':
+           langmessage = 'EN (english) language selected'
+           pref = "en"
+        elif langchoice.keys == '2':
+           langmessage = 'TH (thai) language selected'
+           pref = "th"
+        else:
+            langmessage = f'did you press "{langchoice.keys}"? let me just get an english one for you'
+            pref = "en"
+        
+        # *text_5* updates
+        
+        # if text_5 is starting this frame...
+        if text_5.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            text_5.frameNStart = frameN  # exact frame index
+            text_5.tStart = t  # local t and not account for scr refresh
+            text_5.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_5, 'tStartRefresh')  # time at next scr refresh
+            # update status
+            text_5.status = STARTED
+            text_5.setAutoDraw(True)
+        
+        # if text_5 is active this frame...
+        if text_5.status == STARTED:
+            # update params
+            pass
+        
+        # if text_5 is stopping this frame...
+        if text_5.status == STARTED:
+            if bool(langchoice.keys == '1' or langchoice.keys =='2'):
+                # keep track of stop time/frame for later
+                text_5.tStop = t  # not accounting for scr refresh
+                text_5.tStopRefresh = tThisFlipGlobal  # on global time
+                text_5.frameNStop = frameN  # exact frame index
+                # update status
+                text_5.status = FINISHED
+                text_5.setAutoDraw(False)
+        
+        # *text_6* updates
+        
+        # if text_6 is starting this frame...
+        if text_6.status == NOT_STARTED and langchoice.keys == '1' or langchoice.keys == '2':
+            # keep track of start time/frame for later
+            text_6.frameNStart = frameN  # exact frame index
+            text_6.tStart = t  # local t and not account for scr refresh
+            text_6.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(text_6, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'text_6.started')
+            # update status
+            text_6.status = STARTED
+            text_6.setAutoDraw(True)
+        
+        # if text_6 is active this frame...
+        if text_6.status == STARTED:
+            # update params
+            text_6.setText(langmessage + "\n\n press spacebar to continue", log=False)
+        
+        # *key_continue* updates
+        waitOnFlip = False
+        
+        # if key_continue is starting this frame...
+        if key_continue.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # keep track of start time/frame for later
+            key_continue.frameNStart = frameN  # exact frame index
+            key_continue.tStart = t  # local t and not account for scr refresh
+            key_continue.tStartRefresh = tThisFlipGlobal  # on global time
+            win.timeOnFlip(key_continue, 'tStartRefresh')  # time at next scr refresh
+            # add timestamp to datafile
+            thisExp.timestampOnFlip(win, 'key_continue.started')
+            # update status
+            key_continue.status = STARTED
+            # keyboard checking is just starting
+            waitOnFlip = True
+            win.callOnFlip(key_continue.clock.reset)  # t=0 on next screen flip
+            win.callOnFlip(key_continue.clearEvents, eventType='keyboard')  # clear events on next screen flip
+        if key_continue.status == STARTED and not waitOnFlip:
+            theseKeys = key_continue.getKeys(keyList=['space'], ignoreKeys=["escape"], waitRelease=False)
+            _key_continue_allKeys.extend(theseKeys)
+            if len(_key_continue_allKeys):
+                key_continue.keys = _key_continue_allKeys[-1].name  # just the last key pressed
+                key_continue.rt = _key_continue_allKeys[-1].rt
+                key_continue.duration = _key_continue_allKeys[-1].duration
+                # a response ends the routine
+                continueRoutine = False
+        
+        # check for quit (typically the Esc key)
+        if defaultKeyboard.getKeys(keyList=["escape"]):
+            thisExp.status = FINISHED
+        if thisExp.status == FINISHED or endExpNow:
+            endExperiment(thisExp, win=win)
+            return
+        # pause experiment here if requested
+        if thisExp.status == PAUSED:
+            pauseExperiment(
+                thisExp=thisExp, 
+                win=win, 
+                timers=[routineTimer], 
+                playbackComponents=[]
+            )
+            # skip the frame we paused on
+            continue
+        
+        # check if all components have finished
+        if not continueRoutine:  # a component has requested a forced-end of Routine
+            langselect.forceEnded = routineForceEnded = True
+            break
+        continueRoutine = False  # will revert to True if at least one component still running
+        for thisComponent in langselect.components:
+            if hasattr(thisComponent, "status") and thisComponent.status != FINISHED:
+                continueRoutine = True
+                break  # at least one component has not yet finished
+        
+        # refresh the screen
+        if continueRoutine:  # don't flip if this routine is over or we'll get a blank screen
+            win.flip()
+    
+    # --- Ending Routine "langselect" ---
+    for thisComponent in langselect.components:
+        if hasattr(thisComponent, "setAutoDraw"):
+            thisComponent.setAutoDraw(False)
+    # store stop times for langselect
+    langselect.tStop = globalClock.getTime(format='float')
+    langselect.tStopRefresh = tThisFlipGlobal
+    thisExp.addData('langselect.stopped', langselect.tStop)
+    # check responses
+    if langchoice.keys in ['', [], None]:  # No response was made
+        langchoice.keys = None
+    thisExp.addData('langchoice.keys',langchoice.keys)
+    if langchoice.keys != None:  # we had a response
+        thisExp.addData('langchoice.rt', langchoice.rt)
+        thisExp.addData('langchoice.duration', langchoice.duration)
+    # check responses
+    if key_continue.keys in ['', [], None]:  # No response was made
+        key_continue.keys = None
+    thisExp.addData('key_continue.keys',key_continue.keys)
+    if key_continue.keys != None:  # we had a response
+        thisExp.addData('key_continue.rt', key_continue.rt)
+        thisExp.addData('key_continue.duration', key_continue.duration)
+    thisExp.nextEntry()
+    # the Routine "langselect" was not non-slip safe, so reset the non-slip timer
+    routineTimer.reset()
     
     # --- Prepare to start Routine "tutorial" ---
     # create an object to store info about Routine tutorial
@@ -615,7 +857,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     trials = data.TrialHandler2(
         name='trials',
         nReps=1.0, 
-        method='fullRandom', 
+        method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
         trialList=data.importConditions('taskorder.csv'), 
@@ -958,8 +1200,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         # Run 'Begin Routine' code from code
-        correctdir = f"text/word{id:03d}1.png"
-        falsedir = imageloc = f"text/word{id:03d}{falseword}.png"
+        correctdir = f"text/{pref}{id:03d}1.png"
+        falsedir = imageloc = f"text/{pref}{id:03d}{falseword}.png"
         if side == 0:
             leftword = correctdir
             rightword = falsedir
@@ -1079,7 +1321,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 win.callOnFlip(key_resp.clock.reset)  # t=0 on next screen flip
                 win.callOnFlip(key_resp.clearEvents, eventType='keyboard')  # clear events on next screen flip
             if key_resp.status == STARTED and not waitOnFlip:
-                theseKeys = key_resp.getKeys(keyList=['z','c'], ignoreKeys=["escape"], waitRelease=False)
+                theseKeys = key_resp.getKeys(keyList=['z','x'], ignoreKeys=["escape"], waitRelease=False)
                 _key_resp_allKeys.extend(theseKeys)
                 if len(_key_resp_allKeys):
                     key_resp.keys = _key_resp_allKeys[-1].name  # just the last key pressed

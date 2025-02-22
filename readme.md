@@ -2,18 +2,20 @@
 A small dyslexia case-based experiment made with psychopy
 
 ## Repository explanation
-- `calculation\` - include files used for processing and calculating data after the experiment, currently has two demo result files (`Accuracy.csv` and `reactiontime.csv`) and a python file used for plotting and calculating the data (`calc.ipynb`)
-- `demo\` - include demo image and 2 word image file for a tutorial part, <span style="color:red">not implemented yet</span>
+- `calculation\` - include files used for processing and calculating data after the experiment
+- ~~`demo\` - include demo image and 2 word image file for a tutorial part~~ <span style="color:red">removed</span> 
 - `image\` - include images that will be used in an actual experiment, <span style="color:orange">currently working</span>
 -  `text\` - include images with text that will be used in an actual experiment, <span style="color:orange">currently working</span>
+- `wordgen\` include files for generating images with text
 -  `MainFlow.*` - psychopy-related file, used for running an experiment
--  `imageid.xlsx` - data frame for listing all the words used in the experiment, <span style="color:orange">currently working</span>
+-  `taskorder.xlsx` - excel file for listing a serie of image and word that will run on experiment, <span style="color:lime">done</span>
 - `readme.md` - explain [this](https://github.com/Plausma/Dyslexia) document
 
 ## Naming system and specification
 An image will be named as `img[id].png` e.g. `img002.png`
 
-An image with text will be named by `word[id][word type].png` e.g. `word0024.png` is a pseudo word that represent image `img002.png` 
+An image with text will be named by `[lang][id][word type].png` e.g. `en0024.png` is a pseudo english word that represent image `img002.png` 
+- language that are used in this experiment are: english `en`, thai `th`, khmer `kh`, and greek `gr`
 - ID is used from the image
 - word types are categorized as follows:
   -   1 = correct word
