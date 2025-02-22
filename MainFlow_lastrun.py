@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on February 23, 2025, at 00:48
+    on February 23, 2025, at 01:24
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -441,7 +441,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_left', units='norm', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(-0.5, -0.3), draggable=False, size=(0.4, None),
+        ori=0.0, pos=(-0.75, -0.3), draggable=False, size=(0.25, None),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-1.0)
@@ -449,7 +449,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         win=win,
         name='image_right', units='norm', 
         image='default.png', mask=None, anchor='center',
-        ori=0.0, pos=(0.5, -0.3), draggable=False, size=(0.4, None),
+        ori=0.0, pos=(-0.25, -0.3), draggable=False, size=(0.25, None),
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=-2.0)
