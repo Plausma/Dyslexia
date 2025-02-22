@@ -53,17 +53,17 @@ The two-word choices can be classified into 3 pairs: correct and incorrect varia
 - __correct - scramble__, self-explanatory, randomize the letter position
 - __correct - pseudo__, change all except the fist letter into a *pseudoword* that pronounceable but have no real meaning. The dataset can be found [here](https://doi.org/10.3389/fpsyg.2015.01395)
 
-The word lengths will range from 3 to 7 letters, with 20 words for each length, totaling 100 words. Each word has 3 incorrect variations including Greek, scramble, and pseudoword (4 in total), 300 trials overall. 
+The word lengths will range from 3 to 7 letters, with 8 words for each length, totaling 40 words. Each word has 3 incorrect variations including Greek, scramble, and pseudoword (4 in total), 240 trials overall. 
 
 | id | len | correct | greek | scramble | pseudo |
 | ---- | ----- | ----- | ------| -------| ------ |
 |1 | 3 | Dog |Ꟈog | goD | Dod |
 |2| 3 | Cat | Cαt | taC | Cot |
 |...|...|...|...|...|...|
-|100 | 7 | Hamster | Hαmstεr | Tmshrea |Hamotor|
+|40 | 7 | Hamster | Hαmstεr | Tmshrea |Hamotor|
 
 ## Hypothesis 
-The result can be interpreted in the following table by each hypothesis. The arrow represents how the accuracy would be if each hypothesis is true when the subject is tested with different word pairs.
+The following table interprets each hypothesis's result. The arrow represents the accuracy if each hypothesis is true when the subject is tested with different word pairs.
 
 
 | proposed condition\accuracy               | greek | scramble      | pseudo |
@@ -77,12 +77,12 @@ The result can be interpreted in the following table by each hypothesis. The arr
 The expected outcomes are formatted in two `.csv` files (accuracy ratio and reaction time)
 
 `Accuracy.csv` _will look like this_
-| id | len  | greek | scramble | pseudo |
-| ---- |  ----- | ------| -------| ------ |
-|1 | 3 | 1 | 0 | 1 |
-|2| 3 |  1 | 1 | 1 |
-|...|...|...|...|...|
-|100 | 7 | 0 | 0 |0|
+| id | len  | L-greek | R-greek | L-scramble | R-scramble | L-pseudo| R-pseudo |
+| ---- |  ----- | ------| -------| ------ |  ------| -------| ------ |
+|1 | 3 | 1 | 0 | 1 |  1 | 0 | 1 |
+|2| 3 |  1 | 1 | 1 |  1 | 1 | 1 |
+|...|...|...|...|...| ...|...|...|
+|40 | 7 | 0 | 0 |0|  0 | 0 |0|
 
 The mathematical method/plot that might be used are
 - bar plot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
