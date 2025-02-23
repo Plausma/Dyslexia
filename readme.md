@@ -1,6 +1,7 @@
 # Word/Non-word recognition test
 A small dyslexia case-based experiment made with psychopy
 
+
 ## Repository explanation
 - `calculation\` - include files used for processing and calculating data after the experiment
 - ~~`demo\` - include demo image and 2 word image file for a tutorial part~~ <span style="color:red">removed</span> 
@@ -86,6 +87,5 @@ The expected outcomes are formatted in two `.csv` files (accuracy ratio and reac
 
 The mathematical method/plot that might be used are
 - bar plot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
-- ANOVA test for mean difference by word pairs and word length
-- Tukey's range test for each paired difference by word pair
-- etc. still working lol
+
+[comment]: <> (whatever idc anymore why do I even waste time writing all of this nonsense when no one gonna read it anyway)
