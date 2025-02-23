@@ -14,7 +14,7 @@ A small dyslexia case-based experiment made with psychopy
 ## Naming system and specification
 An image will be named as `img[id].png` e.g. `img002.png`
 
-An image with text will be named by `[lang][id][word type].png` e.g. `en0024.png` is a pseudo english word that represent image `img002.png` 
+An image with text will be named by `word[lang][id][word type].png` e.g. `worden0024.png` is a pseudo english word that represent image `img002.png` 
 - language that are used in this experiment are: english `en`, thai `th`, khmer `kh`, and greek `gr`
 - ID is used from the image
 - word types are categorized as follows:

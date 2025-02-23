@@ -669,7 +669,7 @@
         <Param val="" valType="extendedCode" updates="constant" name="Begin Experiment"/>
         <Param val="" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
         <Param val="/* Syntax Error: Fix Python code */" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
-        <Param val="correctdir = f&quot;text/word{pref}{id:03d}1.png&quot;&amp;#10;falsedir = imageloc = f&quot;text/word{pref}{id:03d}{falseword}.png&quot;&amp;#10;if side == 0:&amp;#10;    leftword = correctdir&amp;#10;    rightword = falsedir&amp;#10;else:&amp;#10;    leftword = falsedir&amp;#10;    rightword = correctdir&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="correctdir = f&quot;text/{pref}{id:03d}1.png&quot;&amp;#10;falsedir = imageloc = f&quot;text/{pref}{id:03d}{falseword}.png&quot;&amp;#10;if side == 0:&amp;#10;    leftword = correctdir&amp;#10;    rightword = falsedir&amp;#10;else:&amp;#10;    leftword = falsedir&amp;#10;    rightword = correctdir&amp;#10;" valType="extendedCode" updates="constant" name="Begin Routine"/>
         <Param val="Auto-&gt;JS" valType="str" updates="None" name="Code Type"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
         <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
