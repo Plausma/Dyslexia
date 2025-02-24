@@ -1,0 +1,4 @@
+﻿lang,langpair,sequence,pairid,firstletter,firstdir,secondletter,seconddir,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,thisRow.t,notes,tutorial.started,tutorial.stopped,key_instruct.keys,key_instruct.rt,key_instruct.duration,letter2.started,letter2.stopped,letterselect.started,key_resp.started,letterselect.stopped,key_resp.keys,key_resp.rt,key_resp.duration,participant,session,date,expName,psychopyVersion,frameRate,expStart,
+,,,,,,,,,,,,,,0.010491199907846749,0.8047941999975592,space,0.8019851999124512,None,,,,,,,,,836059,001,2025-02-24_23h26.13.047,MainFlow,2024.1.1,None,2025-02-24 23h26.17.783154 +0700,
+2,2,2,5,β,letter/lettgr021.png,b,letter/letten021.png,0,0,0,0,0.844054999994114,,,,,,,2.7886276999488473,4.788232699967921,4.788246899959631,4.806916099973023,5.712313299998641,z,5.707936199964024,None,836059,001,2025-02-24_23h26.13.047,MainFlow,2024.1.1,None,2025-02-24 23h26.17.783154 +0700,
+,,,,,,,,,,,,5.731689799926244,,,,,,,,,,,,,,,,,,,,,,

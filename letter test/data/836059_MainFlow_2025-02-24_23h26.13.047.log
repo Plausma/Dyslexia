@@ -1,0 +1,148 @@
+4.0988 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Bold.ttf
+4.1203 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù.ttf
+4.1727 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù BoldItalic.ttf
+4.1755 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-ITù Bold Italic.ttf
+4.2015 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Bold.ttf
+4.2023 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Italic.ttf
+4.2212 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù.ttf
+4.2580 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Italic.ttf
+4.3063 	WARNING 	Font Manager failed to load file C:\WINDOWS\Fonts\mstmc.ttf
+4.4608 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Bold.ttf
+4.4809 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù.ttf
+4.5308 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù BoldItalic.ttf
+4.5336 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-ITù Bold Italic.ttf
+4.5583 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Bold.ttf
+4.5591 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Italic.ttf
+4.5775 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù.ttf
+4.6134 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Italic.ttf
+4.6607 	WARNING 	Font Manager failed to load file C:\WINDOWS\Fonts\mstmc.ttf
+6.7420 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+6.7426 	INFO 	Loaded monitor calibration from ['2024_04_17 11:01']
+6.9481 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BF7D6A26D0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BF7D6A2670>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001BF7D6A24C0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001BF7D9A17C0>, multiSample=False, name='window1', numSamples=2, pos=[192.0, 108.0], screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.9482 	EXP 	window1: mouseVisible = True
+6.9483 	EXP 	window1: backgroundImage = ''
+6.9483 	EXP 	window1: backgroundFit = 'contain'
+6.9484 	EXP 	window1: mouseVisible = True
+6.9486 	EXP 	window1: mouseVisible = True
+6.9501 	EXP 	window1: mouseVisible = True
+6.9506 	EXP 	window1: mouseVisible = True
+6.9564 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9580 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9594 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9609 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9624 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9637 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9648 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9663 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9682 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9690 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9700 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9716 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9735 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9751 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9766 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9780 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9791 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9810 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9828 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9844 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9847 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.9864 	DEBUG 	Upload of Texture Font fontname complete
+6.9878 	EXP 	window1: mouseVisible = True
+6.9881 	EXP 	window1: mouseVisible = True
+6.9888 	EXP 	window1: mouseVisible = True
+6.9894 	EXP 	window1: mouseVisible = True
+6.9933 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9970 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9979 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9981 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.9991 	DEBUG 	Upload of Texture Font fontname complete
+7.0007 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+7.0007 	EXP 	window1: recordFrameIntervals = False
+7.0993 	EXP 	window1: recordFrameIntervals = True
+7.1754 	EXP 	Screen (0) actual frame rate measured at 143.76Hz
+7.1754 	EXP 	window1: recordFrameIntervals = False
+7.1755 	EXP 	window1: mouseVisible = False
+7.1761 	EXP 	window1: mouseVisible = True
+7.1763 	EXP 	window1: mouseVisible = True
+7.1770 	EXP 	window1: mouseVisible = True
+7.1774 	EXP 	window1: mouseVisible = True
+7.1814 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1826 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1842 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1863 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1882 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1901 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1914 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1931 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1950 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1968 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+7.1971 	DEBUG 	Uploading Texture Font fontname to graphics card
+7.1979 	DEBUG 	Upload of Texture Font fontname complete
+7.1995 	EXP 	window1: mouseVisible = True
+7.1996 	EXP 	window1: mouseVisible = True
+7.2001 	EXP 	window1: mouseVisible = True
+7.2006 	EXP 	window1: mouseVisible = True
+7.2287 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+9.3034 	INFO 	keyboard.Keyboard is using iohub backend.
+9.3034 	INFO 	keyboard.Keyboard is using iohub backend.
+9.3034 	INFO 	keyboard.Keyboard is using iohub backend.
+9.3035 	INFO 	keyboard.Keyboard is using iohub backend.
+9.3035 	EXP 	MainFlow: status = STARTED
+9.3038 	EXP 	window1: mouseVisible = True
+9.4291 	EXP 	Created text_norm = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_norm', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+9.4292 	EXP 	window1: mouseVisible = True
+9.4340 	EXP 	Created image_first = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_first', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5625, 1.    ]), texRes=128.0, units='norm', win=Window(...))
+9.4341 	EXP 	window1: mouseVisible = True
+9.4372 	EXP 	Created image_second = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_second', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5625, 1.    ]), texRes=128.0, units='norm', win=Window(...))
+9.4373 	EXP 	window1: mouseVisible = True
+9.4386 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0.5]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+9.4386 	EXP 	window1: mouseVisible = True
+9.4477 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([-0.5, -0.3]), rgb=UNKNOWN, text='z = first letter\nx = second letter', units='norm', win=Window(...), wrapWidth=1)
+9.4479 	EXP 	window1: mouseVisible = True
+9.4588 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+0.0080 	EXP 	text_norm: alignText = 'center'
+0.0292 	INFO 	Keyboard events cleared
+0.0290 	EXP 	text_norm: autoDraw = True
+0.0290 	EXP 	text_norm: height = 0.08
+0.0290 	EXP 	text_norm: height = 0.08
+0.0290 	EXP 	text_norm: height = 0.08
+0.0290 	EXP 	text_norm: text = "*For the observer\n\nIn this experiment, two letter will be shown with an interval of one second, then, the participant will choose which letter is an English or Thai letter.\npress 'z' if it's a first letter, press 'x' if it's a second letter\n\npress spacebar to start a trial\n"
+0.6088 	DATA 	Mouse: Left button down, pos=(860,266)
+0.6787 	DATA 	Mouse:  Left button up, pos=(860,266)
+0.8159 	DEBUG 	Read excel file with openpyxl: letterorder.xlsx
+0.8241 	EXP 	Imported letterorder.xlsx as conditions, 96 conditions, 8 params
+0.8249 	EXP 	Created sequence: sequential, trialTypes=96, nReps=1, seed=None
+0.8251 	EXP 	New trial (rep=0, index=0): {'lang': 2, 'langpair': 2, 'sequence': 2, 'pairid': 5, 'firstletter': 'β', 'firstdir': 'letter/lettgr021.png', 'secondletter': 'b', 'seconddir': 'letter/letten021.png'}
+0.8347 	DATA 	Keypress: space
+0.8441 	EXP 	text_norm: autoDraw = False
+0.8441 	EXP 	image_first: image = 'letter/lettgr021.png'
+1.8005 	EXP 	image_first: autoDraw = True
+2.8012 	EXP 	image_first: autoDraw = False
+2.8012 	EXP 	image_first: autoDraw = False
+2.8012 	EXP 	image_second: image = 'letter/letten021.png'
+3.8003 	EXP 	image_second: autoDraw = True
+4.7994 	EXP 	image_second: autoDraw = False
+4.7994 	EXP 	image_second: autoDraw = False
+4.7994 	EXP 	text_2: height = 0.08
+4.7994 	EXP 	text_2: height = 0.08
+4.7994 	EXP 	text_2: height = 0.08
+4.7994 	EXP 	text_2: text = 'Which letter is English?'
+4.8071 	INFO 	Keyboard events cleared
+4.8069 	EXP 	text_2: autoDraw = True
+4.8069 	EXP 	text_4: autoDraw = True
+5.7134 	EXP 	New trial (rep=0, index=1): {'lang': 2, 'langpair': 1, 'sequence': 1, 'pairid': 8, 'firstletter': 'g', 'firstdir': 'letter/letten091.png', 'secondletter': 'ร', 'seconddir': 'letter/lettth132.png'}
+5.7218 	DATA 	Keypress: z
+5.7317 	EXP 	text_2: autoDraw = False
+5.7317 	EXP 	text_4: autoDraw = False
+5.7317 	EXP 	image_first: image = 'letter/letten091.png'
+6.7031 	EXP 	image_first: autoDraw = True
+6.7825 	DATA 	Keypress: escape
+6.8929 	EXP 	MainFlow: status = STOPPED
+6.8971 	EXP 	image_first: autoDraw = False
+6.8990 	EXP 	MainFlow: status = STOPPED
+6.9022 	INFO 	saved data to 'C:\\Users\\PH\\Documents\\GitHub\\Dyslexia\\letter test\\data/836059_MainFlow_2025-02-24_23h26.13.047.csv'
+6.9032 	INFO 	saved data to C:\Users\PH\Documents\GitHub\Dyslexia\letter test\data/836059_MainFlow_2025-02-24_23h26.13.047.psydat
+6.9457 	EXP 	window1: mouseVisible = True
+7.3301 	DEBUG 	Saving data for MainFlow ExperimentHandler
