@@ -24,6 +24,7 @@ An image with text will be named by `word[lang][id][word type].png` e.g. `worden
   -   3 = scramble word type
   -   4 = pseudo word type
 
+<!-- 
 # Introduction
 
 The patient we used as a case study had a reading problem, in which the patient described the word/letter as "blended" while listening and talking, which is still intact.
@@ -89,3 +90,4 @@ The mathematical method/plot that might be used are
 - bar plot of accuracy (ratio) and reaction time (second) by word pairs (3) and word length (5)
 
 [comment]: <> (whatever idc anymore why do I even waste time writing all of this nonsense when no one gonna read it anyway)
+-->
