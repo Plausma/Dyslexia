@@ -1,0 +1,454 @@
+﻿<?xml version="1.0" ?>
+<PsychoPy2experiment encoding="utf-8" version="2024.1.1">
+  <Settings>
+    <Param val="3" valType="str" updates="None" name="Audio latency priority"/>
+    <Param val="ptb" valType="str" updates="None" name="Audio lib"/>
+    <Param val="" valType="str" updates="None" name="Completed URL"/>
+    <Param val="auto" valType="str" updates="None" name="Data file delimiter"/>
+    <Param val="u'data/%s_%s_%s' % (expInfo['participant'], expName, expInfo['date'])" valType="code" updates="None" name="Data filename"/>
+    <Param val="True" valType="bool" updates="None" name="Enable Escape"/>
+    <Param val="" valType="str" updates="None" name="End Message"/>
+    <Param val="{'participant': 'f&quot;{randint(0, 999999):06.0f}&quot;', 'session': '001'}" valType="code" updates="None" name="Experiment info"/>
+    <Param val="True" valType="bool" updates="None" name="Force stereo"/>
+    <Param val="True" valType="bool" updates="None" name="Full-screen window"/>
+    <Param val="" valType="str" updates="None" name="HTML path"/>
+    <Param val="" valType="str" updates="None" name="Incomplete URL"/>
+    <Param val="testMonitor" valType="str" updates="None" name="Monitor"/>
+    <Param val="[]" valType="list" updates="None" name="Resources"/>
+    <Param val="False" valType="bool" updates="None" name="Save csv file"/>
+    <Param val="False" valType="bool" updates="None" name="Save excel file"/>
+    <Param val="False" valType="bool" updates="None" name="Save hdf5 file"/>
+    <Param val="True" valType="bool" updates="None" name="Save log file"/>
+    <Param val="True" valType="bool" updates="None" name="Save psydat file"/>
+    <Param val="True" valType="bool" updates="None" name="Save wide csv file"/>
+    <Param val="1" valType="num" updates="None" name="Screen"/>
+    <Param val="True" valType="bool" updates="None" name="Show info dlg"/>
+    <Param val="False" valType="bool" updates="None" name="Show mouse"/>
+    <Param val="use prefs" valType="str" updates="None" name="Units"/>
+    <Param val="" valType="str" updates="None" name="Use version"/>
+    <Param val="[1536, 864]" valType="list" updates="None" name="Window size (pixels)"/>
+    <Param val="contain" valType="str" updates="None" name="backgroundFit"/>
+    <Param val="" valType="str" updates="None" name="backgroundImg"/>
+    <Param val="avg" valType="str" updates="None" name="blendMode"/>
+    <Param val="float" valType="str" updates="None" name="clockFormat"/>
+    <Param val="{'thisRow.t': 'priority.CRITICAL', 'expName': 'priority.LOW'}" valType="dict" updates="None" name="colPriority"/>
+    <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+    <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+    <Param val="warning" valType="code" updates="None" name="consoleLoggingLevel"/>
+    <Param val="default" valType="str" updates="None" name="ecSampleRate"/>
+    <Param val="100.1.1.1" valType="str" updates="None" name="elAddress"/>
+    <Param val="FILTER_LEVEL_2" valType="str" updates="None" name="elDataFiltering"/>
+    <Param val="FILTER_LEVEL_OFF" valType="str" updates="None" name="elLiveFiltering"/>
+    <Param val="EYELINK 1000 DESKTOP" valType="str" updates="None" name="elModel"/>
+    <Param val="ELLIPSE_FIT" valType="str" updates="None" name="elPupilAlgorithm"/>
+    <Param val="PUPIL_AREA" valType="str" updates="None" name="elPupilMeasure"/>
+    <Param val="1000" valType="num" updates="None" name="elSampleRate"/>
+    <Param val="False" valType="bool" updates="None" name="elSimMode"/>
+    <Param val="RIGHT_EYE" valType="str" updates="None" name="elTrackEyes"/>
+    <Param val="PUPIL_CR_TRACKING" valType="str" updates="None" name="elTrackingMode"/>
+    <Param val="MainFlow" valType="str" updates="None" name="expName"/>
+    <Param val="on Sync" valType="str" updates="None" name="exportHTML"/>
+    <Param val="None" valType="str" updates="None" name="eyetracker"/>
+    <Param val="" valType="code" updates="None" name="frameRate"/>
+    <Param val="Measuring...............frame.................rate" valType="str" updates="None" name="frameRateMsg"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="gpAddress"/>
+    <Param val="4242" valType="num" updates="None" name="gpPort"/>
+    <Param val="ioHub" valType="str" updates="None" name="keyboardBackend"/>
+    <Param val="warning" valType="code" updates="None" name="logging level"/>
+    <Param val="True" valType="bool" updates="None" name="measureFrameRate"/>
+    <Param val="('MIDDLE_BUTTON',)" valType="list" updates="None" name="mgBlink"/>
+    <Param val="CONTINUOUS" valType="str" updates="None" name="mgMove"/>
+    <Param val="0.5" valType="num" updates="None" name="mgSaccade"/>
+    <Param val="neon.local" valType="str" updates="None" name="plCompanionAddress"/>
+    <Param val="scene_camera.json" valType="file" updates="None" name="plCompanionCameraCalibration"/>
+    <Param val="8080" valType="num" updates="None" name="plCompanionPort"/>
+    <Param val="True" valType="bool" updates="None" name="plCompanionRecordingEnabled"/>
+    <Param val="0.6" valType="num" updates="None" name="plConfidenceThreshold"/>
+    <Param val="True" valType="bool" updates="None" name="plPupilCaptureRecordingEnabled"/>
+    <Param val="" valType="str" updates="None" name="plPupilCaptureRecordingLocation"/>
+    <Param val="127.0.0.1" valType="str" updates="None" name="plPupilRemoteAddress"/>
+    <Param val="50020" valType="num" updates="None" name="plPupilRemotePort"/>
+    <Param val="1000" valType="num" updates="None" name="plPupilRemoteTimeoutMs"/>
+    <Param val="False" valType="bool" updates="None" name="plPupillometryOnly"/>
+    <Param val="psychopy_iohub_surface" valType="str" updates="None" name="plSurfaceName"/>
+    <Param val="0" valType="code" updates="None" name="runMode"/>
+    <Param val="False" valType="bool" updates="None" name="rush"/>
+    <Param val="time" valType="str" updates="None" name="sortColumns"/>
+    <Param val="" valType="str" updates="None" name="tbLicenseFile"/>
+    <Param val="" valType="str" updates="None" name="tbModel"/>
+    <Param val="60" valType="num" updates="None" name="tbSampleRate"/>
+    <Param val="" valType="str" updates="None" name="tbSerialNo"/>
+    <Param val="pyglet" valType="str" updates="None" name="winBackend"/>
+  </Settings>
+  <Routines>
+    <Routine name="trial">
+      <RoutineSettingsComponent name="trial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="trial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.05" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="Any text&amp;#10;&amp;#10;including line breaks" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+    </Routine>
+    <Routine name="tutorial">
+      <RoutineSettingsComponent name="tutorial" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="tutorial" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_norm" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Noto Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.08" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_norm" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="*For the observer&amp;#10;&amp;#10;In this experiment, a word will be shown for a second, then, an image will be shown. Participant have to choose whether this image represent the word or not by pressing `z` if yes, 'x' if no&amp;#10;&amp;#10;press spacebar to start a trial&amp;#10;" valType="str" updates="constant" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="1.8" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <CodeComponent name="text_align" plugin="None">
+        <Param val="" valType="extendedCode" updates="constant" name="Before Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Before JS Experiment"/>
+        <Param val="&amp;#10;text_norm.alignText= 'center'" valType="extendedCode" updates="constant" name="Begin Experiment"/>
+        <Param val="// Code component set to Both&amp;#10;text_norm.setAlignHoriz('left')" valType="extendedCode" updates="constant" name="Begin JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Begin Routine"/>
+        <Param val="Both" valType="str" updates="None" name="Code Type"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="Each JS Frame"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Experiment"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End JS Routine"/>
+        <Param val="" valType="extendedCode" updates="constant" name="End Routine"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="text_align" valType="code" updates="None" name="name"/>
+      </CodeComponent>
+      <KeyboardComponent name="key_instruct" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_instruct" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="first key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="blank1sec">
+      <RoutineSettingsComponent name="blank1sec" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="blank1sec" valType="code" updates="None" name="name"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+    </Routine>
+    <Routine name="ending">
+      <RoutineSettingsComponent name="ending" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="ending" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <TextComponent name="text_3" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Open Sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.08" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_3" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(0, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="End of the experiment&amp;#10;&amp;#10;press spacebar to exit" valType="str" updates="constant" name="text"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="ending_key" plugin="None">
+        <Param val="'space'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="ending_key" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="letterselect">
+      <RoutineSettingsComponent name="letterselect" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="code" updates="None" name="forceNonSlip"/>
+        <Param val="letterselect" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="imageword" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$imgdir" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="imageword" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(None,1)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+      <TextComponent name="text_2" plugin="None">
+        <Param val="white" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="False" valType="code" updates="constant" name="draggable"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="None" valType="str" updates="constant" name="flip"/>
+        <Param val="Noto sans" valType="str" updates="constant" name="font"/>
+        <Param val="LTR" valType="str" updates="None" name="languageStyle"/>
+        <Param val="0.07" valType="num" updates="constant" name="letterHeight"/>
+        <Param val="text_2" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, 0.7)" valType="list" updates="constant" name="pos"/>
+        <Param val="False" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="image == word? press `z` if yes, `x` if no" valType="str" updates="set every repeat" name="text"/>
+        <Param val="norm" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+        <Param val="" valType="num" updates="constant" name="wrapWidth"/>
+      </TextComponent>
+      <KeyboardComponent name="key_resp" plugin="None">
+        <Param val="'z','x'" valType="list" updates="constant" name="allowedKeys"/>
+        <Param val="" valType="str" updates="constant" name="correctAns"/>
+        <Param val="" valType="str" updates="None" name="deviceLabel"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="True" valType="bool" updates="constant" name="discard previous"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="True" valType="bool" updates="constant" name="forceEndRoutine"/>
+        <Param val="key_resp" valType="code" updates="None" name="name"/>
+        <Param val="press" valType="str" updates="constant" name="registerOn"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="last key" valType="str" updates="constant" name="store"/>
+        <Param val="False" valType="bool" updates="constant" name="storeCorrect"/>
+        <Param val="True" valType="bool" updates="constant" name="syncScreenRefresh"/>
+      </KeyboardComponent>
+    </Routine>
+    <Routine name="wordshow">
+      <RoutineSettingsComponent name="wordshow" plugin="None">
+        <Param val="none" valType="str" updates="None" name="backgroundFit"/>
+        <Param val="" valType="str" updates="None" name="backgroundImg"/>
+        <Param val="$[0,0,0]" valType="color" updates="None" name="color"/>
+        <Param val="rgb" valType="str" updates="None" name="colorSpace"/>
+        <Param val="" valType="str" updates="constant" name="desc"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="wordshow" valType="code" updates="None" name="name"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="" valType="code" updates="constant" name="skipIf"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="" valType="code" updates="constant" name="stopVal"/>
+        <Param val="False" valType="bool" updates="None" name="useWindowParams"/>
+      </RoutineSettingsComponent>
+      <ImageComponent name="image" plugin="None">
+        <Param val="center" valType="str" updates="constant" name="anchor"/>
+        <Param val="$[1,1,1]" valType="color" updates="constant" name="color"/>
+        <Param val="rgb" valType="str" updates="constant" name="colorSpace"/>
+        <Param val="1" valType="num" updates="constant" name="contrast"/>
+        <Param val="False" valType="bool" updates="None" name="disabled"/>
+        <Param val="" valType="code" updates="None" name="durationEstim"/>
+        <Param val="False" valType="bool" updates="constant" name="flipHoriz"/>
+        <Param val="False" valType="bool" updates="constant" name="flipVert"/>
+        <Param val="$worddir" valType="file" updates="set every repeat" name="image"/>
+        <Param val="linear" valType="str" updates="constant" name="interpolate"/>
+        <Param val="" valType="str" updates="constant" name="mask"/>
+        <Param val="image" valType="code" updates="None" name="name"/>
+        <Param val="" valType="num" updates="constant" name="opacity"/>
+        <Param val="0" valType="num" updates="constant" name="ori"/>
+        <Param val="(-0.5, 0)" valType="list" updates="constant" name="pos"/>
+        <Param val="True" valType="bool" updates="None" name="saveStartStop"/>
+        <Param val="(1, None)" valType="list" updates="constant" name="size"/>
+        <Param val="" valType="code" updates="None" name="startEstim"/>
+        <Param val="time (s)" valType="str" updates="None" name="startType"/>
+        <Param val="0.0" valType="code" updates="None" name="startVal"/>
+        <Param val="duration (s)" valType="str" updates="None" name="stopType"/>
+        <Param val="1.0" valType="code" updates="constant" name="stopVal"/>
+        <Param val="True" valType="bool" updates="None" name="syncScreenRefresh"/>
+        <Param val="128" valType="num" updates="constant" name="texture resolution"/>
+        <Param val="from exp settings" valType="str" updates="None" name="units"/>
+        <Param val="" valType="code" updates="None" name="validator"/>
+      </ImageComponent>
+    </Routine>
+  </Routines>
+  <Flow>
+    <Routine name="tutorial"/>
+    <LoopInitiator loopType="TrialHandler" name="trials">
+      <Param name="Selected rows" updates="None" val="" valType="str"/>
+      <Param name="conditions" updates="None" val="[{'lang': 1, 'wordid': 88, 'truestate': 1, 'worddir': 'word/wordth0881.png', 'imgdir': 'image/True/img88.png'}, {'lang': 1, 'wordid': 83, 'truestate': 1, 'worddir': 'word/wordth0831.png', 'imgdir': 'image/True/img83.png'}, {'lang': 2, 'wordid': 97, 'truestate': 1, 'worddir': 'word/worden0971.png', 'imgdir': 'image/True/img97.png'}, {'lang': 2, 'wordid': 66, 'truestate': 0, 'worddir': 'word/worden0661.png', 'imgdir': 'image/False/mgf66.png'}, {'lang': 2, 'wordid': 57, 'truestate': 0, 'worddir': 'word/worden0571.png', 'imgdir': 'image/False/mgf57.png'}, {'lang': 1, 'wordid': 46, 'truestate': 0, 'worddir': 'word/wordth0461.png', 'imgdir': 'image/False/mgf46.png'}, {'lang': 2, 'wordid': 23, 'truestate': 0, 'worddir': 'word/worden0231.png', 'imgdir': 'image/False/mgf23.png'}, {'lang': 1, 'wordid': 87, 'truestate': 1, 'worddir': 'word/wordth0871.png', 'imgdir': 'image/True/img87.png'}, {'lang': 1, 'wordid': 83, 'truestate': 0, 'worddir': 'word/wordth0831.png', 'imgdir': 'image/False/mgf83.png'}, {'lang': 2, 'wordid': 88, 'truestate': 1, 'worddir': 'word/worden0881.png', 'imgdir': 'image/True/img88.png'}, {'lang': 2, 'wordid': 50, 'truestate': 1, 'worddir': 'word/worden0501.png', 'imgdir': 'image/True/img50.png'}, {'lang': 2, 'wordid': 97, 'truestate': 1, 'worddir': 'word/worden0971.png', 'imgdir': 'image/True/img97.png'}, {'lang': 1, 'wordid': 56, 'truestate': 1, 'worddir': 'word/wordth0561.png', 'imgdir': 'image/True/img56.png'}, {'lang': 1, 'wordid': 11, 'truestate': 1, 'worddir': 'word/wordth0111.png', 'imgdir': 'image/True/img11.png'}, {'lang': 1, 'wordid': 33, 'truestate': 0, 'worddir': 'word/wordth0331.png', 'imgdir': 'image/False/mgf33.png'}, {'lang': 1, 'wordid': 6, 'truestate': 1, 'worddir': 'word/wordth0061.png', 'imgdir': 'image/True/img06.png'}, {'lang': 1, 'wordid': 11, 'truestate': 1, 'worddir': 'word/wordth0111.png', 'imgdir': 'image/True/img11.png'}, {'lang': 2, 'wordid': 42, 'truestate': 0, 'worddir': 'word/worden0421.png', 'imgdir': 'image/False/mgf42.png'}, {'lang': 2, 'wordid': 22, 'truestate': 0, 'worddir': 'word/worden0221.png', 'imgdir': 'image/False/mgf22.png'}, {'lang': 2, 'wordid': 11, 'truestate': 0, 'worddir': 'word/worden0111.png', 'imgdir': 'image/False/mgf11.png'}, {'lang': 2, 'wordid': 16, 'truestate': 1, 'worddir': 'word/worden0161.png', 'imgdir': 'image/True/img16.png'}, {'lang': 1, 'wordid': 45, 'truestate': 1, 'worddir': 'word/wordth0451.png', 'imgdir': 'image/True/img45.png'}, {'lang': 2, 'wordid': 64, 'truestate': 1, 'worddir': 'word/worden0641.png', 'imgdir': 'image/True/img64.png'}, {'lang': 1, 'wordid': 48, 'truestate': 0, 'worddir': 'word/wordth0481.png', 'imgdir': 'image/False/mgf48.png'}, {'lang': 2, 'wordid': 68, 'truestate': 1, 'worddir': 'word/worden0681.png', 'imgdir': 'image/True/img68.png'}, {'lang': 1, 'wordid': 1, 'truestate': 0, 'worddir': 'word/wordth0011.png', 'imgdir': 'image/False/mgf01.png'}, {'lang': 1, 'wordid': 98, 'truestate': 1, 'worddir': 'word/wordth0981.png', 'imgdir': 'image/True/img98.png'}, {'lang': 1, 'wordid': 75, 'truestate': 1, 'worddir': 'word/wordth0751.png', 'imgdir': 'image/True/img75.png'}, {'lang': 1, 'wordid': 82, 'truestate': 1, 'worddir': 'word/wordth0821.png', 'imgdir': 'image/True/img82.png'}, {'lang': 1, 'wordid': 84, 'truestate': 1, 'worddir': 'word/wordth0841.png', 'imgdir': 'image/True/img84.png'}, {'lang': 2, 'wordid': 52, 'truestate': 0, 'worddir': 'word/worden0521.png', 'imgdir': 'image/False/mgf52.png'}, {'lang': 2, 'wordid': 82, 'truestate': 1, 'worddir': 'word/worden0821.png', 'imgdir': 'image/True/img82.png'}, {'lang': 1, 'wordid': 21, 'truestate': 0, 'worddir': 'word/wordth0211.png', 'imgdir': 'image/False/mgf21.png'}, {'lang': 2, 'wordid': 93, 'truestate': 1, 'worddir': 'word/worden0931.png', 'imgdir': 'image/True/img93.png'}, {'lang': 2, 'wordid': 98, 'truestate': 0, 'worddir': 'word/worden0981.png', 'imgdir': 'image/False/mgf98.png'}, {'lang': 2, 'wordid': 21, 'truestate': 0, 'worddir': 'word/worden0211.png', 'imgdir': 'image/False/mgf21.png'}, {'lang': 1, 'wordid': 48, 'truestate': 0, 'worddir': 'word/wordth0481.png', 'imgdir': 'image/False/mgf48.png'}, {'lang': 1, 'wordid': 11, 'truestate': 0, 'worddir': 'word/wordth0111.png', 'imgdir': 'image/False/mgf11.png'}, {'lang': 1, 'wordid': 70, 'truestate': 1, 'worddir': 'word/wordth0701.png', 'imgdir': 'image/True/img70.png'}, {'lang': 2, 'wordid': 89, 'truestate': 0, 'worddir': 'word/worden0891.png', 'imgdir': 'image/False/mgf89.png'}, {'lang': 2, 'wordid': 98, 'truestate': 0, 'worddir': 'word/worden0981.png', 'imgdir': 'image/False/mgf98.png'}, {'lang': 1, 'wordid': 20, 'truestate': 1, 'worddir': 'word/wordth0201.png', 'imgdir': 'image/True/img20.png'}, {'lang': 2, 'wordid': 48, 'truestate': 1, 'worddir': 'word/worden0481.png', 'imgdir': 'image/True/img48.png'}, {'lang': 2, 'wordid': 57, 'truestate': 1, 'worddir': 'word/worden0571.png', 'imgdir': 'image/True/img57.png'}, {'lang': 2, 'wordid': 45, 'truestate': 1, 'worddir': 'word/worden0451.png', 'imgdir': 'image/True/img45.png'}, {'lang': 1, 'wordid': 42, 'truestate': 0, 'worddir': 'word/wordth0421.png', 'imgdir': 'image/False/mgf42.png'}, {'lang': 1, 'wordid': 71, 'truestate': 0, 'worddir': 'word/wordth0711.png', 'imgdir': 'image/False/mgf71.png'}, {'lang': 2, 'wordid': 82, 'truestate': 0, 'worddir': 'word/worden0821.png', 'imgdir': 'image/False/mgf82.png'}, {'lang': 1, 'wordid': 1, 'truestate': 1, 'worddir': 'word/wordth0011.png', 'imgdir': 'image/True/img01.png'}, {'lang': 2, 'wordid': 41, 'truestate': 1, 'worddir': 'word/worden0411.png', 'imgdir': 'image/True/img41.png'}, {'lang': 1, 'wordid': 60, 'truestate': 1, 'worddir': 'word/wordth0601.png', 'imgdir': 'image/True/img60.png'}, {'lang': 2, 'wordid': 58, 'truestate': 1, 'worddir': 'word/worden0581.png', 'imgdir': 'image/True/img58.png'}, {'lang': 1, 'wordid': 45, 'truestate': 0, 'worddir': 'word/wordth0451.png', 'imgdir': 'image/False/mgf45.png'}, {'lang': 2, 'wordid': 8, 'truestate': 1, 'worddir': 'word/worden0081.png', 'imgdir': 'image/True/img08.png'}, {'lang': 1, 'wordid': 7, 'truestate': 0, 'worddir': 'word/wordth0071.png', 'imgdir': 'image/False/mgf07.png'}, {'lang': 1, 'wordid': 22, 'truestate': 0, 'worddir': 'word/wordth0221.png', 'imgdir': 'image/False/mgf22.png'}, {'lang': 1, 'wordid': 66, 'truestate': 1, 'worddir': 'word/wordth0661.png', 'imgdir': 'image/True/img66.png'}, {'lang': 2, 'wordid': 41, 'truestate': 0, 'worddir': 'word/worden0411.png', 'imgdir': 'image/False/mgf41.png'}, {'lang': 2, 'wordid': 94, 'truestate': 0, 'worddir': 'word/worden0941.png', 'imgdir': 'image/False/mgf94.png'}, {'lang': 2, 'wordid': 60, 'truestate': 0, 'worddir': 'word/worden0601.png', 'imgdir': 'image/False/mgf60.png'}, {'lang': 1, 'wordid': 56, 'truestate': 1, 'worddir': 'word/wordth0561.png', 'imgdir': 'image/True/img56.png'}, {'lang': 2, 'wordid': 64, 'truestate': 0, 'worddir': 'word/worden0641.png', 'imgdir': 'image/False/mgf64.png'}, {'lang': 2, 'wordid': 18, 'truestate': 0, 'worddir': 'word/worden0181.png', 'imgdir': 'image/False/mgf18.png'}, {'lang': 1, 'wordid': 71, 'truestate': 1, 'worddir': 'word/wordth0711.png', 'imgdir': 'image/True/img71.png'}, {'lang': 2, 'wordid': 50, 'truestate': 0, 'worddir': 'word/worden0501.png', 'imgdir': 'image/False/mgf50.png'}, {'lang': 2, 'wordid': 18, 'truestate': 0, 'worddir': 'word/worden0181.png', 'imgdir': 'image/False/mgf18.png'}, {'lang': 1, 'wordid': 16, 'truestate': 0, 'worddir': 'word/wordth0161.png', 'imgdir': 'image/False/mgf16.png'}, {'lang': 1, 'wordid': 61, 'truestate': 1, 'worddir': 'word/wordth0611.png', 'imgdir': 'image/True/img61.png'}, {'lang': 2, 'wordid': 56, 'truestate': 1, 'worddir': 'word/worden0561.png', 'imgdir': 'image/True/img56.png'}, {'lang': 2, 'wordid': 89, 'truestate': 0, 'worddir': 'word/worden0891.png', 'imgdir': 'image/False/mgf89.png'}, {'lang': 2, 'wordid': 26, 'truestate': 0, 'worddir': 'word/worden0261.png', 'imgdir': 'image/False/mgf26.png'}, {'lang': 1, 'wordid': 44, 'truestate': 0, 'worddir': 'word/wordth0441.png', 'imgdir': 'image/False/mgf44.png'}, {'lang': 2, 'wordid': 51, 'truestate': 0, 'worddir': 'word/worden0511.png', 'imgdir': 'image/False/mgf51.png'}, {'lang': 1, 'wordid': 94, 'truestate': 1, 'worddir': 'word/wordth0941.png', 'imgdir': 'image/True/img94.png'}, {'lang': 1, 'wordid': 64, 'truestate': 1, 'worddir': 'word/wordth0641.png', 'imgdir': 'image/True/img64.png'}, {'lang': 2, 'wordid': 33, 'truestate': 0, 'worddir': 'word/worden0331.png', 'imgdir': 'image/False/mgf33.png'}, {'lang': 1, 'wordid': 89, 'truestate': 1, 'worddir': 'word/wordth0891.png', 'imgdir': 'image/True/img89.png'}, {'lang': 1, 'wordid': 20, 'truestate': 1, 'worddir': 'word/wordth0201.png', 'imgdir': 'image/True/img20.png'}, {'lang': 1, 'wordid': 9, 'truestate': 0, 'worddir': 'word/wordth0091.png', 'imgdir': 'image/False/mgf09.png'}, {'lang': 2, 'wordid': 84, 'truestate': 0, 'worddir': 'word/worden0841.png', 'imgdir': 'image/False/mgf84.png'}, {'lang': 2, 'wordid': 60, 'truestate': 0, 'worddir': 'word/worden0601.png', 'imgdir': 'image/False/mgf60.png'}, {'lang': 2, 'wordid': 24, 'truestate': 1, 'worddir': 'word/worden0241.png', 'imgdir': 'image/True/img24.png'}, {'lang': 1, 'wordid': 89, 'truestate': 0, 'worddir': 'word/wordth0891.png', 'imgdir': 'image/False/mgf89.png'}, {'lang': 2, 'wordid': 33, 'truestate': 1, 'worddir': 'word/worden0331.png', 'imgdir': 'image/True/img33.png'}, {'lang': 1, 'wordid': 11, 'truestate': 0, 'worddir': 'word/wordth0111.png', 'imgdir': 'image/False/mgf11.png'}, {'lang': 2, 'wordid': 45, 'truestate': 0, 'worddir': 'word/worden0451.png', 'imgdir': 'image/False/mgf45.png'}, {'lang': 2, 'wordid': 76, 'truestate': 0, 'worddir': 'word/worden0761.png', 'imgdir': 'image/False/mgf76.png'}, {'lang': 1, 'wordid': 34, 'truestate': 1, 'worddir': 'word/wordth0341.png', 'imgdir': 'image/True/img34.png'}, {'lang': 1, 'wordid': 76, 'truestate': 0, 'worddir': 'word/wordth0761.png', 'imgdir': 'image/False/mgf76.png'}, {'lang': 2, 'wordid': 75, 'truestate': 1, 'worddir': 'word/worden0751.png', 'imgdir': 'image/True/img75.png'}, {'lang': 2, 'wordid': 27, 'truestate': 0, 'worddir': 'word/worden0271.png', 'imgdir': 'image/False/mgf27.png'}, {'lang': 1, 'wordid': 42, 'truestate': 1, 'worddir': 'word/wordth0421.png', 'imgdir': 'image/True/img42.png'}, {'lang': 1, 'wordid': 70, 'truestate': 0, 'worddir': 'word/wordth0701.png', 'imgdir': 'image/False/mgf70.png'}, {'lang': 1, 'wordid': 75, 'truestate': 0, 'worddir': 'word/wordth0751.png', 'imgdir': 'image/False/mgf75.png'}, {'lang': 1, 'wordid': 41, 'truestate': 0, 'worddir': 'word/wordth0411.png', 'imgdir': 'image/False/mgf41.png'}, {'lang': 2, 'wordid': 89, 'truestate': 1, 'worddir': 'word/worden0891.png', 'imgdir': 'image/True/img89.png'}, {'lang': 2, 'wordid': 31, 'truestate': 1, 'worddir': 'word/worden0311.png', 'imgdir': 'image/True/img31.png'}, {'lang': 2, 'wordid': 97, 'truestate': 0, 'worddir': 'word/worden0971.png', 'imgdir': 'image/False/mgf97.png'}, {'lang': 2, 'wordid': 68, 'truestate': 1, 'worddir': 'word/worden0681.png', 'imgdir': 'image/True/img68.png'}, {'lang': 2, 'wordid': 82, 'truestate': 1, 'worddir': 'word/worden0821.png', 'imgdir': 'image/True/img82.png'}, {'lang': 1, 'wordid': 34, 'truestate': 1, 'worddir': 'word/wordth0341.png', 'imgdir': 'image/True/img34.png'}, {'lang': 1, 'wordid': 16, 'truestate': 0, 'worddir': 'word/wordth0161.png', 'imgdir': 'image/False/mgf16.png'}, {'lang': 1, 'wordid': 46, 'truestate': 1, 'worddir': 'word/wordth0461.png', 'imgdir': 'image/True/img46.png'}, {'lang': 2, 'wordid': 88, 'truestate': 0, 'worddir': 'word/worden0881.png', 'imgdir': 'image/False/mgf88.png'}, {'lang': 2, 'wordid': 22, 'truestate': 1, 'worddir': 'word/worden0221.png', 'imgdir': 'image/True/img22.png'}, {'lang': 2, 'wordid': 55, 'truestate': 1, 'worddir': 'word/worden0551.png', 'imgdir': 'image/True/img55.png'}, {'lang': 2, 'wordid': 20, 'truestate': 1, 'worddir': 'word/worden0201.png', 'imgdir': 'image/True/img20.png'}, {'lang': 2, 'wordid': 48, 'truestate': 0, 'worddir': 'word/worden0481.png', 'imgdir': 'image/False/mgf48.png'}, {'lang': 1, 'wordid': 42, 'truestate': 1, 'worddir': 'word/wordth0421.png', 'imgdir': 'image/True/img42.png'}, {'lang': 2, 'wordid': 44, 'truestate': 0, 'worddir': 'word/worden0441.png', 'imgdir': 'image/False/mgf44.png'}, {'lang': 2, 'wordid': 57, 'truestate': 1, 'worddir': 'word/worden0571.png', 'imgdir': 'image/True/img57.png'}, {'lang': 1, 'wordid': 98, 'truestate': 1, 'worddir': 'word/wordth0981.png', 'imgdir': 'image/True/img98.png'}, {'lang': 2, 'wordid': 62, 'truestate': 0, 'worddir': 'word/worden0621.png', 'imgdir': 'image/False/mgf62.png'}, {'lang': 2, 'wordid': 96, 'truestate': 1, 'worddir': 'word/worden0961.png', 'imgdir': 'image/True/img96.png'}, {'lang': 2, 'wordid': 10, 'truestate': 0, 'worddir': 'word/worden0101.png', 'imgdir': 'image/False/mgf10.png'}, {'lang': 1, 'wordid': 32, 'truestate': 1, 'worddir': 'word/wordth0321.png', 'imgdir': 'image/True/img32.png'}, {'lang': 1, 'wordid': 46, 'truestate': 0, 'worddir': 'word/wordth0461.png', 'imgdir': 'image/False/mgf46.png'}, {'lang': 2, 'wordid': 78, 'truestate': 0, 'worddir': 'word/worden0781.png', 'imgdir': 'image/False/mgf78.png'}, {'lang': 2, 'wordid': 70, 'truestate': 1, 'worddir': 'word/worden0701.png', 'imgdir': 'image/True/img70.png'}, {'lang': 2, 'wordid': 75, 'truestate': 1, 'worddir': 'word/worden0751.png', 'imgdir': 'image/True/img75.png'}, {'lang': 1, 'wordid': 32, 'truestate': 0, 'worddir': 'word/wordth0321.png', 'imgdir': 'image/False/mgf32.png'}, {'lang': 2, 'wordid': 8, 'truestate': 0, 'worddir': 'word/worden0081.png', 'imgdir': 'image/False/mgf08.png'}, {'lang': 2, 'wordid': 6, 'truestate': 1, 'worddir': 'word/worden0061.png', 'imgdir': 'image/True/img06.png'}, {'lang': 2, 'wordid': 84, 'truestate': 0, 'worddir': 'word/worden0841.png', 'imgdir': 'image/False/mgf84.png'}, {'lang': 2, 'wordid': 27, 'truestate': 1, 'worddir': 'word/worden0271.png', 'imgdir': 'image/True/img27.png'}, {'lang': 1, 'wordid': 23, 'truestate': 1, 'worddir': 'word/wordth0231.png', 'imgdir': 'image/True/img23.png'}, {'lang': 1, 'wordid': 68, 'truestate': 1, 'worddir': 'word/wordth0681.png', 'imgdir': 'image/True/img68.png'}, {'lang': 2, 'wordid': 9, 'truestate': 1, 'worddir': 'word/worden0091.png', 'imgdir': 'image/True/img09.png'}, {'lang': 1, 'wordid': 64, 'truestate': 0, 'worddir': 'word/wordth0641.png', 'imgdir': 'image/False/mgf64.png'}, {'lang': 2, 'wordid': 78, 'truestate': 1, 'worddir': 'word/worden0781.png', 'imgdir': 'image/True/img78.png'}, {'lang': 2, 'wordid': 84, 'truestate': 1, 'worddir': 'word/worden0841.png', 'imgdir': 'image/True/img84.png'}, {'lang': 2, 'wordid': 26, 'truestate': 0, 'worddir': 'word/worden0261.png', 'imgdir': 'image/False/mgf26.png'}, {'lang': 1, 'wordid': 16, 'truestate': 1, 'worddir': 'word/wordth0161.png', 'imgdir': 'image/True/img16.png'}, {'lang': 2, 'wordid': 50, 'truestate': 0, 'worddir': 'word/worden0501.png', 'imgdir': 'image/False/mgf50.png'}, {'lang': 1, 'wordid': 6, 'truestate': 0, 'worddir': 'word/wordth0061.png', 'imgdir': 'image/False/mgf06.png'}, {'lang': 1, 'wordid': 95, 'truestate': 0, 'worddir': 'word/wordth0951.png', 'imgdir': 'image/False/mgf95.png'}, {'lang': 1, 'wordid': 63, 'truestate': 0, 'worddir': 'word/wordth0631.png', 'imgdir': 'image/False/mgf63.png'}, {'lang': 1, 'wordid': 83, 'truestate': 1, 'worddir': 'word/wordth0831.png', 'imgdir': 'image/True/img83.png'}, {'lang': 2, 'wordid': 21, 'truestate': 1, 'worddir': 'word/worden0211.png', 'imgdir': 'image/True/img21.png'}, {'lang': 2, 'wordid': 70, 'truestate': 0, 'worddir': 'word/worden0701.png', 'imgdir': 'image/False/mgf70.png'}, {'lang': 2, 'wordid': 34, 'truestate': 0, 'worddir': 'word/worden0341.png', 'imgdir': 'image/False/mgf34.png'}, {'lang': 1, 'wordid': 28, 'truestate': 0, 'worddir': 'word/wordth0281.png', 'imgdir': 'image/False/mgf28.png'}, {'lang': 1, 'wordid': 32, 'truestate': 0, 'worddir': 'word/wordth0321.png', 'imgdir': 'image/False/mgf32.png'}, {'lang': 1, 'wordid': 51, 'truestate': 1, 'worddir': 'word/wordth0511.png', 'imgdir': 'image/True/img51.png'}, {'lang': 2, 'wordid': 95, 'truestate': 1, 'worddir': 'word/worden0951.png', 'imgdir': 'image/True/img95.png'}, {'lang': 2, 'wordid': 94, 'truestate': 1, 'worddir': 'word/worden0941.png', 'imgdir': 'image/True/img94.png'}, {'lang': 2, 'wordid': 56, 'truestate': 0, 'worddir': 'word/worden0561.png', 'imgdir': 'image/False/mgf56.png'}, {'lang': 2, 'wordid': 63, 'truestate': 0, 'worddir': 'word/worden0631.png', 'imgdir': 'image/False/mgf63.png'}, {'lang': 1, 'wordid': 8, 'truestate': 0, 'worddir': 'word/wordth0081.png', 'imgdir': 'image/False/mgf08.png'}, {'lang': 2, 'wordid': 20, 'truestate': 0, 'worddir': 'word/worden0201.png', 'imgdir': 'image/False/mgf20.png'}, {'lang': 1, 'wordid': 21, 'truestate': 1, 'worddir': 'word/wordth0211.png', 'imgdir': 'image/True/img21.png'}, {'lang': 2, 'wordid': 18, 'truestate': 1, 'worddir': 'word/worden0181.png', 'imgdir': 'image/True/img18.png'}, {'lang': 1, 'wordid': 9, 'truestate': 1, 'worddir': 'word/wordth0091.png', 'imgdir': 'image/True/img09.png'}, {'lang': 2, 'wordid': 96, 'truestate': 0, 'worddir': 'word/worden0961.png', 'imgdir': 'image/False/mgf96.png'}, {'lang': 1, 'wordid': 10, 'truestate': 1, 'worddir': 'word/wordth0101.png', 'imgdir': 'image/True/img10.png'}, {'lang': 2, 'wordid': 70, 'truestate': 0, 'worddir': 'word/worden0701.png', 'imgdir': 'image/False/mgf70.png'}, {'lang': 1, 'wordid': 95, 'truestate': 0, 'worddir': 'word/wordth0951.png', 'imgdir': 'image/False/mgf95.png'}, {'lang': 1, 'wordid': 44, 'truestate': 0, 'worddir': 'word/wordth0441.png', 'imgdir': 'image/False/mgf44.png'}, {'lang': 1, 'wordid': 57, 'truestate': 0, 'worddir': 'word/wordth0571.png', 'imgdir': 'image/False/mgf57.png'}, {'lang': 1, 'wordid': 55, 'truestate': 0, 'worddir': 'word/wordth0551.png', 'imgdir': 'image/False/mgf55.png'}, {'lang': 1, 'wordid': 75, 'truestate': 0, 'worddir': 'word/wordth0751.png', 'imgdir': 'image/False/mgf75.png'}, {'lang': 1, 'wordid': 26, 'truestate': 1, 'worddir': 'word/wordth0261.png', 'imgdir': 'image/True/img26.png'}, {'lang': 1, 'wordid': 33, 'truestate': 0, 'worddir': 'word/wordth0331.png', 'imgdir': 'image/False/mgf33.png'}, {'lang': 2, 'wordid': 61, 'truestate': 1, 'worddir': 'word/worden0611.png', 'imgdir': 'image/True/img61.png'}, {'lang': 1, 'wordid': 33, 'truestate': 1, 'worddir': 'word/wordth0331.png', 'imgdir': 'image/True/img33.png'}, {'lang': 1, 'wordid': 22, 'truestate': 0, 'worddir': 'word/wordth0221.png', 'imgdir': 'image/False/mgf22.png'}, {'lang': 1, 'wordid': 87, 'truestate': 0, 'worddir': 'word/wordth0871.png', 'imgdir': 'image/False/mgf87.png'}, {'lang': 1, 'wordid': 8, 'truestate': 0, 'worddir': 'word/wordth0081.png', 'imgdir': 'image/False/mgf08.png'}, {'lang': 1, 'wordid': 6, 'truestate': 0, 'worddir': 'word/wordth0061.png', 'imgdir': 'image/False/mgf06.png'}, {'lang': 2, 'wordid': 3, 'truestate': 1, 'worddir': 'word/worden0031.png', 'imgdir': 'image/True/img03.png'}, {'lang': 2, 'wordid': 61, 'truestate': 1, 'worddir': 'word/worden0611.png', 'imgdir': 'image/True/img61.png'}, {'lang': 2, 'wordid': 87, 'truestate': 1, 'worddir': 'word/worden0871.png', 'imgdir': 'image/True/img87.png'}, {'lang': 1, 'wordid': 1, 'truestate': 1, 'worddir': 'word/wordth0011.png', 'imgdir': 'image/True/img01.png'}, {'lang': 1, 'wordid': 31, 'truestate': 0, 'worddir': 'word/wordth0311.png', 'imgdir': 'image/False/mgf31.png'}, {'lang': 1, 'wordid': 41, 'truestate': 0, 'worddir': 'word/wordth0411.png', 'imgdir': 'image/False/mgf41.png'}, {'lang': 1, 'wordid': 55, 'truestate': 0, 'worddir': 'word/wordth0551.png', 'imgdir': 'image/False/mgf55.png'}, {'lang': 2, 'wordid': 58, 'truestate': 0, 'worddir': 'word/worden0581.png', 'imgdir': 'image/False/mgf58.png'}, {'lang': 1, 'wordid': 45, 'truestate': 0, 'worddir': 'word/wordth0451.png', 'imgdir': 'image/False/mgf45.png'}, {'lang': 2, 'wordid': 60, 'truestate': 1, 'worddir': 'word/worden0601.png', 'imgdir': 'image/True/img60.png'}, {'lang': 2, 'wordid': 78, 'truestate': 0, 'worddir': 'word/worden0781.png', 'imgdir': 'image/False/mgf78.png'}, {'lang': 1, 'wordid': 24, 'truestate': 0, 'worddir': 'word/wordth0241.png', 'imgdir': 'image/False/mgf24.png'}, {'lang': 1, 'wordid': 76, 'truestate': 0, 'worddir': 'word/wordth0761.png', 'imgdir': 'image/False/mgf76.png'}, {'lang': 2, 'wordid': 55, 'truestate': 0, 'worddir': 'word/worden0551.png', 'imgdir': 'image/False/mgf55.png'}, {'lang': 1, 'wordid': 26, 'truestate': 0, 'worddir': 'word/wordth0261.png', 'imgdir': 'image/False/mgf26.png'}, {'lang': 1, 'wordid': 60, 'truestate': 0, 'worddir': 'word/wordth0601.png', 'imgdir': 'image/False/mgf60.png'}, {'lang': 1, 'wordid': 28, 'truestate': 1, 'worddir': 'word/wordth0281.png', 'imgdir': 'image/True/img28.png'}, {'lang': 2, 'wordid': 63, 'truestate': 1, 'worddir': 'word/worden0631.png', 'imgdir': 'image/True/img63.png'}, {'lang': 1, 'wordid': 27, 'truestate': 0, 'worddir': 'word/wordth0271.png', 'imgdir': 'image/False/mgf27.png'}, {'lang': 1, 'wordid': 50, 'truestate': 1, 'worddir': 'word/wordth0501.png', 'imgdir': 'image/True/img50.png'}, {'lang': 2, 'wordid': 28, 'truestate': 0, 'worddir': 'word/worden0281.png', 'imgdir': 'image/False/mgf28.png'}, {'lang': 1, 'wordid': 78, 'truestate': 1, 'worddir': 'word/wordth0781.png', 'imgdir': 'image/True/img78.png'}, {'lang': 1, 'wordid': 94, 'truestate': 0, 'worddir': 'word/wordth0941.png', 'imgdir': 'image/False/mgf94.png'}, {'lang': 2, 'wordid': 1, 'truestate': 1, 'worddir': 'word/worden0011.png', 'imgdir': 'image/True/img01.png'}, {'lang': 2, 'wordid': 63, 'truestate': 1, 'worddir': 'word/worden0631.png', 'imgdir': 'image/True/img63.png'}, {'lang': 2, 'wordid': 55, 'truestate': 1, 'worddir': 'word/worden0551.png', 'imgdir': 'image/True/img55.png'}, {'lang': 2, 'wordid': 44, 'truestate': 1, 'worddir': 'word/worden0441.png', 'imgdir': 'image/True/img44.png'}, {'lang': 2, 'wordid': 18, 'truestate': 1, 'worddir': 'word/worden0181.png', 'imgdir': 'image/True/img18.png'}, {'lang': 1, 'wordid': 27, 'truestate': 1, 'worddir': 'word/wordth0271.png', 'imgdir': 'image/True/img27.png'}, {'lang': 2, 'wordid': 56, 'truestate': 1, 'worddir': 'word/worden0561.png', 'imgdir': 'image/True/img56.png'}, {'lang': 1, 'wordid': 82, 'truestate': 0, 'worddir': 'word/wordth0821.png', 'imgdir': 'image/False/mgf82.png'}, {'lang': 1, 'wordid': 66, 'truestate': 0, 'worddir': 'word/wordth0661.png', 'imgdir': 'image/False/mgf66.png'}, {'lang': 2, 'wordid': 75, 'truestate': 0, 'worddir': 'word/worden0751.png', 'imgdir': 'image/False/mgf75.png'}, {'lang': 1, 'wordid': 31, 'truestate': 0, 'worddir': 'word/wordth0311.png', 'imgdir': 'image/False/mgf31.png'}, {'lang': 1, 'wordid': 21, 'truestate': 1, 'worddir': 'word/wordth0211.png', 'imgdir': 'image/True/img21.png'}, {'lang': 2, 'wordid': 21, 'truestate': 0, 'worddir': 'word/worden0211.png', 'imgdir': 'image/False/mgf21.png'}, {'lang': 1, 'wordid': 32, 'truestate': 1, 'worddir': 'word/wordth0321.png', 'imgdir': 'image/True/img32.png'}, {'lang': 1, 'wordid': 96, 'truestate': 0, 'worddir': 'word/wordth0961.png', 'imgdir': 'image/False/mgf96.png'}, {'lang': 1, 'wordid': 64, 'truestate': 0, 'worddir': 'word/wordth0641.png', 'imgdir': 'image/False/mgf64.png'}, {'lang': 1, 'wordid': 16, 'truestate': 1, 'worddir': 'word/wordth0161.png', 'imgdir': 'image/True/img16.png'}, {'lang': 1, 'wordid': 7, 'truestate': 1, 'worddir': 'word/wordth0071.png', 'imgdir': 'image/True/img07.png'}, {'lang': 1, 'wordid': 57, 'truestate': 0, 'worddir': 'word/wordth0571.png', 'imgdir': 'image/False/mgf57.png'}, {'lang': 1, 'wordid': 57, 'truestate': 1, 'worddir': 'word/wordth0571.png', 'imgdir': 'image/True/img57.png'}, {'lang': 1, 'wordid': 34, 'truestate': 0, 'worddir': 'word/wordth0341.png', 'imgdir': 'image/False/mgf34.png'}, {'lang': 2, 'wordid': 50, 'truestate': 1, 'worddir': 'word/worden0501.png', 'imgdir': 'image/True/img50.png'}, {'lang': 1, 'wordid': 61, 'truestate': 1, 'worddir': 'word/wordth0611.png', 'imgdir': 'image/True/img61.png'}, {'lang': 1, 'wordid': 96, 'truestate': 1, 'worddir': 'word/wordth0961.png', 'imgdir': 'image/True/img96.png'}, {'lang': 1, 'wordid': 71, 'truestate': 0, 'worddir': 'word/wordth0711.png', 'imgdir': 'image/False/mgf71.png'}, {'lang': 1, 'wordid': 97, 'truestate': 1, 'worddir': 'word/wordth0971.png', 'imgdir': 'image/True/img97.png'}, {'lang': 1, 'wordid': 88, 'truestate': 0, 'worddir': 'word/wordth0881.png', 'imgdir': 'image/False/mgf88.png'}, {'lang': 2, 'wordid': 20, 'truestate': 0, 'worddir': 'word/worden0201.png', 'imgdir': 'image/False/mgf20.png'}, {'lang': 1, 'wordid': 26, 'truestate': 1, 'worddir': 'word/wordth0261.png', 'imgdir': 'image/True/img26.png'}, {'lang': 2, 'wordid': 27, 'truestate': 1, 'worddir': 'word/worden0271.png', 'imgdir': 'image/True/img27.png'}, {'lang': 1, 'wordid': 52, 'truestate': 0, 'worddir': 'word/wordth0521.png', 'imgdir': 'image/False/mgf52.png'}, {'lang': 1, 'wordid': 24, 'truestate': 1, 'worddir': 'word/wordth0241.png', 'imgdir': 'image/True/img24.png'}, {'lang': 1, 'wordid': 31, 'truestate': 1, 'worddir': 'word/wordth0311.png', 'imgdir': 'image/True/img31.png'}, {'lang': 2, 'wordid': 98, 'truestate': 1, 'worddir': 'word/worden0981.png', 'imgdir': 'image/True/img98.png'}, {'lang': 1, 'wordid': 23, 'truestate': 0, 'worddir': 'word/wordth0231.png', 'imgdir': 'image/False/mgf23.png'}, {'lang': 2, 'wordid': 32, 'truestate': 1, 'worddir': 'word/worden0321.png', 'imgdir': 'image/True/img32.png'}, {'lang': 1, 'wordid': 31, 'truestate': 1, 'worddir': 'word/wordth0311.png', 'imgdir': 'image/True/img31.png'}, {'lang': 1, 'wordid': 9, 'truestate': 0, 'worddir': 'word/wordth0091.png', 'imgdir': 'image/False/mgf09.png'}, {'lang': 1, 'wordid': 10, 'truestate': 0, 'worddir': 'word/wordth0101.png', 'imgdir': 'image/False/mgf10.png'}, {'lang': 2, 'wordid': 82, 'truestate': 0, 'worddir': 'word/worden0821.png', 'imgdir': 'image/False/mgf82.png'}, {'lang': 1, 'wordid': 27, 'truestate': 1, 'worddir': 'word/wordth0271.png', 'imgdir': 'image/True/img27.png'}, {'lang': 2, 'wordid': 6, 'truestate': 0, 'worddir': 'word/worden0061.png', 'imgdir': 'image/False/mgf06.png'}, {'lang': 2, 'wordid': 56, 'truestate': 0, 'worddir': 'word/worden0561.png', 'imgdir': 'image/False/mgf56.png'}, {'lang': 2, 'wordid': 46, 'truestate': 1, 'worddir': 'word/worden0461.png', 'imgdir': 'image/True/img46.png'}, {'lang': 2, 'wordid': 48, 'truestate': 1, 'worddir': 'word/worden0481.png', 'imgdir': 'image/True/img48.png'}, {'lang': 1, 'wordid': 22, 'truestate': 1, 'worddir': 'word/wordth0221.png', 'imgdir': 'image/True/img22.png'}, {'lang': 2, 'wordid': 46, 'truestate': 1, 'worddir': 'word/worden0461.png', 'imgdir': 'image/True/img46.png'}, {'lang': 2, 'wordid': 88, 'truestate': 0, 'worddir': 'word/worden0881.png', 'imgdir': 'image/False/mgf88.png'}, {'lang': 2, 'wordid': 68, 'truestate': 0, 'worddir': 'word/worden0681.png', 'imgdir': 'image/False/mgf68.png'}, {'lang': 1, 'wordid': 97, 'truestate': 1, 'worddir': 'word/wordth0971.png', 'imgdir': 'image/True/img97.png'}, {'lang': 1, 'wordid': 41, 'truestate': 1, 'worddir': 'word/wordth0411.png', 'imgdir': 'image/True/img41.png'}, {'lang': 2, 'wordid': 63, 'truestate': 0, 'worddir': 'word/worden0631.png', 'imgdir': 'image/False/mgf63.png'}, {'lang': 2, 'wordid': 28, 'truestate': 1, 'worddir': 'word/worden0281.png', 'imgdir': 'image/True/img28.png'}, {'lang': 1, 'wordid': 93, 'truestate': 0, 'worddir': 'word/wordth0931.png', 'imgdir': 'image/False/mgf93.png'}, {'lang': 1, 'wordid': 88, 'truestate': 0, 'worddir': 'word/wordth0881.png', 'imgdir': 'image/False/mgf88.png'}, {'lang': 1, 'wordid': 3, 'truestate': 1, 'worddir': 'word/wordth0031.png', 'imgdir': 'image/True/img03.png'}, {'lang': 2, 'wordid': 66, 'truestate': 1, 'worddir': 'word/worden0661.png', 'imgdir': 'image/True/img66.png'}, {'lang': 2, 'wordid': 62, 'truestate': 0, 'worddir': 'word/worden0621.png', 'imgdir': 'image/False/mgf62.png'}, {'lang': 2, 'wordid': 42, 'truestate': 0, 'worddir': 'word/worden0421.png', 'imgdir': 'image/False/mgf42.png'}, {'lang': 1, 'wordid': 89, 'truestate': 0, 'worddir': 'word/wordth0891.png', 'imgdir': 'image/False/mgf89.png'}, {'lang': 2, 'wordid': 52, 'truestate': 0, 'worddir': 'word/worden0521.png', 'imgdir': 'image/False/mgf52.png'}, {'lang': 1, 'wordid': 48, 'truestate': 1, 'worddir': 'word/wordth0481.png', 'imgdir': 'image/True/img48.png'}, {'lang': 2, 'wordid': 66, 'truestate': 1, 'worddir': 'word/worden0661.png', 'imgdir': 'image/True/img66.png'}, {'lang': 1, 'wordid': 78, 'truestate': 0, 'worddir': 'word/wordth0781.png', 'imgdir': 'image/False/mgf78.png'}, {'lang': 2, 'wordid': 34, 'truestate': 1, 'worddir': 'word/worden0341.png', 'imgdir': 'image/True/img34.png'}, {'lang': 2, 'wordid': 71, 'truestate': 1, 'worddir': 'word/worden0711.png', 'imgdir': 'image/True/img71.png'}, {'lang': 1, 'wordid': 7, 'truestate': 0, 'worddir': 'word/wordth0071.png', 'imgdir': 'image/False/mgf07.png'}, {'lang': 1, 'wordid': 63, 'truestate': 0, 'worddir': 'word/wordth0631.png', 'imgdir': 'image/False/mgf63.png'}, {'lang': 2, 'wordid': 41, 'truestate': 0, 'worddir': 'word/worden0411.png', 'imgdir': 'image/False/mgf41.png'}, {'lang': 2, 'wordid': 95, 'truestate': 1, 'worddir': 'word/worden0951.png', 'imgdir': 'image/True/img95.png'}, {'lang': 1, 'wordid': 34, 'truestate': 0, 'worddir': 'word/wordth0341.png', 'imgdir': 'image/False/mgf34.png'}, {'lang': 1, 'wordid': 8, 'truestate': 1, 'worddir': 'word/wordth0081.png', 'imgdir': 'image/True/img08.png'}, {'lang': 2, 'wordid': 30, 'truestate': 1, 'worddir': 'word/worden0301.png', 'imgdir': 'image/True/img30.png'}, {'lang': 1, 'wordid': 56, 'truestate': 0, 'worddir': 'word/wordth0561.png', 'imgdir': 'image/False/mgf56.png'}, {'lang': 1, 'wordid': 62, 'truestate': 0, 'worddir': 'word/wordth0621.png', 'imgdir': 'image/False/mgf62.png'}, {'lang': 2, 'wordid': 64, 'truestate': 1, 'worddir': 'word/worden0641.png', 'imgdir': 'image/True/img64.png'}, {'lang': 1, 'wordid': 28, 'truestate': 1, 'worddir': 'word/wordth0281.png', 'imgdir': 'image/True/img28.png'}, {'lang': 1, 'wordid': 96, 'truestate': 0, 'worddir': 'word/wordth0961.png', 'imgdir': 'image/False/mgf96.png'}, {'lang': 2, 'wordid': 93, 'truestate': 0, 'worddir': 'word/worden0931.png', 'imgdir': 'image/False/mgf93.png'}, {'lang': 2, 'wordid': 76, 'truestate': 1, 'worddir': 'word/worden0761.png', 'imgdir': 'image/True/img76.png'}, {'lang': 1, 'wordid': 8, 'truestate': 1, 'worddir': 'word/wordth0081.png', 'imgdir': 'image/True/img08.png'}, {'lang': 2, 'wordid': 93, 'truestate': 0, 'worddir': 'word/worden0931.png', 'imgdir': 'image/False/mgf93.png'}, {'lang': 1, 'wordid': 44, 'truestate': 1, 'worddir': 'word/wordth0441.png', 'imgdir': 'image/True/img44.png'}, {'lang': 1, 'wordid': 95, 'truestate': 1, 'worddir': 'word/wordth0951.png', 'imgdir': 'image/True/img95.png'}, {'lang': 2, 'wordid': 30, 'truestate': 0, 'worddir': 'word/worden0301.png', 'imgdir': 'image/False/mgf30.png'}, {'lang': 2, 'wordid': 51, 'truestate': 0, 'worddir': 'word/worden0511.png', 'imgdir': 'image/False/mgf51.png'}, {'lang': 1, 'wordid': 84, 'truestate': 0, 'worddir': 'word/wordth0841.png', 'imgdir': 'image/False/mgf84.png'}, {'lang': 1, 'wordid': 94, 'truestate': 1, 'worddir': 'word/wordth0941.png', 'imgdir': 'image/True/img94.png'}, {'lang': 1, 'wordid': 84, 'truestate': 1, 'worddir': 'word/wordth0841.png', 'imgdir': 'image/True/img84.png'}, {'lang': 2, 'wordid': 28, 'truestate': 0, 'worddir': 'word/worden0281.png', 'imgdir': 'image/False/mgf28.png'}, {'lang': 1, 'wordid': 64, 'truestate': 1, 'worddir': 'word/wordth0641.png', 'imgdir': 'image/True/img64.png'}, {'lang': 1, 'wordid': 10, 'truestate': 0, 'worddir': 'word/wordth0101.png', 'imgdir': 'image/False/mgf10.png'}, {'lang': 2, 'wordid': 30, 'truestate': 0, 'worddir': 'word/worden0301.png', 'imgdir': 'image/False/mgf30.png'}, {'lang': 2, 'wordid': 71, 'truestate': 1, 'worddir': 'word/worden0711.png', 'imgdir': 'image/True/img71.png'}, {'lang': 1, 'wordid': 70, 'truestate': 0, 'worddir': 'word/wordth0701.png', 'imgdir': 'image/False/mgf70.png'}, {'lang': 2, 'wordid': 26, 'truestate': 1, 'worddir': 'word/worden0261.png', 'imgdir': 'image/True/img26.png'}, {'lang': 1, 'wordid': 60, 'truestate': 1, 'worddir': 'word/wordth0601.png', 'imgdir': 'image/True/img60.png'}, {'lang': 1, 'wordid': 50, 'truestate': 1, 'worddir': 'word/wordth0501.png', 'imgdir': 'image/True/img50.png'}, {'lang': 2, 'wordid': 70, 'truestate': 1, 'worddir': 'word/worden0701.png', 'imgdir': 'image/True/img70.png'}, {'lang': 2, 'wordid': 3, 'truestate': 0, 'worddir': 'word/worden0031.png', 'imgdir': 'image/False/mgf03.png'}, {'lang': 2, 'wordid': 20, 'truestate': 1, 'worddir': 'word/worden0201.png', 'imgdir': 'image/True/img20.png'}, {'lang': 1, 'wordid': 7, 'truestate': 1, 'worddir': 'word/wordth0071.png', 'imgdir': 'image/True/img07.png'}, {'lang': 1, 'wordid': 78, 'truestate': 0, 'worddir': 'word/wordth0781.png', 'imgdir': 'image/False/mgf78.png'}, {'lang': 2, 'wordid': 83, 'truestate': 1, 'worddir': 'word/worden0831.png', 'imgdir': 'image/True/img83.png'}, {'lang': 2, 'wordid': 95, 'truestate': 0, 'worddir': 'word/worden0951.png', 'imgdir': 'image/False/mgf95.png'}, {'lang': 1, 'wordid': 70, 'truestate': 1, 'worddir': 'word/wordth0701.png', 'imgdir': 'image/True/img70.png'}, {'lang': 2, 'wordid': 51, 'truestate': 1, 'worddir': 'word/worden0511.png', 'imgdir': 'image/True/img51.png'}, {'lang': 1, 'wordid': 24, 'truestate': 0, 'worddir': 'word/wordth0241.png', 'imgdir': 'image/False/mgf24.png'}, {'lang': 2, 'wordid': 95, 'truestate': 0, 'worddir': 'word/worden0951.png', 'imgdir': 'image/False/mgf95.png'}, {'lang': 1, 'wordid': 62, 'truestate': 1, 'worddir': 'word/wordth0621.png', 'imgdir': 'image/True/img62.png'}, {'lang': 2, 'wordid': 45, 'truestate': 0, 'worddir': 'word/worden0451.png', 'imgdir': 'image/False/mgf45.png'}, {'lang': 1, 'wordid': 3, 'truestate': 1, 'worddir': 'word/wordth0031.png', 'imgdir': 'image/True/img03.png'}, {'lang': 2, 'wordid': 87, 'truestate': 0, 'worddir': 'word/worden0871.png', 'imgdir': 'image/False/mgf87.png'}, {'lang': 1, 'wordid': 30, 'truestate': 0, 'worddir': 'word/wordth0301.png', 'imgdir': 'image/False/mgf30.png'}, {'lang': 1, 'wordid': 18, 'truestate': 0, 'worddir': 'word/wordth0181.png', 'imgdir': 'image/False/mgf18.png'}, {'lang': 1, 'wordid': 68, 'truestate': 1, 'worddir': 'word/wordth0681.png', 'imgdir': 'image/True/img68.png'}, {'lang': 2, 'wordid': 11, 'truestate': 1, 'worddir': 'word/worden0111.png', 'imgdir': 'image/True/img11.png'}, {'lang': 1, 'wordid': 93, 'truestate': 0, 'worddir': 'word/wordth0931.png', 'imgdir': 'image/False/mgf93.png'}, {'lang': 1, 'wordid': 50, 'truestate': 0, 'worddir': 'word/wordth0501.png', 'imgdir': 'image/False/mgf50.png'}, {'lang': 2, 'wordid': 21, 'truestate': 1, 'worddir': 'word/worden0211.png', 'imgdir': 'image/True/img21.png'}, {'lang': 1, 'wordid': 20, 'truestate': 0, 'worddir': 'word/wordth0201.png', 'imgdir': 'image/False/mgf20.png'}, {'lang': 2, 'wordid': 41, 'truestate': 1, 'worddir': 'word/worden0411.png', 'imgdir': 'image/True/img41.png'}, {'lang': 2, 'wordid': 11, 'truestate': 1, 'worddir': 'word/worden0111.png', 'imgdir': 'image/True/img11.png'}, {'lang': 2, 'wordid': 16, 'truestate': 0, 'worddir': 'word/worden0161.png', 'imgdir': 'image/False/mgf16.png'}, {'lang': 2, 'wordid': 9, 'truestate': 1, 'worddir': 'word/worden0091.png', 'imgdir': 'image/True/img09.png'}, {'lang': 1, 'wordid': 42, 'truestate': 0, 'worddir': 'word/wordth0421.png', 'imgdir': 'image/False/mgf42.png'}, {'lang': 1, 'wordid': 51, 'truestate': 0, 'worddir': 'word/wordth0511.png', 'imgdir': 'image/False/mgf51.png'}, {'lang': 1, 'wordid': 76, 'truestate': 1, 'worddir': 'word/wordth0761.png', 'imgdir': 'image/True/img76.png'}, {'lang': 2, 'wordid': 62, 'truestate': 1, 'worddir': 'word/worden0621.png', 'imgdir': 'image/True/img62.png'}, {'lang': 1, 'wordid': 71, 'truestate': 1, 'worddir': 'word/wordth0711.png', 'imgdir': 'image/True/img71.png'}, {'lang': 2, 'wordid': 96, 'truestate': 0, 'worddir': 'word/worden0961.png', 'imgdir': 'image/False/mgf96.png'}, {'lang': 1, 'wordid': 22, 'truestate': 1, 'worddir': 'word/wordth0221.png', 'imgdir': 'image/True/img22.png'}, {'lang': 2, 'wordid': 44, 'truestate': 0, 'worddir': 'word/worden0441.png', 'imgdir': 'image/False/mgf44.png'}, {'lang': 1, 'wordid': 51, 'truestate': 1, 'worddir': 'word/wordth0511.png', 'imgdir': 'image/True/img51.png'}, {'lang': 1, 'wordid': 95, 'truestate': 1, 'worddir': 'word/wordth0951.png', 'imgdir': 'image/True/img95.png'}, {'lang': 2, 'wordid': 46, 'truestate': 0, 'worddir': 'word/worden0461.png', 'imgdir': 'image/False/mgf46.png'}, {'lang': 1, 'wordid': 62, 'truestate': 0, 'worddir': 'word/wordth0621.png', 'imgdir': 'image/False/mgf62.png'}, {'lang': 2, 'wordid': 24, 'truestate': 0, 'worddir': 'word/worden0241.png', 'imgdir': 'image/False/mgf24.png'}, {'lang': 2, 'wordid': 68, 'truestate': 0, 'worddir': 'word/worden0681.png', 'imgdir': 'image/False/mgf68.png'}, {'lang': 1, 'wordid': 30, 'truestate': 0, 'worddir': 'word/wordth0301.png', 'imgdir': 'image/False/mgf30.png'}, {'lang': 1, 'wordid': 30, 'truestate': 1, 'worddir': 'word/wordth0301.png', 'imgdir': 'image/True/img30.png'}, {'lang': 2, 'wordid': 52, 'truestate': 1, 'worddir': 'word/worden0521.png', 'imgdir': 'image/True/img52.png'}, {'lang': 1, 'wordid': 33, 'truestate': 1, 'worddir': 'word/wordth0331.png', 'imgdir': 'image/True/img33.png'}, {'lang': 1, 'wordid': 44, 'truestate': 1, 'worddir': 'word/wordth0441.png', 'imgdir': 'image/True/img44.png'}, {'lang': 1, 'wordid': 89, 'truestate': 1, 'worddir': 'word/wordth0891.png', 'imgdir': 'image/True/img89.png'}, {'lang': 1, 'wordid': 46, 'truestate': 1, 'worddir': 'word/wordth0461.png', 'imgdir': 'image/True/img46.png'}, {'lang': 2, 'wordid': 42, 'truestate': 1, 'worddir': 'word/worden0421.png', 'imgdir': 'image/True/img42.png'}, {'lang': 2, 'wordid': 8, 'truestate': 1, 'worddir': 'word/worden0081.png', 'imgdir': 'image/True/img08.png'}, {'lang': 2, 'wordid': 83, 'truestate': 0, 'worddir': 'word/worden0831.png', 'imgdir': 'image/False/mgf83.png'}, {'lang': 1, 'wordid': 23, 'truestate': 1, 'worddir': 'word/wordth0231.png', 'imgdir': 'image/True/img23.png'}, {'lang': 2, 'wordid': 51, 'truestate': 1, 'worddir': 'word/worden0511.png', 'imgdir': 'image/True/img51.png'}, {'lang': 2, 'wordid': 31, 'truestate': 0, 'worddir': 'word/worden0311.png', 'imgdir': 'image/False/mgf31.png'}, {'lang': 1, 'wordid': 9, 'truestate': 1, 'worddir': 'word/wordth0091.png', 'imgdir': 'image/True/img09.png'}, {'lang': 2, 'wordid': 6, 'truestate': 1, 'worddir': 'word/worden0061.png', 'imgdir': 'image/True/img06.png'}, {'lang': 1, 'wordid': 6, 'truestate': 1, 'worddir': 'word/wordth0061.png', 'imgdir': 'image/True/img06.png'}, {'lang': 2, 'wordid': 93, 'truestate': 1, 'worddir': 'word/worden0931.png', 'imgdir': 'image/True/img93.png'}, {'lang': 2, 'wordid': 71, 'truestate': 0, 'worddir': 'word/worden0711.png', 'imgdir': 'image/False/mgf71.png'}, {'lang': 2, 'wordid': 58, 'truestate': 1, 'worddir': 'word/worden0581.png', 'imgdir': 'image/True/img58.png'}, {'lang': 2, 'wordid': 83, 'truestate': 0, 'worddir': 'word/worden0831.png', 'imgdir': 'image/False/mgf83.png'}, {'lang': 1, 'wordid': 83, 'truestate': 0, 'worddir': 'word/wordth0831.png', 'imgdir': 'image/False/mgf83.png'}, {'lang': 1, 'wordid': 48, 'truestate': 1, 'worddir': 'word/wordth0481.png', 'imgdir': 'image/True/img48.png'}, {'lang': 2, 'wordid': 48, 'truestate': 0, 'worddir': 'word/worden0481.png', 'imgdir': 'image/False/mgf48.png'}, {'lang': 2, 'wordid': 52, 'truestate': 1, 'worddir': 'word/worden0521.png', 'imgdir': 'image/True/img52.png'}, {'lang': 2, 'wordid': 57, 'truestate': 0, 'worddir': 'word/worden0571.png', 'imgdir': 'image/False/mgf57.png'}, {'lang': 1, 'wordid': 82, 'truestate': 0, 'worddir': 'word/wordth0821.png', 'imgdir': 'image/False/mgf82.png'}, {'lang': 2, 'wordid': 66, 'truestate': 0, 'worddir': 'word/worden0661.png', 'imgdir': 'image/False/mgf66.png'}, {'lang': 1, 'wordid': 24, 'truestate': 1, 'worddir': 'word/wordth0241.png', 'imgdir': 'image/True/img24.png'}, {'lang': 2, 'wordid': 7, 'truestate': 0, 'worddir': 'word/worden0071.png', 'imgdir': 'image/False/mgf07.png'}, {'lang': 1, 'wordid': 68, 'truestate': 0, 'worddir': 'word/wordth0681.png', 'imgdir': 'image/False/mgf68.png'}, {'lang': 2, 'wordid': 24, 'truestate': 1, 'worddir': 'word/worden0241.png', 'imgdir': 'image/True/img24.png'}, {'lang': 2, 'wordid': 33, 'truestate': 0, 'worddir': 'word/worden0331.png', 'imgdir': 'image/False/mgf33.png'}, {'lang': 2, 'wordid': 31, 'truestate': 1, 'worddir': 'word/worden0311.png', 'imgdir': 'image/True/img31.png'}, {'lang': 1, 'wordid': 68, 'truestate': 0, 'worddir': 'word/wordth0681.png', 'imgdir': 'image/False/mgf68.png'}, {'lang': 1, 'wordid': 23, 'truestate': 0, 'worddir': 'word/wordth0231.png', 'imgdir': 'image/False/mgf23.png'}, {'lang': 2, 'wordid': 16, 'truestate': 1, 'worddir': 'word/worden0161.png', 'imgdir': 'image/True/img16.png'}, {'lang': 1, 'wordid': 98, 'truestate': 0, 'worddir': 'word/wordth0981.png', 'imgdir': 'image/False/mgf98.png'}, {'lang': 1, 'wordid': 96, 'truestate': 1, 'worddir': 'word/wordth0961.png', 'imgdir': 'image/True/img96.png'}, {'lang': 2, 'wordid': 45, 'truestate': 1, 'worddir': 'word/worden0451.png', 'imgdir': 'image/True/img45.png'}, {'lang': 1, 'wordid': 18, 'truestate': 1, 'worddir': 'word/wordth0181.png', 'imgdir': 'image/True/img18.png'}, {'lang': 2, 'wordid': 9, 'truestate': 0, 'worddir': 'word/worden0091.png', 'imgdir': 'image/False/mgf09.png'}, {'lang': 2, 'wordid': 31, 'truestate': 0, 'worddir': 'word/worden0311.png', 'imgdir': 'image/False/mgf31.png'}, {'lang': 2, 'wordid': 22, 'truestate': 1, 'worddir': 'word/worden0221.png', 'imgdir': 'image/True/img22.png'}, {'lang': 1, 'wordid': 52, 'truestate': 1, 'worddir': 'word/wordth0521.png', 'imgdir': 'image/True/img52.png'}, {'lang': 1, 'wordid': 97, 'truestate': 0, 'worddir': 'word/wordth0971.png', 'imgdir': 'image/False/mgf97.png'}, {'lang': 2, 'wordid': 62, 'truestate': 1, 'worddir': 'word/worden0621.png', 'imgdir': 'image/True/img62.png'}, {'lang': 2, 'wordid': 34, 'truestate': 0, 'worddir': 'word/worden0341.png', 'imgdir': 'image/False/mgf34.png'}, {'lang': 1, 'wordid': 3, 'truestate': 0, 'worddir': 'word/wordth0031.png', 'imgdir': 'image/False/mgf03.png'}, {'lang': 1, 'wordid': 58, 'truestate': 0, 'worddir': 'word/wordth0581.png', 'imgdir': 'image/False/mgf58.png'}, {'lang': 1, 'wordid': 26, 'truestate': 0, 'worddir': 'word/wordth0261.png', 'imgdir': 'image/False/mgf26.png'}, {'lang': 2, 'wordid': 22, 'truestate': 0, 'worddir': 'word/worden0221.png', 'imgdir': 'image/False/mgf22.png'}, {'lang': 1, 'wordid': 78, 'truestate': 1, 'worddir': 'word/wordth0781.png', 'imgdir': 'image/True/img78.png'}, {'lang': 1, 'wordid': 55, 'truestate': 1, 'worddir': 'word/wordth0551.png', 'imgdir': 'image/True/img55.png'}, {'lang': 1, 'wordid': 75, 'truestate': 1, 'worddir': 'word/wordth0751.png', 'imgdir': 'image/True/img75.png'}, {'lang': 2, 'wordid': 28, 'truestate': 1, 'worddir': 'word/worden0281.png', 'imgdir': 'image/True/img28.png'}, {'lang': 2, 'wordid': 98, 'truestate': 1, 'worddir': 'word/worden0981.png', 'imgdir': 'image/True/img98.png'}, {'lang': 2, 'wordid': 89, 'truestate': 1, 'worddir': 'word/worden0891.png', 'imgdir': 'image/True/img89.png'}, {'lang': 1, 'wordid': 63, 'truestate': 1, 'worddir': 'word/wordth0631.png', 'imgdir': 'image/True/img63.png'}, {'lang': 1, 'wordid': 94, 'truestate': 0, 'worddir': 'word/wordth0941.png', 'imgdir': 'image/False/mgf94.png'}, {'lang': 2, 'wordid': 97, 'truestate': 0, 'worddir': 'word/worden0971.png', 'imgdir': 'image/False/mgf97.png'}, {'lang': 1, 'wordid': 57, 'truestate': 1, 'worddir': 'word/wordth0571.png', 'imgdir': 'image/True/img57.png'}, {'lang': 2, 'wordid': 60, 'truestate': 1, 'worddir': 'word/worden0601.png', 'imgdir': 'image/True/img60.png'}, {'lang': 2, 'wordid': 61, 'truestate': 0, 'worddir': 'word/worden0611.png', 'imgdir': 'image/False/mgf61.png'}, {'lang': 2, 'wordid': 44, 'truestate': 1, 'worddir': 'word/worden0441.png', 'imgdir': 'image/True/img44.png'}, {'lang': 2, 'wordid': 24, 'truestate': 0, 'worddir': 'word/worden0241.png', 'imgdir': 'image/False/mgf24.png'}, {'lang': 2, 'wordid': 96, 'truestate': 1, 'worddir': 'word/worden0961.png', 'imgdir': 'image/True/img96.png'}, {'lang': 1, 'wordid': 93, 'truestate': 1, 'worddir': 'word/wordth0931.png', 'imgdir': 'image/True/img93.png'}, {'lang': 2, 'wordid': 1, 'truestate': 0, 'worddir': 'word/worden0011.png', 'imgdir': 'image/False/mgf01.png'}, {'lang': 2, 'wordid': 30, 'truestate': 1, 'worddir': 'word/worden0301.png', 'imgdir': 'image/True/img30.png'}, {'lang': 1, 'wordid': 63, 'truestate': 1, 'worddir': 'word/wordth0631.png', 'imgdir': 'image/True/img63.png'}, {'lang': 2, 'wordid': 26, 'truestate': 1, 'worddir': 'word/worden0261.png', 'imgdir': 'image/True/img26.png'}, {'lang': 2, 'wordid': 83, 'truestate': 1, 'worddir': 'word/worden0831.png', 'imgdir': 'image/True/img83.png'}, {'lang': 1, 'wordid': 76, 'truestate': 1, 'worddir': 'word/wordth0761.png', 'imgdir': 'image/True/img76.png'}, {'lang': 2, 'wordid': 78, 'truestate': 1, 'worddir': 'word/worden0781.png', 'imgdir': 'image/True/img78.png'}, {'lang': 1, 'wordid': 88, 'truestate': 1, 'worddir': 'word/wordth0881.png', 'imgdir': 'image/True/img88.png'}, {'lang': 1, 'wordid': 66, 'truestate': 0, 'worddir': 'word/wordth0661.png', 'imgdir': 'image/False/mgf66.png'}, {'lang': 2, 'wordid': 23, 'truestate': 1, 'worddir': 'word/worden0231.png', 'imgdir': 'image/True/img23.png'}, {'lang': 1, 'wordid': 93, 'truestate': 1, 'worddir': 'word/wordth0931.png', 'imgdir': 'image/True/img93.png'}, {'lang': 2, 'wordid': 76, 'truestate': 0, 'worddir': 'word/worden0761.png', 'imgdir': 'image/False/mgf76.png'}, {'lang': 2, 'wordid': 71, 'truestate': 0, 'worddir': 'word/worden0711.png', 'imgdir': 'image/False/mgf71.png'}, {'lang': 1, 'wordid': 82, 'truestate': 1, 'worddir': 'word/wordth0821.png', 'imgdir': 'image/True/img82.png'}, {'lang': 2, 'wordid': 10, 'truestate': 1, 'worddir': 'word/worden0101.png', 'imgdir': 'image/True/img10.png'}, {'lang': 1, 'wordid': 87, 'truestate': 0, 'worddir': 'word/wordth0871.png', 'imgdir': 'image/False/mgf87.png'}, {'lang': 2, 'wordid': 16, 'truestate': 0, 'worddir': 'word/worden0161.png', 'imgdir': 'image/False/mgf16.png'}, {'lang': 2, 'wordid': 88, 'truestate': 1, 'worddir': 'word/worden0881.png', 'imgdir': 'image/True/img88.png'}, {'lang': 1, 'wordid': 21, 'truestate': 0, 'worddir': 'word/wordth0211.png', 'imgdir': 'image/False/mgf21.png'}, {'lang': 2, 'wordid': 23, 'truestate': 0, 'worddir': 'word/worden0231.png', 'imgdir': 'image/False/mgf23.png'}, {'lang': 1, 'wordid': 30, 'truestate': 1, 'worddir': 'word/wordth0301.png', 'imgdir': 'image/True/img30.png'}, {'lang': 2, 'wordid': 34, 'truestate': 1, 'worddir': 'word/worden0341.png', 'imgdir': 'image/True/img34.png'}, {'lang': 2, 'wordid': 94, 'truestate': 1, 'worddir': 'word/worden0941.png', 'imgdir': 'image/True/img94.png'}, {'lang': 1, 'wordid': 66, 'truestate': 1, 'worddir': 'word/wordth0661.png', 'imgdir': 'image/True/img66.png'}, {'lang': 2, 'wordid': 3, 'truestate': 0, 'worddir': 'word/worden0031.png', 'imgdir': 'image/False/mgf03.png'}, {'lang': 2, 'wordid': 6, 'truestate': 0, 'worddir': 'word/worden0061.png', 'imgdir': 'image/False/mgf06.png'}, {'lang': 2, 'wordid': 84, 'truestate': 1, 'worddir': 'word/worden0841.png', 'imgdir': 'image/True/img84.png'}, {'lang': 1, 'wordid': 58, 'truestate': 1, 'worddir': 'word/wordth0581.png', 'imgdir': 'image/True/img58.png'}, {'lang': 1, 'wordid': 61, 'truestate': 0, 'worddir': 'word/wordth0611.png', 'imgdir': 'image/False/mgf61.png'}, {'lang': 1, 'wordid': 58, 'truestate': 0, 'worddir': 'word/wordth0581.png', 'imgdir': 'image/False/mgf58.png'}, {'lang': 2, 'wordid': 1, 'truestate': 1, 'worddir': 'word/worden0011.png', 'imgdir': 'image/True/img01.png'}, {'lang': 1, 'wordid': 97, 'truestate': 0, 'worddir': 'word/wordth0971.png', 'imgdir': 'image/False/mgf97.png'}, {'lang': 2, 'wordid': 32, 'truestate': 0, 'worddir': 'word/worden0321.png', 'imgdir': 'image/False/mgf32.png'}, {'lang': 1, 'wordid': 55, 'truestate': 1, 'worddir': 'word/wordth0551.png', 'imgdir': 'image/True/img55.png'}, {'lang': 2, 'wordid': 87, 'truestate': 1, 'worddir': 'word/worden0871.png', 'imgdir': 'image/True/img87.png'}, {'lang': 2, 'wordid': 76, 'truestate': 1, 'worddir': 'word/worden0761.png', 'imgdir': 'image/True/img76.png'}, {'lang': 1, 'wordid': 3, 'truestate': 0, 'worddir': 'word/wordth0031.png', 'imgdir': 'image/False/mgf03.png'}, {'lang': 2, 'wordid': 10, 'truestate': 1, 'worddir': 'word/worden0101.png', 'imgdir': 'image/True/img10.png'}, {'lang': 2, 'wordid': 46, 'truestate': 0, 'worddir': 'word/worden0461.png', 'imgdir': 'image/False/mgf46.png'}, {'lang': 1, 'wordid': 1, 'truestate': 0, 'worddir': 'word/wordth0011.png', 'imgdir': 'image/False/mgf01.png'}, {'lang': 2, 'wordid': 27, 'truestate': 0, 'worddir': 'word/worden0271.png', 'imgdir': 'image/False/mgf27.png'}, {'lang': 2, 'wordid': 64, 'truestate': 0, 'worddir': 'word/worden0641.png', 'imgdir': 'image/False/mgf64.png'}, {'lang': 1, 'wordid': 50, 'truestate': 0, 'worddir': 'word/wordth0501.png', 'imgdir': 'image/False/mgf50.png'}, {'lang': 1, 'wordid': 58, 'truestate': 1, 'worddir': 'word/wordth0581.png', 'imgdir': 'image/True/img58.png'}, {'lang': 2, 'wordid': 55, 'truestate': 0, 'worddir': 'word/worden0551.png', 'imgdir': 'image/False/mgf55.png'}, {'lang': 1, 'wordid': 20, 'truestate': 0, 'worddir': 'word/wordth0201.png', 'imgdir': 'image/False/mgf20.png'}, {'lang': 1, 'wordid': 60, 'truestate': 0, 'worddir': 'word/wordth0601.png', 'imgdir': 'image/False/mgf60.png'}, {'lang': 1, 'wordid': 18, 'truestate': 1, 'worddir': 'word/wordth0181.png', 'imgdir': 'image/True/img18.png'}, {'lang': 1, 'wordid': 27, 'truestate': 0, 'worddir': 'word/wordth0271.png', 'imgdir': 'image/False/mgf27.png'}, {'lang': 1, 'wordid': 18, 'truestate': 0, 'worddir': 'word/wordth0181.png', 'imgdir': 'image/False/mgf18.png'}, {'lang': 1, 'wordid': 87, 'truestate': 1, 'worddir': 'word/wordth0871.png', 'imgdir': 'image/True/img87.png'}, {'lang': 1, 'wordid': 51, 'truestate': 0, 'worddir': 'word/wordth0511.png', 'imgdir': 'image/False/mgf51.png'}, {'lang': 1, 'wordid': 62, 'truestate': 1, 'worddir': 'word/wordth0621.png', 'imgdir': 'image/True/img62.png'}, {'lang': 1, 'wordid': 56, 'truestate': 0, 'worddir': 'word/wordth0561.png', 'imgdir': 'image/False/mgf56.png'}, {'lang': 2, 'wordid': 33, 'truestate': 1, 'worddir': 'word/worden0331.png', 'imgdir': 'image/True/img33.png'}, {'lang': 1, 'wordid': 52, 'truestate': 0, 'worddir': 'word/wordth0521.png', 'imgdir': 'image/False/mgf52.png'}, {'lang': 1, 'wordid': 45, 'truestate': 1, 'worddir': 'word/wordth0451.png', 'imgdir': 'image/True/img45.png'}, {'lang': 2, 'wordid': 1, 'truestate': 0, 'worddir': 'word/worden0011.png', 'imgdir': 'image/False/mgf01.png'}, {'lang': 2, 'wordid': 7, 'truestate': 1, 'worddir': 'word/worden0071.png', 'imgdir': 'image/True/img07.png'}, {'lang': 2, 'wordid': 10, 'truestate': 0, 'worddir': 'word/worden0101.png', 'imgdir': 'image/False/mgf10.png'}, {'lang': 2, 'wordid': 58, 'truestate': 0, 'worddir': 'word/worden0581.png', 'imgdir': 'image/False/mgf58.png'}, {'lang': 1, 'wordid': 61, 'truestate': 0, 'worddir': 'word/wordth0611.png', 'imgdir': 'image/False/mgf61.png'}, {'lang': 1, 'wordid': 84, 'truestate': 0, 'worddir': 'word/wordth0841.png', 'imgdir': 'image/False/mgf84.png'}, {'lang': 1, 'wordid': 98, 'truestate': 0, 'worddir': 'word/wordth0981.png', 'imgdir': 'image/False/mgf98.png'}, {'lang': 2, 'wordid': 9, 'truestate': 0, 'worddir': 'word/worden0091.png', 'imgdir': 'image/False/mgf09.png'}, {'lang': 1, 'wordid': 52, 'truestate': 1, 'worddir': 'word/wordth0521.png', 'imgdir': 'image/True/img52.png'}, {'lang': 1, 'wordid': 10, 'truestate': 1, 'worddir': 'word/wordth0101.png', 'imgdir': 'image/True/img10.png'}, {'lang': 2, 'wordid': 75, 'truestate': 0, 'worddir': 'word/worden0751.png', 'imgdir': 'image/False/mgf75.png'}, {'lang': 2, 'wordid': 61, 'truestate': 0, 'worddir': 'word/worden0611.png', 'imgdir': 'image/False/mgf61.png'}, {'lang': 1, 'wordid': 28, 'truestate': 0, 'worddir': 'word/wordth0281.png', 'imgdir': 'image/False/mgf28.png'}, {'lang': 2, 'wordid': 42, 'truestate': 1, 'worddir': 'word/worden0421.png', 'imgdir': 'image/True/img42.png'}, {'lang': 2, 'wordid': 87, 'truestate': 0, 'worddir': 'word/worden0871.png', 'imgdir': 'image/False/mgf87.png'}, {'lang': 2, 'wordid': 32, 'truestate': 0, 'worddir': 'word/worden0321.png', 'imgdir': 'image/False/mgf32.png'}, {'lang': 2, 'wordid': 32, 'truestate': 1, 'worddir': 'word/worden0321.png', 'imgdir': 'image/True/img32.png'}, {'lang': 2, 'wordid': 23, 'truestate': 1, 'worddir': 'word/worden0231.png', 'imgdir': 'image/True/img23.png'}, {'lang': 1, 'wordid': 41, 'truestate': 1, 'worddir': 'word/wordth0411.png', 'imgdir': 'image/True/img41.png'}, {'lang': 2, 'wordid': 7, 'truestate': 1, 'worddir': 'word/worden0071.png', 'imgdir': 'image/True/img07.png'}, {'lang': 2, 'wordid': 94, 'truestate': 0, 'worddir': 'word/worden0941.png', 'imgdir': 'image/False/mgf94.png'}, {'lang': 2, 'wordid': 3, 'truestate': 1, 'worddir': 'word/worden0031.png', 'imgdir': 'image/True/img03.png'}, {'lang': 2, 'wordid': 8, 'truestate': 0, 'worddir': 'word/worden0081.png', 'imgdir': 'image/False/mgf08.png'}, {'lang': 2, 'wordid': 11, 'truestate': 0, 'worddir': 'word/worden0111.png', 'imgdir': 'image/False/mgf11.png'}, {'lang': 2, 'wordid': 7, 'truestate': 0, 'worddir': 'word/worden0071.png', 'imgdir': 'image/False/mgf07.png'}]" valType="str"/>
+      <Param name="conditionsFile" updates="None" val="fullwordorder.xlsx" valType="file"/>
+      <Param name="endPoints" updates="None" val="[0, 1]" valType="num"/>
+      <Param name="isTrials" updates="None" val="True" valType="bool"/>
+      <Param name="loopType" updates="None" val="sequential" valType="str"/>
+      <Param name="nReps" updates="None" val="1" valType="num"/>
+      <Param name="name" updates="None" val="trials" valType="code"/>
+      <Param name="random seed" updates="None" val="" valType="code"/>
+    </LoopInitiator>
+    <Routine name="blank1sec"/>
+    <Routine name="wordshow"/>
+    <Routine name="blank1sec"/>
+    <Routine name="letterselect"/>
+    <LoopTerminator name="trials"/>
+    <Routine name="ending"/>
+  </Flow>
+</PsychoPy2experiment>

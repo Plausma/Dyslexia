@@ -1,0 +1,400 @@
+3.9082 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Italic.ttf
+3.9429 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Bold.ttf
+3.9703 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Bold.ttf
+3.9782 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù.ttf
+3.9963 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù BoldItalic.ttf
+4.0007 	WARNING 	Font Manager failed to load file C:\WINDOWS\Fonts\mstmc.ttf
+4.0019 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù.ttf
+4.0042 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-ITù Bold Italic.ttf
+4.0521 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Italic.ttf
+4.2775 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Italic.ttf
+4.3119 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Bold.ttf
+4.3395 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Bold.ttf
+4.3472 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù.ttf
+4.3653 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù BoldItalic.ttf
+4.3697 	WARNING 	Font Manager failed to load file C:\WINDOWS\Fonts\mstmc.ttf
+4.3709 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù.ttf
+4.3732 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-ITù Bold Italic.ttf
+4.4208 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Italic.ttf
+5.7045 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+5.7052 	INFO 	Loaded monitor calibration from ['2024_04_17 11:01']
+5.9297 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000013E342737F0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000013E34273790>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x0000013E342735E0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x0000013E345A48E0>, multiSample=False, name='window1', numSamples=2, pos=[192.0, 108.0], screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.9298 	EXP 	window1: mouseVisible = True
+5.9298 	EXP 	window1: backgroundImage = ''
+5.9298 	EXP 	window1: backgroundFit = 'contain'
+5.9300 	EXP 	window1: mouseVisible = True
+5.9303 	EXP 	window1: mouseVisible = True
+5.9323 	EXP 	window1: mouseVisible = True
+5.9328 	EXP 	window1: mouseVisible = True
+5.9413 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9439 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9460 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9490 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9507 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9528 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9550 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9570 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9590 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9599 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9611 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9634 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9663 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9680 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9696 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9711 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9721 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9739 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9757 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9769 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9789 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9792 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.9813 	DEBUG 	Upload of Texture Font fontname complete
+5.9835 	EXP 	window1: mouseVisible = True
+5.9837 	EXP 	window1: mouseVisible = True
+5.9847 	EXP 	window1: mouseVisible = True
+5.9855 	EXP 	window1: mouseVisible = True
+5.9896 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9907 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9909 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.9919 	DEBUG 	Upload of Texture Font fontname complete
+5.9941 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.9941 	EXP 	window1: recordFrameIntervals = False
+6.0951 	EXP 	window1: recordFrameIntervals = True
+6.1715 	EXP 	Screen (0) actual frame rate measured at 144.09Hz
+6.1715 	EXP 	window1: recordFrameIntervals = False
+6.1717 	EXP 	window1: mouseVisible = False
+6.1723 	EXP 	window1: mouseVisible = True
+6.1724 	EXP 	window1: mouseVisible = True
+6.1731 	EXP 	window1: mouseVisible = True
+6.1735 	EXP 	window1: mouseVisible = True
+6.1774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1785 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1801 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1831 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1850 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1870 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1898 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1917 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1935 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1956 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1966 	DEBUG 	Upload of Texture Font fontname complete
+6.1982 	EXP 	window1: mouseVisible = True
+6.1983 	EXP 	window1: mouseVisible = True
+6.1988 	EXP 	window1: mouseVisible = True
+6.1993 	EXP 	window1: mouseVisible = True
+6.2280 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+8.2034 	INFO 	keyboard.Keyboard is using iohub backend.
+8.2035 	INFO 	keyboard.Keyboard is using iohub backend.
+8.2035 	INFO 	keyboard.Keyboard is using iohub backend.
+8.2035 	INFO 	keyboard.Keyboard is using iohub backend.
+8.2035 	EXP 	MainFlow: status = STARTED
+8.2037 	EXP 	window1: mouseVisible = True
+8.3192 	EXP 	Created text_norm = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_norm', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+8.3193 	EXP 	window1: mouseVisible = True
+8.3232 	EXP 	Created imageword = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='imageword', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5625, 1.    ]), texRes=128.0, units='norm', win=Window(...))
+8.3233 	EXP 	window1: mouseVisible = True
+8.3246 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0.5]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+8.3247 	EXP 	window1: mouseVisible = True
+8.3332 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+0.0047 	EXP 	text_norm: alignText = 'center'
+0.0259 	INFO 	Keyboard events cleared
+0.0256 	EXP 	text_norm: autoDraw = True
+0.0256 	EXP 	text_norm: height = 0.08
+0.0256 	EXP 	text_norm: height = 0.08
+0.0256 	EXP 	text_norm: height = 0.08
+0.0256 	EXP 	text_norm: text = "*For the observer\n\nIn this experiment, a word will be shown and subject have to choose whether this word is a real word or not\npress 'z' if it's a real word, press 'x' if it's not a real word\n\npress spacebar to start a trial\n"
+1.0773 	DEBUG 	Read excel file with openpyxl: wordorder.xlsx
+1.0868 	EXP 	Imported wordorder.xlsx as conditions, 240 conditions, 4 params
+1.0887 	EXP 	Created sequence: sequential, trialTypes=240, nReps=1, seed=None
+1.0888 	EXP 	New trial (rep=0, index=0): {'lang': 1, 'stimuli': 3, 'imageid': 48, 'worddir': 'word/wordth0483.png'}
+1.1056 	DATA 	Keypress: space
+1.1090 	EXP 	text_norm: autoDraw = False
+1.1090 	EXP 	imageword: image = 'word/wordth0483.png'
+1.1090 	EXP 	text_2: height = 0.08
+1.1090 	EXP 	text_2: height = 0.08
+1.1090 	EXP 	text_2: height = 0.08
+1.1090 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+2.0618 	INFO 	Keyboard events cleared
+2.0616 	EXP 	imageword: autoDraw = True
+2.0616 	EXP 	text_2: autoDraw = True
+3.5016 	EXP 	New trial (rep=0, index=1): {'lang': 1, 'stimuli': 1, 'imageid': 42, 'worddir': 'word/wordth0421.png'}
+3.5102 	DATA 	Keypress: z
+3.5197 	EXP 	imageword: autoDraw = False
+3.5197 	EXP 	text_2: autoDraw = False
+3.5197 	EXP 	imageword: image = 'word/wordth0421.png'
+3.5197 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+4.4918 	INFO 	Keyboard events cleared
+4.4916 	EXP 	imageword: autoDraw = True
+4.4916 	EXP 	text_2: autoDraw = True
+5.5223 	EXP 	New trial (rep=0, index=2): {'lang': 1, 'stimuli': 3, 'imageid': 22, 'worddir': 'word/wordth0223.png'}
+5.5309 	DATA 	Keypress: x
+5.5399 	EXP 	imageword: autoDraw = False
+5.5399 	EXP 	text_2: autoDraw = False
+5.5399 	EXP 	imageword: image = 'word/wordth0223.png'
+5.5399 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+6.5127 	INFO 	Keyboard events cleared
+6.5125 	EXP 	imageword: autoDraw = True
+6.5125 	EXP 	text_2: autoDraw = True
+7.8966 	EXP 	New trial (rep=0, index=3): {'lang': 2, 'stimuli': 2, 'imageid': 42, 'worddir': 'word/worden0422.png'}
+7.9065 	DATA 	Keypress: x
+7.9158 	EXP 	imageword: autoDraw = False
+7.9158 	EXP 	text_2: autoDraw = False
+7.9158 	EXP 	imageword: image = 'word/worden0422.png'
+7.9158 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+8.8885 	INFO 	Keyboard events cleared
+8.8882 	EXP 	imageword: autoDraw = True
+8.8882 	EXP 	text_2: autoDraw = True
+9.8834 	EXP 	New trial (rep=0, index=4): {'lang': 1, 'stimuli': 2, 'imageid': 95, 'worddir': 'word/wordth0952.png'}
+9.8916 	DATA 	Keypress: x
+9.9010 	EXP 	imageword: autoDraw = False
+9.9010 	EXP 	text_2: autoDraw = False
+9.9010 	EXP 	imageword: image = 'word/wordth0952.png'
+9.9010 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+10.8738 	INFO 	Keyboard events cleared
+10.8736 	EXP 	imageword: autoDraw = True
+10.8736 	EXP 	text_2: autoDraw = True
+12.2442 	EXP 	New trial (rep=0, index=5): {'lang': 1, 'stimuli': 3, 'imageid': 71, 'worddir': 'word/wordth0713.png'}
+12.2530 	DATA 	Keypress: z
+12.2627 	EXP 	imageword: autoDraw = False
+12.2627 	EXP 	text_2: autoDraw = False
+12.2627 	EXP 	imageword: image = 'word/wordth0713.png'
+12.2627 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+13.2418 	INFO 	Keyboard events cleared
+13.2415 	EXP 	imageword: autoDraw = True
+13.2415 	EXP 	text_2: autoDraw = True
+13.9733 	EXP 	New trial (rep=0, index=6): {'lang': 2, 'stimuli': 2, 'imageid': 6, 'worddir': 'word/worden0062.png'}
+13.9835 	DATA 	Keypress: x
+13.9918 	EXP 	imageword: autoDraw = False
+13.9918 	EXP 	text_2: autoDraw = False
+13.9918 	EXP 	imageword: image = 'word/worden0062.png'
+13.9918 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+14.9639 	INFO 	Keyboard events cleared
+14.9637 	EXP 	imageword: autoDraw = True
+14.9637 	EXP 	text_2: autoDraw = True
+15.5984 	EXP 	New trial (rep=0, index=7): {'lang': 2, 'stimuli': 3, 'imageid': 82, 'worddir': 'word/worden0823.png'}
+15.6088 	DATA 	Keypress: x
+15.6168 	EXP 	imageword: autoDraw = False
+15.6168 	EXP 	text_2: autoDraw = False
+15.6168 	EXP 	imageword: image = 'word/worden0823.png'
+15.6168 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+16.5890 	INFO 	Keyboard events cleared
+16.5888 	EXP 	imageword: autoDraw = True
+16.5888 	EXP 	text_2: autoDraw = True
+17.1681 	EXP 	New trial (rep=0, index=8): {'lang': 1, 'stimuli': 2, 'imageid': 88, 'worddir': 'word/wordth0882.png'}
+17.1767 	DATA 	Keypress: x
+17.1859 	EXP 	imageword: autoDraw = False
+17.1859 	EXP 	text_2: autoDraw = False
+17.1859 	EXP 	imageword: image = 'word/wordth0882.png'
+17.1859 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+18.1589 	INFO 	Keyboard events cleared
+18.1587 	EXP 	imageword: autoDraw = True
+18.1587 	EXP 	text_2: autoDraw = True
+18.5843 	EXP 	New trial (rep=0, index=9): {'lang': 1, 'stimuli': 1, 'imageid': 6, 'worddir': 'word/wordth0061.png'}
+18.5934 	DATA 	Keypress: x
+18.6026 	EXP 	imageword: autoDraw = False
+18.6026 	EXP 	text_2: autoDraw = False
+18.6026 	EXP 	imageword: image = 'word/wordth0061.png'
+18.6026 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+19.5748 	INFO 	Keyboard events cleared
+19.5746 	EXP 	imageword: autoDraw = True
+19.5746 	EXP 	text_2: autoDraw = True
+20.1334 	EXP 	New trial (rep=0, index=10): {'lang': 2, 'stimuli': 1, 'imageid': 64, 'worddir': 'word/worden0641.png'}
+20.1420 	DATA 	Keypress: z
+20.1514 	EXP 	imageword: autoDraw = False
+20.1514 	EXP 	text_2: autoDraw = False
+20.1514 	EXP 	imageword: image = 'word/worden0641.png'
+20.1514 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+21.1236 	INFO 	Keyboard events cleared
+21.1233 	EXP 	imageword: autoDraw = True
+21.1233 	EXP 	text_2: autoDraw = True
+21.8416 	EXP 	New trial (rep=0, index=11): {'lang': 1, 'stimuli': 1, 'imageid': 11, 'worddir': 'word/wordth0111.png'}
+21.8507 	DATA 	Keypress: z
+21.8597 	EXP 	imageword: autoDraw = False
+21.8597 	EXP 	text_2: autoDraw = False
+21.8597 	EXP 	imageword: image = 'word/wordth0111.png'
+21.8597 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+22.8319 	INFO 	Keyboard events cleared
+22.8317 	EXP 	imageword: autoDraw = True
+22.8317 	EXP 	text_2: autoDraw = True
+23.3689 	EXP 	New trial (rep=0, index=12): {'lang': 2, 'stimuli': 3, 'imageid': 96, 'worddir': 'word/worden0963.png'}
+23.3781 	DATA 	Keypress: z
+23.3877 	EXP 	imageword: autoDraw = False
+23.3877 	EXP 	text_2: autoDraw = False
+23.3877 	EXP 	imageword: image = 'word/worden0963.png'
+23.3877 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+24.3601 	INFO 	Keyboard events cleared
+24.3598 	EXP 	imageword: autoDraw = True
+24.3598 	EXP 	text_2: autoDraw = True
+25.1118 	EXP 	New trial (rep=0, index=13): {'lang': 2, 'stimuli': 1, 'imageid': 66, 'worddir': 'word/worden0661.png'}
+25.1222 	DATA 	Keypress: x
+25.1302 	EXP 	imageword: autoDraw = False
+25.1302 	EXP 	text_2: autoDraw = False
+25.1302 	EXP 	imageword: image = 'word/worden0661.png'
+25.1302 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+26.1021 	INFO 	Keyboard events cleared
+26.1019 	EXP 	imageword: autoDraw = True
+26.1019 	EXP 	text_2: autoDraw = True
+26.6817 	EXP 	New trial (rep=0, index=14): {'lang': 2, 'stimuli': 3, 'imageid': 9, 'worddir': 'word/worden0093.png'}
+26.6900 	DATA 	Keypress: z
+26.7000 	EXP 	imageword: autoDraw = False
+26.7000 	EXP 	text_2: autoDraw = False
+26.7000 	EXP 	imageword: image = 'word/worden0093.png'
+26.7000 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+27.6721 	INFO 	Keyboard events cleared
+27.6719 	EXP 	imageword: autoDraw = True
+27.6719 	EXP 	text_2: autoDraw = True
+28.4252 	EXP 	New trial (rep=0, index=15): {'lang': 2, 'stimuli': 1, 'imageid': 44, 'worddir': 'word/worden0441.png'}
+28.4343 	DATA 	Keypress: x
+28.4431 	EXP 	imageword: autoDraw = False
+28.4431 	EXP 	text_2: autoDraw = False
+28.4431 	EXP 	imageword: image = 'word/worden0441.png'
+28.4431 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+29.4146 	INFO 	Keyboard events cleared
+29.4144 	EXP 	imageword: autoDraw = True
+29.4144 	EXP 	text_2: autoDraw = True
+30.0635 	EXP 	New trial (rep=0, index=16): {'lang': 1, 'stimuli': 1, 'imageid': 8, 'worddir': 'word/wordth0081.png'}
+30.0723 	DATA 	Keypress: z
+30.0815 	EXP 	imageword: autoDraw = False
+30.0815 	EXP 	text_2: autoDraw = False
+30.0815 	EXP 	imageword: image = 'word/wordth0081.png'
+30.0815 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+31.0629 	INFO 	Keyboard events cleared
+31.0626 	EXP 	imageword: autoDraw = True
+31.0626 	EXP 	text_2: autoDraw = True
+31.8070 	EXP 	New trial (rep=0, index=17): {'lang': 2, 'stimuli': 3, 'imageid': 75, 'worddir': 'word/worden0753.png'}
+31.8169 	DATA 	Keypress: z
+31.8248 	EXP 	imageword: autoDraw = False
+31.8248 	EXP 	text_2: autoDraw = False
+31.8248 	EXP 	imageword: image = 'word/worden0753.png'
+31.8248 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+32.7970 	INFO 	Keyboard events cleared
+32.7968 	EXP 	imageword: autoDraw = True
+32.7968 	EXP 	text_2: autoDraw = True
+34.3482 	EXP 	New trial (rep=0, index=18): {'lang': 1, 'stimuli': 1, 'imageid': 27, 'worddir': 'word/wordth0271.png'}
+34.3581 	DATA 	Keypress: z
+34.3679 	EXP 	imageword: autoDraw = False
+34.3679 	EXP 	text_2: autoDraw = False
+34.3679 	EXP 	imageword: image = 'word/wordth0271.png'
+34.3679 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+35.3386 	INFO 	Keyboard events cleared
+35.3383 	EXP 	imageword: autoDraw = True
+35.3383 	EXP 	text_2: autoDraw = True
+36.3414 	EXP 	New trial (rep=0, index=19): {'lang': 1, 'stimuli': 2, 'imageid': 23, 'worddir': 'word/wordth0232.png'}
+36.3503 	DATA 	Keypress: z
+36.3593 	EXP 	imageword: autoDraw = False
+36.3593 	EXP 	text_2: autoDraw = False
+36.3593 	EXP 	imageword: image = 'word/wordth0232.png'
+36.3593 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+37.3385 	INFO 	Keyboard events cleared
+37.3383 	EXP 	imageword: autoDraw = True
+37.3383 	EXP 	text_2: autoDraw = True
+38.0979 	EXP 	New trial (rep=0, index=20): {'lang': 1, 'stimuli': 1, 'imageid': 93, 'worddir': 'word/wordth0931.png'}
+38.1081 	DATA 	Keypress: x
+38.1160 	EXP 	imageword: autoDraw = False
+38.1160 	EXP 	text_2: autoDraw = False
+38.1160 	EXP 	imageword: image = 'word/wordth0931.png'
+38.1160 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+39.0882 	INFO 	Keyboard events cleared
+39.0879 	EXP 	imageword: autoDraw = True
+39.0879 	EXP 	text_2: autoDraw = True
+39.7710 	EXP 	New trial (rep=0, index=21): {'lang': 2, 'stimuli': 1, 'imageid': 96, 'worddir': 'word/worden0961.png'}
+39.7805 	DATA 	Keypress: z
+39.7898 	EXP 	imageword: autoDraw = False
+39.7898 	EXP 	text_2: autoDraw = False
+39.7898 	EXP 	imageword: image = 'word/worden0961.png'
+39.7898 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+40.7622 	INFO 	Keyboard events cleared
+40.7620 	EXP 	imageword: autoDraw = True
+40.7620 	EXP 	text_2: autoDraw = True
+41.3338 	EXP 	New trial (rep=0, index=22): {'lang': 2, 'stimuli': 1, 'imageid': 23, 'worddir': 'word/worden0231.png'}
+41.3428 	DATA 	Keypress: z
+41.3523 	EXP 	imageword: autoDraw = False
+41.3523 	EXP 	text_2: autoDraw = False
+41.3523 	EXP 	imageword: image = 'word/worden0231.png'
+41.3523 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+42.3243 	INFO 	Keyboard events cleared
+42.3241 	EXP 	imageword: autoDraw = True
+42.3241 	EXP 	text_2: autoDraw = True
+42.9037 	EXP 	New trial (rep=0, index=23): {'lang': 2, 'stimuli': 1, 'imageid': 11, 'worddir': 'word/worden0111.png'}
+42.9134 	DATA 	Keypress: z
+42.9220 	EXP 	imageword: autoDraw = False
+42.9220 	EXP 	text_2: autoDraw = False
+42.9220 	EXP 	imageword: image = 'word/worden0111.png'
+42.9220 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+43.8933 	INFO 	Keyboard events cleared
+43.8931 	EXP 	imageword: autoDraw = True
+43.8931 	EXP 	text_2: autoDraw = True
+44.5421 	EXP 	New trial (rep=0, index=24): {'lang': 2, 'stimuli': 2, 'imageid': 9, 'worddir': 'word/worden0092.png'}
+44.5502 	DATA 	Keypress: z
+44.5603 	EXP 	imageword: autoDraw = False
+44.5603 	EXP 	text_2: autoDraw = False
+44.5603 	EXP 	imageword: image = 'word/worden0092.png'
+44.5603 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+45.5325 	INFO 	Keyboard events cleared
+45.5322 	EXP 	imageword: autoDraw = True
+45.5322 	EXP 	text_2: autoDraw = True
+46.1123 	DATA 	Keypress: x
+46.1260 	EXP 	New trial (rep=0, index=25): {'lang': 1, 'stimuli': 1, 'imageid': 26, 'worddir': 'word/wordth0261.png'}
+46.1440 	EXP 	imageword: autoDraw = False
+46.1440 	EXP 	text_2: autoDraw = False
+46.1440 	EXP 	imageword: image = 'word/wordth0261.png'
+46.1440 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+47.1161 	INFO 	Keyboard events cleared
+47.1159 	EXP 	imageword: autoDraw = True
+47.1159 	EXP 	text_2: autoDraw = True
+47.5908 	EXP 	New trial (rep=0, index=26): {'lang': 1, 'stimuli': 2, 'imageid': 24, 'worddir': 'word/wordth0242.png'}
+47.5996 	DATA 	Keypress: z
+47.6083 	EXP 	imageword: autoDraw = False
+47.6083 	EXP 	text_2: autoDraw = False
+47.6083 	EXP 	imageword: image = 'word/wordth0242.png'
+47.6083 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+48.5812 	INFO 	Keyboard events cleared
+48.5809 	EXP 	imageword: autoDraw = True
+48.5809 	EXP 	text_2: autoDraw = True
+49.1392 	EXP 	New trial (rep=0, index=27): {'lang': 2, 'stimuli': 3, 'imageid': 6, 'worddir': 'word/worden0063.png'}
+49.1479 	DATA 	Keypress: x
+49.1572 	EXP 	imageword: autoDraw = False
+49.1572 	EXP 	text_2: autoDraw = False
+49.1572 	EXP 	imageword: image = 'word/worden0063.png'
+49.1572 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+50.1300 	INFO 	Keyboard events cleared
+50.1297 	EXP 	imageword: autoDraw = True
+50.1297 	EXP 	text_2: autoDraw = True
+50.8192 	EXP 	New trial (rep=0, index=28): {'lang': 2, 'stimuli': 3, 'imageid': 95, 'worddir': 'word/worden0953.png'}
+50.8277 	DATA 	Keypress: z
+50.8382 	EXP 	imageword: autoDraw = False
+50.8382 	EXP 	text_2: autoDraw = False
+50.8382 	EXP 	imageword: image = 'word/worden0953.png'
+50.8382 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+51.8103 	INFO 	Keyboard events cleared
+51.8100 	EXP 	imageword: autoDraw = True
+51.8100 	EXP 	text_2: autoDraw = True
+52.6673 	EXP 	New trial (rep=0, index=29): {'lang': 2, 'stimuli': 1, 'imageid': 1, 'worddir': 'word/worden0011.png'}
+52.6756 	DATA 	Keypress: x
+52.6855 	EXP 	imageword: autoDraw = False
+52.6855 	EXP 	text_2: autoDraw = False
+52.6855 	EXP 	imageword: image = 'word/worden0011.png'
+52.6855 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+53.6579 	INFO 	Keyboard events cleared
+53.6576 	EXP 	imageword: autoDraw = True
+53.6576 	EXP 	text_2: autoDraw = True
+54.1673 	EXP 	New trial (rep=0, index=30): {'lang': 1, 'stimuli': 2, 'imageid': 9, 'worddir': 'word/wordth0092.png'}
+54.1761 	DATA 	Keypress: z
+54.1855 	EXP 	imageword: autoDraw = False
+54.1855 	EXP 	text_2: autoDraw = False
+54.1855 	EXP 	imageword: image = 'word/wordth0092.png'
+54.1855 	EXP 	text_2: text = 'Is this a real word?\n\npress `z` if yes, `x` if no'
+55.1576 	INFO 	Keyboard events cleared
+55.1574 	EXP 	imageword: autoDraw = True
+55.1574 	EXP 	text_2: autoDraw = True
+55.2443 	DATA 	Keypress: escape
+55.3334 	EXP 	MainFlow: status = STOPPED
+55.3376 	EXP 	imageword: autoDraw = False
+55.3376 	EXP 	text_2: autoDraw = False
+55.3394 	EXP 	MainFlow: status = STOPPED
+55.3472 	INFO 	saved data to 'C:\\Users\\PH\\Documents\\GitHub\\Dyslexia\\isitword test\\data/851727_MainFlow_2025-02-25_11h24.16.255.csv'
+55.3483 	INFO 	saved data to C:\Users\PH\Documents\GitHub\Dyslexia\isitword test\data/851727_MainFlow_2025-02-25_11h24.16.255.psydat
+55.3792 	EXP 	window1: mouseVisible = True
+55.9176 	DEBUG 	Saving data for MainFlow ExperimentHandler
