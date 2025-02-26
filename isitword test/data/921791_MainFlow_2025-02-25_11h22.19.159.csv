@@ -1,4 +1,0 @@
-﻿lang,stimuli,imageid,worddir,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,thisRow.t,notes,tutorial.started,tutorial.stopped,key_instruct.keys,key_instruct.rt,key_instruct.duration,letterselect.started,key_resp.started,letterselect.stopped,key_resp.keys,key_resp.rt,key_resp.duration,participant,session,date,expName,psychopyVersion,frameRate,expStart,
-,,,,,,,,,,0.007952100015245378,0.3305770999286324,space,0.3240578999975696,None,,,,,,,921791,001,2025-02-25_11h22.19.159,MainFlow,2024.1.1,None,2025-02-25 11h22.23.038834 +0700,
-1,3,48,word/wordth0483.png,0,0,0,0,0.38099819992203265,,,,,,,0.3543476000195369,1.3332376999314874,5.530175399966538,z,5.52432399999816,None,921791,001,2025-02-25_11h22.19.159,MainFlow,2024.1.1,None,2025-02-25 11h22.23.038834 +0700,
-,,,,,,,,5.548196299932897,,,,,,,5.531819199910387,6.527120799990371,,,,,,,,,,,,
