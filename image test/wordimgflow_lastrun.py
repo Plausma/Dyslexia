@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.1),
-    on February 26, 2025, at 14:23
+    on February 26, 2025, at 16:24
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -565,7 +565,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
     # set up handler to look after randomisation of conditions etc
     trials = data.TrialHandler(nReps=1.0, method='sequential', 
         extraInfo=expInfo, originPath=-1,
-        trialList=data.importConditions('fullwordorder.xlsx'),
+        trialList=data.importConditions('thimgorder.xlsx'),
         seed=None, name='trials')
     thisExp.addLoop(trials)  # add the loop to the experiment
     thisTrial = trials.trialList[0]  # so we can initialise stimuli with some values
@@ -672,7 +672,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         
         # --- Run Routine "wordshow" ---
         routineForceEnded = not continueRoutine
-        while continueRoutine and routineTimer.getTime() < 1.0:
+        while continueRoutine and routineTimer.getTime() < 0.5:
             # get current time
             t = routineTimer.getTime()
             tThisFlip = win.getFutureFlipTime(clock=routineTimer)
@@ -703,7 +703,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
             # if image is stopping this frame...
             if image.status == STARTED:
                 # is it time to stop? (based on global clock, using actual start)
-                if tThisFlipGlobal > image.tStartRefresh + 1.0-frameTolerance:
+                if tThisFlipGlobal > image.tStartRefresh + .5-frameTolerance:
                     # keep track of stop time/frame for later
                     image.tStop = t  # not accounting for scr refresh
                     image.tStopRefresh = tThisFlipGlobal  # on global time
@@ -744,7 +744,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         if routineForceEnded:
             routineTimer.reset()
         else:
-            routineTimer.addTime(-1.000000)
+            routineTimer.addTime(-0.500000)
         
         # --- Prepare to start Routine "blank1sec" ---
         continueRoutine = True
@@ -810,7 +810,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         # --- Prepare to start Routine "letterselect" ---
         continueRoutine = True
         # update component parameters for each repeat
-        thisExp.addData('letterselect.started', globalClock.getTime(format='float'))
         imageword.setImage(imgdir)
         text_2.setText('image == word? press `z` if yes, `x` if no')
         key_resp.keys = []
@@ -849,6 +848,8 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 imageword.tStart = t  # local t and not account for scr refresh
                 imageword.tStartRefresh = tThisFlipGlobal  # on global time
                 win.timeOnFlip(imageword, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'imageword.started')
                 # update status
                 imageword.status = STARTED
                 imageword.setAutoDraw(True)
@@ -929,7 +930,6 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         for thisComponent in letterselectComponents:
             if hasattr(thisComponent, "setAutoDraw"):
                 thisComponent.setAutoDraw(False)
-        thisExp.addData('letterselect.stopped', globalClock.getTime(format='float'))
         # check responses
         if key_resp.keys in ['', [], None]:  # No response was made
             key_resp.keys = None

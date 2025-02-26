@@ -1,0 +1,295 @@
+5.4528 	WARNING 	Font Manager failed to load file C:\WINDOWS\Fonts\mstmc.ttf
+5.4533 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù.ttf
+5.5503 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Italic.ttf
+5.5801 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-ITù Bold Italic.ttf
+5.6094 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù.ttf
+5.6171 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù BoldItalic.ttf
+5.6512 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Bold.ttf
+5.7068 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Italic.ttf
+5.7238 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Bold.ttf
+5.9151 	WARNING 	Font Manager failed to load file C:\WINDOWS\Fonts\mstmc.ttf
+5.9155 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù.ttf
+6.0162 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Italic.ttf
+6.0445 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-ITù Bold Italic.ttf
+6.0822 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù.ttf
+6.0899 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù BoldItalic.ttf
+6.1228 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\THSarabunITù Bold.ttf
+6.1763 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Italic.ttf
+6.1931 	WARNING 	Font Manager failed to load file C:\Users\PH\AppData\Local\Microsoft\Windows\Fonts\TH NiramitITù Bold.ttf
+33.6496 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+33.6509 	INFO 	Loaded monitor calibration from ['2024_04_17 11:01']
+34.0687 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D47C1A25E0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D47C1A2580>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001D47C1A23D0>, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001D47C5626D0>, multiSample=False, name='window1', numSamples=2, pos=[192.0, 108.0], screen=0, size=array([1536,  864]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+34.0694 	EXP 	window1: mouseVisible = True
+34.0694 	EXP 	window1: backgroundImage = ''
+34.0695 	EXP 	window1: backgroundFit = 'contain'
+34.0697 	EXP 	window1: mouseVisible = True
+34.0701 	EXP 	window1: mouseVisible = True
+34.0729 	EXP 	window1: mouseVisible = True
+34.0737 	EXP 	window1: mouseVisible = True
+34.0867 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.0908 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.0959 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.0991 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1034 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1068 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1091 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1117 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1160 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1175 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1191 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1224 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1256 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1285 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1314 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1344 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1362 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1393 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1425 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1452 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1458 	DEBUG 	Uploading Texture Font fontname to graphics card
+34.1499 	DEBUG 	Upload of Texture Font fontname complete
+34.1523 	EXP 	window1: mouseVisible = True
+34.1526 	EXP 	window1: mouseVisible = True
+34.1537 	EXP 	window1: mouseVisible = True
+34.1545 	EXP 	window1: mouseVisible = True
+34.1612 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1645 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1674 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1691 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.1694 	DEBUG 	Uploading Texture Font fontname to graphics card
+34.1718 	DEBUG 	Upload of Texture Font fontname complete
+34.1759 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+34.1760 	EXP 	window1: recordFrameIntervals = False
+34.3347 	EXP 	window1: recordFrameIntervals = True
+34.5405 	EXP 	Screen (0) actual frame rate measured at 73.47Hz
+34.5406 	EXP 	window1: recordFrameIntervals = False
+34.5409 	EXP 	window1: mouseVisible = False
+34.5418 	EXP 	window1: mouseVisible = True
+34.5423 	EXP 	window1: mouseVisible = True
+34.5436 	EXP 	window1: mouseVisible = True
+34.5445 	EXP 	window1: mouseVisible = True
+34.5512 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5532 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5559 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5593 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5624 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5658 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5679 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5707 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5739 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5769 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+34.5773 	DEBUG 	Uploading Texture Font fontname to graphics card
+34.5798 	DEBUG 	Upload of Texture Font fontname complete
+34.5826 	EXP 	window1: mouseVisible = True
+34.5828 	EXP 	window1: mouseVisible = True
+34.5837 	EXP 	window1: mouseVisible = True
+34.5844 	EXP 	window1: mouseVisible = True
+34.6347 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+37.8678 	INFO 	keyboard.Keyboard is using iohub backend.
+37.8679 	INFO 	keyboard.Keyboard is using iohub backend.
+37.8679 	INFO 	keyboard.Keyboard is using iohub backend.
+37.8680 	INFO 	keyboard.Keyboard is using iohub backend.
+37.8680 	EXP 	MainFlow: status = STARTED
+37.8684 	EXP 	window1: mouseVisible = True
+38.0817 	EXP 	Created text_norm = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_norm', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+38.0819 	EXP 	window1: mouseVisible = True
+38.0882 	EXP 	Created image_first = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_first', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5625, 1.    ]), texRes=128.0, units='norm', win=Window(...))
+38.0883 	EXP 	window1: mouseVisible = True
+38.0944 	EXP 	Created image_second = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_second', opacity=1.0, ori=0.0, pos=array([-0.5,  0. ]), size=array([0.5625, 1.    ]), texRes=128.0, units='norm', win=Window(...))
+38.0946 	EXP 	window1: mouseVisible = True
+38.0969 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_2', opacity=1.0, ori=0.0, pos=array([-0.5,  0.5]), rgb=UNKNOWN, text='', units='norm', win=Window(...), wrapWidth=1)
+38.0971 	EXP 	window1: mouseVisible = True
+38.1105 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans', fontFiles=[], height=0.07, italic=False, languageStyle='LTR', name='text_4', opacity=1.0, ori=0.0, pos=array([-0.5, -0.3]), rgb=UNKNOWN, text='z = first letter\nx = second letter', units='norm', win=Window(...), wrapWidth=1)
+38.1106 	EXP 	window1: mouseVisible = True
+38.1272 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_3', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+0.0126 	EXP 	text_norm: alignText = 'center'
+0.0484 	INFO 	Keyboard events cleared
+0.0479 	EXP 	text_norm: autoDraw = True
+0.0479 	EXP 	text_norm: height = 0.08
+0.0479 	EXP 	text_norm: height = 0.08
+0.0479 	EXP 	text_norm: height = 0.08
+0.0479 	EXP 	text_norm: text = "*For the observer\n\nIn this experiment, two letter will be shown with an interval of one second, then, the participant will choose which letter is an English or Thai letter.\npress 'z' if it's a first letter, press 'x' if it's a second letter\n\npress spacebar to start a trial\n"
+16.5355 	DEBUG 	Read excel file with openpyxl: letterorder.xlsx
+16.5544 	EXP 	Imported letterorder.xlsx as conditions, 192 conditions, 6 params
+16.5566 	EXP 	Created sequence: sequential, trialTypes=192, nReps=1, seed=None
+16.5569 	EXP 	New trial (rep=0, index=0): {'lang': 1, 'langpair': 3, 'sequence': 2, 'pairid': 1, 'firstdir': 'letter/lettgr073.png', 'seconddir': 'letter/lettth025.png'}
+16.5649 	DATA 	Keypress: space
+16.5758 	EXP 	text_norm: autoDraw = False
+16.5758 	EXP 	image_first: image = 'letter/lettgr073.png'
+17.5163 	EXP 	image_first: autoDraw = True
+18.5198 	EXP 	image_first: autoDraw = False
+18.5198 	EXP 	image_first: autoDraw = False
+18.5198 	EXP 	image_second: image = 'letter/lettth025.png'
+19.5240 	EXP 	image_second: autoDraw = True
+20.5301 	INFO 	Keyboard events cleared
+20.5298 	EXP 	image_second: autoDraw = False
+20.5298 	EXP 	image_second: autoDraw = False
+20.5298 	EXP 	text_2: height = 0.08
+20.5298 	EXP 	text_2: height = 0.08
+20.5298 	EXP 	text_2: height = 0.08
+20.5298 	EXP 	text_2: text = 'Which letter is Thai?'
+20.5298 	EXP 	text_2: autoDraw = True
+20.5298 	EXP 	text_4: autoDraw = True
+21.8967 	EXP 	New trial (rep=0, index=1): {'lang': 1, 'langpair': 2, 'sequence': 1, 'pairid': 8, 'firstdir': 'letter/lettth153.png', 'seconddir': 'letter/lettkh034.png'}
+21.9018 	DATA 	Keypress: x
+21.9130 	EXP 	text_2: autoDraw = False
+21.9130 	EXP 	text_4: autoDraw = False
+21.9130 	EXP 	image_first: image = 'letter/lettth153.png'
+22.8988 	EXP 	image_first: autoDraw = True
+23.8988 	EXP 	image_first: autoDraw = False
+23.8988 	EXP 	image_first: autoDraw = False
+23.8988 	EXP 	image_second: image = 'letter/lettkh034.png'
+24.8984 	EXP 	image_second: autoDraw = True
+25.8982 	INFO 	Keyboard events cleared
+25.8979 	EXP 	image_second: autoDraw = False
+25.8979 	EXP 	image_second: autoDraw = False
+25.8979 	EXP 	text_2: text = 'Which letter is Thai?'
+25.8979 	EXP 	text_2: autoDraw = True
+25.8979 	EXP 	text_4: autoDraw = True
+27.1804 	EXP 	New trial (rep=0, index=2): {'lang': 2, 'langpair': 3, 'sequence': 2, 'pairid': 3, 'firstdir': 'letter/lettgr152.png', 'seconddir': 'letter/letten151.png'}
+27.1849 	DATA 	Keypress: z
+27.1898 	EXP 	text_2: autoDraw = False
+27.1898 	EXP 	text_4: autoDraw = False
+27.1898 	EXP 	image_first: image = 'letter/lettgr152.png'
+28.1841 	EXP 	image_first: autoDraw = True
+29.1833 	EXP 	image_first: autoDraw = False
+29.1833 	EXP 	image_first: autoDraw = False
+29.1833 	EXP 	image_second: image = 'letter/letten151.png'
+30.1830 	EXP 	image_second: autoDraw = True
+31.1892 	INFO 	Keyboard events cleared
+31.1889 	EXP 	image_second: autoDraw = False
+31.1889 	EXP 	image_second: autoDraw = False
+31.1889 	EXP 	text_2: height = 0.08
+31.1889 	EXP 	text_2: height = 0.08
+31.1889 	EXP 	text_2: height = 0.08
+31.1889 	EXP 	text_2: text = 'Which letter is English?'
+31.1889 	EXP 	text_2: autoDraw = True
+31.1889 	EXP 	text_4: autoDraw = True
+35.9158 	EXP 	New trial (rep=0, index=3): {'lang': 2, 'langpair': 2, 'sequence': 1, 'pairid': 6, 'firstdir': 'letter/letten071.png', 'seconddir': 'letter/lettkh055.png'}
+35.9200 	DATA 	Keypress: x
+35.9259 	EXP 	text_2: autoDraw = False
+35.9259 	EXP 	text_4: autoDraw = False
+35.9259 	EXP 	image_first: image = 'letter/letten071.png'
+36.9261 	EXP 	image_first: autoDraw = True
+37.9256 	EXP 	image_first: autoDraw = False
+37.9256 	EXP 	image_first: autoDraw = False
+37.9256 	EXP 	image_second: image = 'letter/lettkh055.png'
+38.9185 	EXP 	image_second: autoDraw = True
+39.9260 	INFO 	Keyboard events cleared
+39.9257 	EXP 	image_second: autoDraw = False
+39.9257 	EXP 	image_second: autoDraw = False
+39.9257 	EXP 	text_2: text = 'Which letter is English?'
+39.9257 	EXP 	text_2: autoDraw = True
+39.9257 	EXP 	text_4: autoDraw = True
+40.5127 	EXP 	New trial (rep=0, index=4): {'lang': 2, 'langpair': 3, 'sequence': 2, 'pairid': 4, 'firstdir': 'letter/lettgr092.png', 'seconddir': 'letter/letten091.png'}
+40.5167 	DATA 	Keypress: z
+40.5232 	EXP 	text_2: autoDraw = False
+40.5232 	EXP 	text_4: autoDraw = False
+40.5232 	EXP 	image_first: image = 'letter/lettgr092.png'
+41.5229 	EXP 	image_first: autoDraw = True
+42.5301 	EXP 	image_first: autoDraw = False
+42.5301 	EXP 	image_second: image = 'letter/letten091.png'
+43.5163 	EXP 	image_second: autoDraw = True
+44.5162 	INFO 	Keyboard events cleared
+44.5159 	EXP 	image_second: autoDraw = False
+44.5159 	EXP 	image_second: autoDraw = False
+44.5159 	EXP 	text_2: text = 'Which letter is English?'
+44.5159 	EXP 	text_2: autoDraw = True
+44.5159 	EXP 	text_4: autoDraw = True
+46.2842 	EXP 	New trial (rep=0, index=5): {'lang': 2, 'langpair': 3, 'sequence': 1, 'pairid': 6, 'firstdir': 'letter/letten061.png', 'seconddir': 'letter/lettgr061.png'}
+46.2898 	DATA 	Keypress: x
+46.3016 	EXP 	text_2: autoDraw = False
+46.3016 	EXP 	text_4: autoDraw = False
+46.3016 	EXP 	image_first: image = 'letter/letten061.png'
+47.2870 	EXP 	image_first: autoDraw = True
+48.2870 	EXP 	image_first: autoDraw = False
+48.2870 	EXP 	image_first: autoDraw = False
+48.2870 	EXP 	image_second: image = 'letter/lettgr061.png'
+49.2873 	EXP 	image_second: autoDraw = True
+50.2872 	INFO 	Keyboard events cleared
+50.2869 	EXP 	image_second: autoDraw = False
+50.2869 	EXP 	image_second: autoDraw = False
+50.2869 	EXP 	text_2: text = 'Which letter is English?'
+50.2869 	EXP 	text_2: autoDraw = True
+50.2869 	EXP 	text_4: autoDraw = True
+50.6824 	DATA 	Keypress: z
+50.6935 	EXP 	New trial (rep=0, index=6): {'lang': 1, 'langpair': 3, 'sequence': 1, 'pairid': 3, 'firstdir': 'letter/lettth171.png', 'seconddir': 'letter/lettgr067.png'}
+50.7038 	EXP 	text_2: autoDraw = False
+50.7038 	EXP 	text_4: autoDraw = False
+50.7038 	EXP 	image_first: image = 'letter/lettth171.png'
+51.6974 	EXP 	image_first: autoDraw = True
+52.6968 	EXP 	image_first: autoDraw = False
+52.6968 	EXP 	image_first: autoDraw = False
+52.6968 	EXP 	image_second: image = 'letter/lettgr067.png'
+53.6964 	EXP 	image_second: autoDraw = True
+54.6966 	INFO 	Keyboard events cleared
+54.6963 	EXP 	image_second: autoDraw = False
+54.6963 	EXP 	image_second: autoDraw = False
+54.6963 	EXP 	text_2: height = 0.08
+54.6963 	EXP 	text_2: height = 0.08
+54.6963 	EXP 	text_2: height = 0.08
+54.6963 	EXP 	text_2: text = 'Which letter is Thai?'
+54.6963 	EXP 	text_2: autoDraw = True
+54.6963 	EXP 	text_4: autoDraw = True
+55.0339 	EXP 	New trial (rep=0, index=7): {'lang': 1, 'langpair': 3, 'sequence': 2, 'pairid': 3, 'firstdir': 'letter/lettgr067.png', 'seconddir': 'letter/lettth171.png'}
+55.0398 	DATA 	Keypress: z
+55.0504 	EXP 	text_2: autoDraw = False
+55.0504 	EXP 	text_4: autoDraw = False
+55.0504 	EXP 	image_first: image = 'letter/lettgr067.png'
+56.0368 	EXP 	image_first: autoDraw = True
+57.0402 	EXP 	image_first: autoDraw = False
+57.0402 	EXP 	image_first: autoDraw = False
+57.0402 	EXP 	image_second: image = 'letter/lettth171.png'
+58.0430 	EXP 	image_second: autoDraw = True
+59.0363 	INFO 	Keyboard events cleared
+59.0360 	EXP 	image_second: autoDraw = False
+59.0360 	EXP 	image_second: autoDraw = False
+59.0360 	EXP 	text_2: text = 'Which letter is Thai?'
+59.0360 	EXP 	text_2: autoDraw = True
+59.0360 	EXP 	text_4: autoDraw = True
+59.4766 	EXP 	New trial (rep=0, index=8): {'lang': 2, 'langpair': 1, 'sequence': 2, 'pairid': 4, 'firstdir': 'letter/lettth142.png', 'seconddir': 'letter/letten181.png'}
+59.4809 	DATA 	Keypress: x
+59.4869 	EXP 	text_2: autoDraw = False
+59.4869 	EXP 	text_4: autoDraw = False
+59.4869 	EXP 	image_first: image = 'letter/lettth142.png'
+60.4661 	EXP 	image_first: autoDraw = True
+61.4671 	EXP 	image_first: autoDraw = False
+61.4671 	EXP 	image_first: autoDraw = False
+61.4671 	EXP 	image_second: image = 'letter/letten181.png'
+62.4663 	EXP 	image_second: autoDraw = True
+63.4728 	INFO 	Keyboard events cleared
+63.4724 	EXP 	image_second: autoDraw = False
+63.4724 	EXP 	image_second: autoDraw = False
+63.4724 	EXP 	text_2: height = 0.08
+63.4724 	EXP 	text_2: height = 0.08
+63.4724 	EXP 	text_2: height = 0.08
+63.4724 	EXP 	text_2: text = 'Which letter is English?'
+63.4724 	EXP 	text_2: autoDraw = True
+63.4724 	EXP 	text_4: autoDraw = True
+63.7128 	EXP 	New trial (rep=0, index=9): {'lang': 2, 'langpair': 3, 'sequence': 1, 'pairid': 7, 'firstdir': 'letter/letten061.png', 'seconddir': 'letter/lettgr063.png'}
+63.7169 	DATA 	Keypress: z
+63.7231 	EXP 	text_2: autoDraw = False
+63.7231 	EXP 	text_4: autoDraw = False
+63.7231 	EXP 	image_first: image = 'letter/letten061.png'
+64.7088 	EXP 	image_first: autoDraw = True
+65.7159 	EXP 	image_first: autoDraw = False
+65.7159 	EXP 	image_first: autoDraw = False
+65.7159 	EXP 	image_second: image = 'letter/lettgr063.png'
+66.7087 	EXP 	image_second: autoDraw = True
+67.7016 	EXP 	image_second: autoDraw = False
+67.7016 	EXP 	image_second: autoDraw = False
+67.7016 	EXP 	text_2: text = 'Which letter is English?'
+67.7168 	INFO 	Keyboard events cleared
+67.7166 	EXP 	text_2: autoDraw = True
+67.7166 	EXP 	text_4: autoDraw = True
+122.6290 	DATA 	Mouse: Left button down, pos=(625,311)
+122.8524 	DATA 	Mouse:  Left button up, pos=(625,311)
+123.0684 	DATA 	Keypress: escape
+123.1342 	EXP 	MainFlow: status = STOPPED
+123.1447 	EXP 	text_2: autoDraw = False
+123.1447 	EXP 	text_4: autoDraw = False
+123.1467 	EXP 	MainFlow: status = STOPPED
+123.1554 	INFO 	saved data to 'C:\\Users\\PH\\Documents\\GitHub\\Dyslexia\\letterlang test\\data/057578_MainFlow_2025-02-26_16h00.42.307.csv'
+123.1570 	INFO 	saved data to C:\Users\PH\Documents\GitHub\Dyslexia\letterlang test\data/057578_MainFlow_2025-02-26_16h00.42.307.psydat
+123.1975 	EXP 	window1: mouseVisible = True
+123.4295 	DEBUG 	Saving data for MainFlow ExperimentHandler
