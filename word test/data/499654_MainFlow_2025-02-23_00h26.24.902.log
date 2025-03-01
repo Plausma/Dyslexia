@@ -1,0 +1,401 @@
+2.4621 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-IT๙ Bold Italic.ttf
+2.4712 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ BoldItalic.ttf
+2.5230 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Bold.ttf
+2.5606 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙.ttf
+2.5990 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Italic.ttf
+2.6305 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Bold.ttf
+2.6659 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙.ttf
+2.6709 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Italic.ttf
+2.9504 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-IT๙ Bold Italic.ttf
+2.9594 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ BoldItalic.ttf
+3.0100 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Bold.ttf
+3.0474 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙.ttf
+3.0851 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Italic.ttf
+3.1168 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Bold.ttf
+3.1528 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙.ttf
+3.1578 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Italic.ttf
+5.3225 	INFO 	Loaded monitor calibration from ['2024_03_25 16:15']
+6.6942 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002D674C46A30>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000002D674C469D0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000002D674E03E50>, multiSample=False, name='window1', numSamples=2, pos=[160.0, 90.0], screen=0, size=array([1600,  900]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+6.6943 	EXP 	window1: backgroundImage = ''
+6.6943 	EXP 	window1: backgroundFit = 'none'
+6.7049 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7069 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7087 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7104 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7123 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7139 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7152 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7170 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7195 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7204 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7213 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7234 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7259 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7278 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7298 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7315 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7326 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7349 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7361 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7385 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7389 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.7411 	DEBUG 	Upload of Texture Font fontname complete
+6.7499 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7525 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7553 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7563 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.7566 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.7577 	DEBUG 	Upload of Texture Font fontname complete
+6.7596 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+6.7596 	EXP 	window1: recordFrameIntervals = False
+6.8816 	EXP 	window1: recordFrameIntervals = True
+6.9584 	EXP 	Screen (0) actual frame rate measured at 142.10Hz
+6.9585 	EXP 	window1: recordFrameIntervals = False
+6.9663 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9675 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9695 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9723 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9748 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9774 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9785 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9807 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9832 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9857 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.9860 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.9865 	DEBUG 	Upload of Texture Font fontname complete
+7.0477 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+8.3068 	INFO 	keyboard.Keyboard is using iohub backend.
+8.3069 	INFO 	keyboard.Keyboard is using iohub backend.
+8.3069 	INFO 	keyboard.Keyboard is using iohub backend.
+8.3070 	INFO 	keyboard.Keyboard is using iohub backend.
+8.3070 	INFO 	keyboard.Keyboard is using iohub backend.
+8.3070 	INFO 	keyboard.Keyboard is using iohub backend.
+8.3070 	EXP 	MainFlow: status = STARTED
+8.5166 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.5341 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+8.5580 	EXP 	Created text_norm = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_norm', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1.8)
+8.5657 	EXP 	Created image_2 = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_2', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([0.7       , 1.24444444]), texRes=128.0, units='norm', win=Window(...))
+8.5715 	EXP 	Created image_left = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_left', opacity=1, ori=0.0, pos=array([-0.5, -0.3]), size=array([0.4       , 0.71111111]), texRes=128.0, units='norm', win=Window(...))
+8.5761 	EXP 	Created image_right = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, anchor=('center', 'center'), autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, image='default.png', interpolate=True, mask=None, maskParams=None, name='image_right', opacity=1, ori=0.0, pos=array([ 0.5, -0.3]), size=array([0.4       , 0.71111111]), texRes=128.0, units='norm', win=Window(...))
+8.5874 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, draggable=False, flipHoriz=False, flipVert=False, font='Noto sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0. , 0.5]), rgb=UNKNOWN, text='Which word describe previous image the best?', units='norm', win=Window(...), wrapWidth=1)
+8.5975 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+0.0060 	EXP 	text_norm: alignText = 'center'
+0.0094 	INFO 	Keyboard events cleared
+0.0196 	INFO 	Keyboard events cleared
+0.0193 	EXP 	text_5: autoDraw = True
+2.1571 	DATA 	Keypress: 1
+3.1377 	DATA 	Mouse: Left button down, pos=(689,597)
+3.2351 	DATA 	Mouse:  Left button up, pos=(701,602)
+3.3953 	DATA 	Keypress: 1
+3.3990 	EXP 	text_5: autoDraw = False
+3.3990 	EXP 	text_6: autoDraw = True
+5.1252 	DATA 	Keypress: 2
+5.1286 	EXP 	text_6: autoDraw = True
+5.1356 	EXP 	text_6: autoDraw = True
+5.1425 	EXP 	text_6: autoDraw = True
+5.1496 	EXP 	text_6: autoDraw = True
+5.1564 	EXP 	text_6: autoDraw = True
+5.1634 	EXP 	text_6: autoDraw = True
+5.1703 	EXP 	text_6: autoDraw = True
+5.1773 	EXP 	text_6: autoDraw = True
+5.1842 	EXP 	text_6: autoDraw = True
+5.1911 	EXP 	text_6: autoDraw = True
+5.1980 	EXP 	text_6: autoDraw = True
+5.2051 	EXP 	text_6: autoDraw = True
+5.2121 	EXP 	text_6: autoDraw = True
+5.2190 	EXP 	text_6: autoDraw = True
+5.2259 	EXP 	text_6: autoDraw = True
+5.2329 	EXP 	text_6: autoDraw = True
+5.2398 	EXP 	text_6: autoDraw = True
+5.2468 	EXP 	text_6: autoDraw = True
+5.2537 	EXP 	text_6: autoDraw = True
+5.2607 	EXP 	text_6: autoDraw = True
+5.2676 	EXP 	text_6: autoDraw = True
+5.2746 	EXP 	text_6: autoDraw = True
+5.2816 	EXP 	text_6: autoDraw = True
+5.2885 	EXP 	text_6: autoDraw = True
+5.2955 	EXP 	text_6: autoDraw = True
+5.3024 	EXP 	text_6: autoDraw = True
+5.3093 	EXP 	text_6: autoDraw = True
+5.3162 	EXP 	text_6: autoDraw = True
+5.3232 	EXP 	text_6: autoDraw = True
+5.3302 	EXP 	text_6: autoDraw = True
+5.3386 	EXP 	text_6: autoDraw = True
+5.3456 	EXP 	text_6: autoDraw = True
+5.3525 	EXP 	text_6: autoDraw = True
+5.3595 	EXP 	text_6: autoDraw = True
+5.3664 	EXP 	text_6: autoDraw = True
+5.3733 	EXP 	text_6: autoDraw = True
+5.3803 	EXP 	text_6: autoDraw = True
+5.3873 	EXP 	text_6: autoDraw = True
+5.3942 	EXP 	text_6: autoDraw = True
+5.4012 	EXP 	text_6: autoDraw = True
+5.4083 	EXP 	text_6: autoDraw = True
+5.4151 	EXP 	text_6: autoDraw = True
+5.4220 	EXP 	text_6: autoDraw = True
+5.4290 	EXP 	text_6: autoDraw = True
+5.4359 	EXP 	text_6: autoDraw = True
+5.4430 	EXP 	text_6: autoDraw = True
+5.4498 	EXP 	text_6: autoDraw = True
+5.4568 	EXP 	text_6: autoDraw = True
+5.4638 	EXP 	text_6: autoDraw = True
+5.4707 	EXP 	text_6: autoDraw = True
+5.4776 	EXP 	text_6: autoDraw = True
+5.4846 	EXP 	text_6: autoDraw = True
+5.4915 	EXP 	text_6: autoDraw = True
+5.4985 	EXP 	text_6: autoDraw = True
+5.5055 	EXP 	text_6: autoDraw = True
+5.5124 	EXP 	text_6: autoDraw = True
+5.5197 	EXP 	text_6: autoDraw = True
+5.5266 	EXP 	text_6: autoDraw = True
+5.5334 	EXP 	text_6: autoDraw = True
+5.5401 	EXP 	text_6: autoDraw = True
+5.5471 	EXP 	text_6: autoDraw = True
+5.5541 	EXP 	text_6: autoDraw = True
+5.5611 	EXP 	text_6: autoDraw = True
+5.5679 	EXP 	text_6: autoDraw = True
+5.5748 	EXP 	text_6: autoDraw = True
+5.5818 	EXP 	text_6: autoDraw = True
+5.5887 	EXP 	text_6: autoDraw = True
+5.5957 	EXP 	text_6: autoDraw = True
+5.6026 	EXP 	text_6: autoDraw = True
+5.6096 	EXP 	text_6: autoDraw = True
+5.6165 	EXP 	text_6: autoDraw = True
+5.6235 	EXP 	text_6: autoDraw = True
+5.6304 	EXP 	text_6: autoDraw = True
+5.6375 	EXP 	text_6: autoDraw = True
+5.6444 	EXP 	text_6: autoDraw = True
+5.6513 	EXP 	text_6: autoDraw = True
+5.6583 	EXP 	text_6: autoDraw = True
+5.6652 	EXP 	text_6: autoDraw = True
+5.6722 	EXP 	text_6: autoDraw = True
+5.6791 	EXP 	text_6: autoDraw = True
+5.6861 	EXP 	text_6: autoDraw = True
+5.6933 	EXP 	text_6: autoDraw = True
+5.7002 	EXP 	text_6: autoDraw = True
+5.7070 	EXP 	text_6: autoDraw = True
+5.7140 	EXP 	text_6: autoDraw = True
+5.7209 	EXP 	text_6: autoDraw = True
+5.7278 	EXP 	text_6: autoDraw = True
+5.7348 	EXP 	text_6: autoDraw = True
+5.7417 	EXP 	text_6: autoDraw = True
+5.7486 	EXP 	text_6: autoDraw = True
+5.7558 	EXP 	text_6: autoDraw = True
+5.7627 	EXP 	text_6: autoDraw = True
+5.7696 	EXP 	text_6: autoDraw = True
+5.7764 	EXP 	text_6: autoDraw = True
+5.7835 	EXP 	text_6: autoDraw = True
+5.7903 	EXP 	text_6: autoDraw = True
+5.7973 	EXP 	text_6: autoDraw = True
+5.8042 	EXP 	text_6: autoDraw = True
+5.8112 	EXP 	text_6: autoDraw = True
+5.8181 	EXP 	text_6: autoDraw = True
+5.8251 	EXP 	text_6: autoDraw = True
+5.8320 	EXP 	text_6: autoDraw = True
+5.8391 	EXP 	text_6: autoDraw = True
+5.8460 	EXP 	text_6: autoDraw = True
+5.8529 	EXP 	text_6: autoDraw = True
+5.8598 	EXP 	text_6: autoDraw = True
+5.8668 	EXP 	text_6: autoDraw = True
+5.8738 	EXP 	text_6: autoDraw = True
+5.8807 	EXP 	text_6: autoDraw = True
+5.8876 	EXP 	text_6: autoDraw = True
+5.8946 	EXP 	text_6: autoDraw = True
+5.9016 	EXP 	text_6: autoDraw = True
+5.9085 	EXP 	text_6: autoDraw = True
+5.9154 	EXP 	text_6: autoDraw = True
+5.9224 	EXP 	text_6: autoDraw = True
+5.9293 	EXP 	text_6: autoDraw = True
+5.9363 	EXP 	text_6: autoDraw = True
+5.9432 	EXP 	text_6: autoDraw = True
+5.9501 	EXP 	text_6: autoDraw = True
+5.9571 	EXP 	text_6: autoDraw = True
+5.9641 	EXP 	text_6: autoDraw = True
+5.9710 	EXP 	text_6: autoDraw = True
+5.9781 	EXP 	text_6: autoDraw = True
+5.9850 	EXP 	text_6: autoDraw = True
+5.9918 	EXP 	text_6: autoDraw = True
+5.9988 	EXP 	text_6: autoDraw = True
+6.0058 	EXP 	text_6: autoDraw = True
+6.0127 	EXP 	text_6: autoDraw = True
+6.0197 	EXP 	text_6: autoDraw = True
+6.0266 	EXP 	text_6: autoDraw = True
+6.0335 	EXP 	text_6: autoDraw = True
+6.0405 	EXP 	text_6: autoDraw = True
+6.0475 	EXP 	text_6: autoDraw = True
+6.0546 	EXP 	text_6: autoDraw = True
+6.0614 	EXP 	text_6: autoDraw = True
+6.0685 	EXP 	text_6: autoDraw = True
+6.0753 	EXP 	text_6: autoDraw = True
+6.0823 	EXP 	text_6: autoDraw = True
+6.0892 	EXP 	text_6: autoDraw = True
+6.0961 	EXP 	text_6: autoDraw = True
+6.1031 	EXP 	text_6: autoDraw = True
+6.1101 	EXP 	text_6: autoDraw = True
+6.1170 	EXP 	text_6: autoDraw = True
+6.1241 	EXP 	text_6: autoDraw = True
+6.1309 	EXP 	text_6: autoDraw = True
+6.1379 	EXP 	text_6: autoDraw = True
+6.1436 	EXP 	text_6: autoDraw = True
+6.1506 	EXP 	text_6: autoDraw = True
+6.1575 	EXP 	text_6: autoDraw = True
+6.1647 	EXP 	text_6: autoDraw = True
+6.1713 	EXP 	text_6: autoDraw = True
+6.1783 	EXP 	text_6: autoDraw = True
+6.1852 	EXP 	text_6: autoDraw = True
+6.1922 	EXP 	text_6: autoDraw = True
+6.1991 	EXP 	text_6: autoDraw = True
+6.2061 	EXP 	text_6: autoDraw = True
+6.2130 	EXP 	text_6: autoDraw = True
+6.2200 	EXP 	text_6: autoDraw = True
+6.2269 	EXP 	text_6: autoDraw = True
+6.2341 	EXP 	text_6: autoDraw = True
+6.2409 	EXP 	text_6: autoDraw = True
+6.2478 	EXP 	text_6: autoDraw = True
+6.2547 	EXP 	text_6: autoDraw = True
+6.2619 	EXP 	text_6: autoDraw = True
+6.2688 	EXP 	text_6: autoDraw = True
+6.2757 	EXP 	text_6: autoDraw = True
+6.2825 	EXP 	text_6: autoDraw = True
+6.2895 	EXP 	text_6: autoDraw = True
+6.2964 	EXP 	text_6: autoDraw = True
+6.3034 	EXP 	text_6: autoDraw = True
+6.3105 	EXP 	text_6: autoDraw = True
+6.3173 	EXP 	text_6: autoDraw = True
+6.3242 	EXP 	text_6: autoDraw = True
+6.3312 	EXP 	text_6: autoDraw = True
+6.3381 	EXP 	text_6: autoDraw = True
+6.3451 	EXP 	text_6: autoDraw = True
+6.3520 	EXP 	text_6: autoDraw = True
+6.3590 	EXP 	text_6: autoDraw = True
+6.3660 	EXP 	text_6: autoDraw = True
+6.3729 	EXP 	text_6: autoDraw = True
+6.3798 	EXP 	text_6: autoDraw = True
+6.3868 	EXP 	text_6: autoDraw = True
+6.3938 	EXP 	text_6: autoDraw = True
+6.4007 	EXP 	text_6: autoDraw = True
+6.4082 	EXP 	text_6: autoDraw = True
+6.4148 	EXP 	text_6: autoDraw = True
+6.4216 	EXP 	text_6: autoDraw = True
+6.4285 	EXP 	text_6: autoDraw = True
+6.4355 	EXP 	text_6: autoDraw = True
+6.4424 	EXP 	text_6: autoDraw = True
+6.4494 	EXP 	text_6: autoDraw = True
+6.4564 	EXP 	text_6: autoDraw = True
+6.4633 	EXP 	text_6: autoDraw = True
+6.4702 	EXP 	text_6: autoDraw = True
+6.4772 	EXP 	text_6: autoDraw = True
+6.4842 	EXP 	text_6: autoDraw = True
+6.4911 	EXP 	text_6: autoDraw = True
+6.4981 	EXP 	text_6: autoDraw = True
+6.5050 	EXP 	text_6: autoDraw = True
+6.5120 	EXP 	text_6: autoDraw = True
+6.5190 	EXP 	text_6: autoDraw = True
+6.5260 	EXP 	text_6: autoDraw = True
+6.5330 	EXP 	text_6: autoDraw = True
+6.5398 	EXP 	text_6: autoDraw = True
+6.5437 	DATA 	Keypress: 1
+7.0015 	DATA 	Keypress: 2
+7.0124 	EXP 	text_6: autoDraw = True
+7.0194 	EXP 	text_6: autoDraw = True
+7.0263 	EXP 	text_6: autoDraw = True
+7.0333 	EXP 	text_6: autoDraw = True
+7.0403 	EXP 	text_6: autoDraw = True
+7.0472 	EXP 	text_6: autoDraw = True
+7.0542 	EXP 	text_6: autoDraw = True
+7.0611 	EXP 	text_6: autoDraw = True
+7.0681 	EXP 	text_6: autoDraw = True
+7.0750 	EXP 	text_6: autoDraw = True
+7.0820 	EXP 	text_6: autoDraw = True
+7.0889 	EXP 	text_6: autoDraw = True
+7.0958 	EXP 	text_6: autoDraw = True
+7.1029 	EXP 	text_6: autoDraw = True
+7.1098 	EXP 	text_6: autoDraw = True
+7.1167 	EXP 	text_6: autoDraw = True
+7.1240 	EXP 	text_6: autoDraw = True
+7.1307 	EXP 	text_6: autoDraw = True
+7.1377 	EXP 	text_6: autoDraw = True
+7.1444 	EXP 	text_6: autoDraw = True
+7.1516 	EXP 	text_6: autoDraw = True
+7.1585 	EXP 	text_6: autoDraw = True
+7.1654 	EXP 	text_6: autoDraw = True
+7.1724 	EXP 	text_6: autoDraw = True
+7.1752 	DATA 	Keypress: 2
+7.1793 	EXP 	text_6: autoDraw = True
+7.1862 	EXP 	text_6: autoDraw = True
+7.1931 	EXP 	text_6: autoDraw = True
+7.2001 	EXP 	text_6: autoDraw = True
+7.2071 	EXP 	text_6: autoDraw = True
+7.2141 	EXP 	text_6: autoDraw = True
+7.2210 	EXP 	text_6: autoDraw = True
+7.2279 	EXP 	text_6: autoDraw = True
+7.2349 	EXP 	text_6: autoDraw = True
+7.2419 	EXP 	text_6: autoDraw = True
+7.2489 	EXP 	text_6: autoDraw = True
+7.2558 	EXP 	text_6: autoDraw = True
+7.2627 	EXP 	text_6: autoDraw = True
+7.2697 	EXP 	text_6: autoDraw = True
+7.2766 	EXP 	text_6: autoDraw = True
+7.2835 	EXP 	text_6: autoDraw = True
+7.2905 	EXP 	text_6: autoDraw = True
+7.2975 	EXP 	text_6: autoDraw = True
+7.3044 	EXP 	text_6: autoDraw = True
+7.3114 	EXP 	text_6: autoDraw = True
+7.3144 	DATA 	Keypress: 2
+7.3184 	EXP 	text_6: autoDraw = True
+7.3252 	EXP 	text_6: autoDraw = True
+7.3322 	EXP 	text_6: autoDraw = True
+7.3397 	EXP 	text_6: autoDraw = True
+7.3463 	EXP 	text_6: autoDraw = True
+7.3530 	EXP 	text_6: autoDraw = True
+7.3601 	EXP 	text_6: autoDraw = True
+7.3670 	EXP 	text_6: autoDraw = True
+7.3739 	EXP 	text_6: autoDraw = True
+7.3808 	EXP 	text_6: autoDraw = True
+7.3878 	EXP 	text_6: autoDraw = True
+7.3948 	EXP 	text_6: autoDraw = True
+7.4017 	EXP 	text_6: autoDraw = True
+7.4089 	EXP 	text_6: autoDraw = True
+7.4158 	EXP 	text_6: autoDraw = True
+7.4226 	EXP 	text_6: autoDraw = True
+7.4296 	EXP 	text_6: autoDraw = True
+7.4365 	EXP 	text_6: autoDraw = True
+7.4435 	EXP 	text_6: autoDraw = True
+7.4503 	EXP 	text_6: autoDraw = True
+7.4573 	EXP 	text_6: autoDraw = True
+7.4644 	EXP 	text_6: autoDraw = True
+7.4712 	EXP 	text_6: autoDraw = True
+7.4782 	EXP 	text_6: autoDraw = True
+7.4852 	EXP 	text_6: autoDraw = True
+7.4921 	EXP 	text_6: autoDraw = True
+7.4990 	EXP 	text_6: autoDraw = True
+7.5060 	EXP 	text_6: autoDraw = True
+7.5130 	EXP 	text_6: autoDraw = True
+7.5205 	EXP 	text_6: autoDraw = True
+7.5271 	EXP 	text_6: autoDraw = True
+7.5343 	EXP 	text_6: autoDraw = True
+7.5408 	EXP 	text_6: autoDraw = True
+7.5476 	EXP 	text_6: autoDraw = True
+7.5547 	EXP 	text_6: autoDraw = True
+7.5616 	EXP 	text_6: autoDraw = True
+7.5648 	DATA 	Keypress: 1
+7.7457 	DATA 	Keypress: 1
+7.8911 	DATA 	Keypress: 1
+8.6284 	DATA 	Keypress: space
+8.6319 	INFO 	Keyboard events cleared
+8.6317 	EXP 	text_5: autoDraw = False
+8.6317 	EXP 	text_6: autoDraw = False
+8.6317 	EXP 	text_norm: autoDraw = True
+8.6317 	EXP 	text_norm: height = 0.08
+8.6317 	EXP 	text_norm: height = 0.08
+8.6317 	EXP 	text_norm: height = 0.08
+8.6317 	EXP 	text_norm: text = 'In this experiment, an image will be shown followed by 2 words at the left and right of the screen in which subject will choose whether the left or right word are an acutal word \n\npress \'z\' if it\'s a left word, press \'x\' if it\'s a right one\n\npress spacebar to start a trial"\n'
+11.9442 	DATA 	Mouse: Left button down, pos=(1090,635)
+11.9853 	DATA 	Mouse:  Left button up, pos=(1090,635)
+12.7847 	DATA 	Keypress: escape
+12.8955 	EXP 	MainFlow: status = STOPPED
+12.9002 	EXP 	text_norm: autoDraw = False
+12.9019 	EXP 	MainFlow: status = STOPPED
+12.9070 	INFO 	saved data to 'C:\\Users\\UserPC\\Documents\\Dyslexia\\data/499654_MainFlow_2025-02-23_00h26.24.902.csv'
+12.9075 	INFO 	saved data to C:\Users\UserPC\Documents\Dyslexia\data/499654_MainFlow_2025-02-23_00h26.24.902.psydat
+13.1682 	DEBUG 	Saving data for MainFlow ExperimentHandler

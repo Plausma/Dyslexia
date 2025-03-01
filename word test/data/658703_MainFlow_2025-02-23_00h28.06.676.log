@@ -1,0 +1,77 @@
+2.6053 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Italic.ttf
+2.6995 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Italic.ttf
+2.7492 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Bold.ttf
+2.7656 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ BoldItalic.ttf
+2.7736 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙.ttf
+2.7830 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙.ttf
+2.8360 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Bold.ttf
+2.8634 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-IT๙ Bold Italic.ttf
+3.0936 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Italic.ttf
+3.1826 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Italic.ttf
+3.2304 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙ Bold.ttf
+3.2460 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ BoldItalic.ttf
+3.2535 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙.ttf
+3.2618 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH NiramitIT๙.ttf
+3.3087 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\THSarabunIT๙ Bold.ttf
+3.3348 	WARNING 	Font Manager failed to load file C:\Users\UserPC\AppData\Local\Microsoft\Windows\Fonts\TH Niramit AS-IT๙ Bold Italic.ttf
+4.4949 	INFO 	Loaded monitor calibration from ['2024_03_25 16:15']
+5.8507 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EE9757DA30>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x000001EE9757D9D0>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x000001EE97734E50>, multiSample=False, name='window1', numSamples=2, pos=[160.0, 90.0], screen=0, size=array([1600,  900]), stencilBits=0, stereo=False, title='PsychoPy', units='norm', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.8508 	EXP 	window1: backgroundImage = ''
+5.8508 	EXP 	window1: backgroundFit = 'none'
+5.8611 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8633 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8651 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8669 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8687 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8703 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8716 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8735 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8759 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8768 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8777 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8798 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8823 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8841 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8860 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8881 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8892 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8915 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8927 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.8955 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.8975 	DEBUG 	Upload of Texture Font fontname complete
+5.9060 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9084 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9108 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9119 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+5.9121 	DEBUG 	Uploading Texture Font fontname to graphics card
+5.9132 	DEBUG 	Upload of Texture Font fontname complete
+5.9150 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+5.9151 	EXP 	window1: recordFrameIntervals = False
+6.0395 	EXP 	window1: recordFrameIntervals = True
+6.1482 	EXP 	Screen (0) actual frame rate measured at 146.46Hz
+6.1483 	EXP 	window1: recordFrameIntervals = False
+6.1564 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1578 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1601 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1629 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1655 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1693 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1715 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1740 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1766 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+6.1769 	DEBUG 	Uploading Texture Font fontname to graphics card
+6.1773 	DEBUG 	Upload of Texture Font fontname complete
+6.2395 	WARNING 	launchHubServer: If using the iohub mouse or eyetracker devices, fullScr should be True.
+7.4960 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4961 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4961 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4961 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4962 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4962 	INFO 	keyboard.Keyboard is using iohub backend.
+7.4962 	EXP 	MainFlow: status = STARTED
+7.6852 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, draggable=False, flipHoriz=False, flipVert=False, font='Open sans', fontFiles=[], height=0.08, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='norm', win=Window(...), wrapWidth=1)
+7.7159 	DEBUG 	Saving data for MainFlow ExperimentHandler
+7.7166 	INFO 	saved data to C:\Users\UserPC\Documents\Dyslexia\data/658703_MainFlow_2025-02-23_00h28.06.676.psydat
+7.7172 	INFO 	saved data to 'C:\\Users\\UserPC\\Documents\\Dyslexia\\data/658703_MainFlow_2025-02-23_00h28.06.676.csv'
