@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.1.1),
-    on February 27, 2025, at 11:44
+    on March 03, 2025, at 08:56
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -412,6 +412,13 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color='white', colorSpace='rgb', opacity=None, 
         languageStyle='LTR',
         depth=-1.0);
+    plsuer = visual.TextStim(win=win, name='plsuer',
+        text='+',
+        font='Open Sans',
+        units='norm', pos=(0, 0), height=0.15, wrapWidth=None, ori=0.0, 
+        color='white', colorSpace='rgb', opacity=None, 
+        languageStyle='LTR',
+        depth=-2.0);
     
     # --- Initialize components for Routine "blank1sec" ---
     instruct = visual.TextStim(win=win, name='instruct',
@@ -438,7 +445,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         color=[1,1,1], colorSpace='rgb', opacity=None,
         flipHoriz=False, flipVert=False,
         texRes=128.0, interpolate=True, depth=0.0)
-    text_2 = visual.TextStim(win=win, name='text_2',
+    instructor = visual.TextStim(win=win, name='instructor',
         text='',
         font='Noto sans',
         units='norm', pos=(-0.5, 0.7), height=0.07, wrapWidth=None, ori=0.0, 
@@ -765,7 +772,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         image.setImage(worddir)
         instructt.setText('image == word? press `z` if yes, `x` if no')
         # keep track of which components have finished
-        wordshowComponents = [image, instructt]
+        wordshowComponents = [image, instructt, plsuer]
         for thisComponent in wordshowComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -851,6 +858,40 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                     # update status
                     instructt.status = FINISHED
                     instructt.setAutoDraw(False)
+            
+            # *plsuer* updates
+            
+            # if plsuer is starting this frame...
+            if plsuer.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+                # keep track of start time/frame for later
+                plsuer.frameNStart = frameN  # exact frame index
+                plsuer.tStart = t  # local t and not account for scr refresh
+                plsuer.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(plsuer, 'tStartRefresh')  # time at next scr refresh
+                # add timestamp to datafile
+                thisExp.timestampOnFlip(win, 'plsuer.started')
+                # update status
+                plsuer.status = STARTED
+                plsuer.setAutoDraw(True)
+            
+            # if plsuer is active this frame...
+            if plsuer.status == STARTED:
+                # update params
+                pass
+            
+            # if plsuer is stopping this frame...
+            if plsuer.status == STARTED:
+                # is it time to stop? (based on global clock, using actual start)
+                if tThisFlipGlobal > plsuer.tStartRefresh + 0.5-frameTolerance:
+                    # keep track of stop time/frame for later
+                    plsuer.tStop = t  # not accounting for scr refresh
+                    plsuer.tStopRefresh = tThisFlipGlobal  # on global time
+                    plsuer.frameNStop = frameN  # exact frame index
+                    # add timestamp to datafile
+                    thisExp.timestampOnFlip(win, 'plsuer.stopped')
+                    # update status
+                    plsuer.status = FINISHED
+                    plsuer.setAutoDraw(False)
             
             # check for quit (typically the Esc key)
             if defaultKeyboard.getKeys(keyList=["escape"]):
@@ -1014,12 +1055,12 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         continueRoutine = True
         # update component parameters for each repeat
         imageword.setImage(imgdir)
-        text_2.setText('image == word? press `z` if yes, `x` if no')
+        instructor.setText('image == word? press `z` if yes, `x` if no')
         key_resp.keys = []
         key_resp.rt = []
         _key_resp_allKeys = []
         # keep track of which components have finished
-        letterselectComponents = [imageword, text_2, plus, key_resp]
+        letterselectComponents = [imageword, instructor, plus, key_resp]
         for thisComponent in letterselectComponents:
             thisComponent.tStart = None
             thisComponent.tStop = None
@@ -1062,21 +1103,21 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
                 # update params
                 pass
             
-            # *text_2* updates
+            # *instructor* updates
             
-            # if text_2 is starting this frame...
-            if text_2.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
+            # if instructor is starting this frame...
+            if instructor.status == NOT_STARTED and tThisFlip >= 0.0-frameTolerance:
                 # keep track of start time/frame for later
-                text_2.frameNStart = frameN  # exact frame index
-                text_2.tStart = t  # local t and not account for scr refresh
-                text_2.tStartRefresh = tThisFlipGlobal  # on global time
-                win.timeOnFlip(text_2, 'tStartRefresh')  # time at next scr refresh
+                instructor.frameNStart = frameN  # exact frame index
+                instructor.tStart = t  # local t and not account for scr refresh
+                instructor.tStartRefresh = tThisFlipGlobal  # on global time
+                win.timeOnFlip(instructor, 'tStartRefresh')  # time at next scr refresh
                 # update status
-                text_2.status = STARTED
-                text_2.setAutoDraw(True)
+                instructor.status = STARTED
+                instructor.setAutoDraw(True)
             
-            # if text_2 is active this frame...
-            if text_2.status == STARTED:
+            # if instructor is active this frame...
+            if instructor.status == STARTED:
                 # update params
                 pass
             
