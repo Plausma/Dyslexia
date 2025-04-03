@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 """
 This experiment was created using PsychoPy3 Experiment Builder (v2024.2.4),
-    on April 02, 2025, at 17:45
+    on April 03, 2025, at 11:07
 If you publish work using this script the most relevant publication is:
 
     Peirce J, Gray JR, Simpson S, MacAskill M, Höchenberger R, Sogo H, Kastman E, Lindeløv JK. (2019) 
@@ -615,7 +615,7 @@ def run(expInfo, thisExp, win, globalClock=None, thisSession=None):
         method='sequential', 
         extraInfo=expInfo, 
         originPath=-1, 
-        trialList=data.importConditions('wordorderth_2.xlsx'), 
+        trialList=data.importConditions('wordorderen_2.xlsx'), 
         seed=None, 
     )
     thisExp.addLoop(trials)  # add the loop to the experiment
