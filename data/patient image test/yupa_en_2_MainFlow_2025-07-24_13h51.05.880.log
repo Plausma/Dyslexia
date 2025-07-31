@@ -1,0 +1,10 @@
+17.5140 	WARNING 	User requested fullscreen with size [1536  864], but screen is actually [1920, 1080]. Using actual size
+18.6909 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+13.0877 	WARNING 	t of last frame was 84.81ms (=1/11)
+14.0573 	WARNING 	t of last frame was 37.87ms (=1/26)
+15.6564 	WARNING 	t of last frame was 153.75ms (=1/6)
+42.6812 	WARNING 	t of last frame was 24.55ms (=1/40)
+44.2791 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
